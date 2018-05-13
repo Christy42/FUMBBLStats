@@ -12,10 +12,7 @@ def get_spp(stats):
 
 
 def get_stat(numerator, denominator, stats):
-    if int(stats[denominator]) == 0:
-        return 0.0
-    else:
-        return round(float(stats[numerator]) / float(stats[denominator]), 2)
+    return 0.0 if int(stats[denominator]) == 0 else round(float(stats[numerator]) / float(stats[denominator]), 2)
 
 
 def generate_stats(player_file, stats_file, team=False):
@@ -37,8 +34,8 @@ def generate_stats(player_file, stats_file, team=False):
         yaml.safe_dump(players, p_file)
 
 
-def sort_players(stat_file, total_stats_file, player_file, excel_name, n=5, team=False, bbcode=False):
-    if not bbcode:
+def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5, team=False, bbcode=False):
+    if excel_name:
         writer = pd.ExcelWriter(excel_name, engine='xlsxwriter')
     with open(stat_file, "r") as file:
         stats = yaml.safe_load(file)
@@ -62,7 +59,7 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name, n=5, team
         temp_good = temp.sort_values(by=[stat[0] + "/" + stat[1], stat[1]], ascending=[False, False]).head(n)
         if not team:
             del temp_good["skills"]
-        if not bbcode:
+        if excel_name:
             temp_good.to_excel(writer, sheet_name=stat[0] + " per " + stat[1] + " Good")
         if not team:
             if stat[0] == "turns":
@@ -81,7 +78,7 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name, n=5, team
         temp_bad = temp.sort_values(by=[stat[0] + "/" + stat[1], stat[1]], ascending=[True, False]).head(n)
         if not team:
             del temp_bad["skills"]
-        if not bbcode:
+        if excel_name:
             temp_bad.to_excel(writer, sheet_name=stat[0] + " per " + stat[1] + " Bad")
             for style in [" Good", " Bad"]:
                 worksheet = writer.sheets[stat[0] + " per " + stat[1] + style]
@@ -91,8 +88,9 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name, n=5, team
                     worksheet.set_column(col + ':' + col, 24, None)
                 for col in ["E", "F", "G"] if not team else ["C", "D", "E"]:
                     worksheet.set_column(col + ':' + col, 15, None)
-        generateBBCode.make_table(temp_good, 3)
-        generateBBCode.make_table(temp_bad, 3)
+        if bbcode:
+            generateBBCode.make_table(temp_good, 3)
+            generateBBCode.make_table(temp_bad, 3)
     with open(total_stats_file, "r") as file:
         total_stats = yaml.safe_load(file)
     for stat in total_stats:
@@ -101,7 +99,7 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name, n=5, team
         temp = temp[cols]
         temp = temp.sort_values(by=[stat], ascending=[False])
         temp = temp.head(n)
-        if not bbcode:
+        if excel_name:
             temp.to_excel(writer, sheet_name=stat)
             worksheet = writer.sheets[stat]
             for col in ["A", "B"] if not team else ["A"]:
@@ -109,19 +107,30 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name, n=5, team
             for col in ["C", "D"] if not team else ["B"]:
                 worksheet.set_column(col + ':' + col, 24, None)
             worksheet.set_column('E:E' if not team else 'C:C', 10, None)
-        generateBBCode.make_table(temp, 3)
-    if not bbcode:
+        if bbcode:
+            generateBBCode.make_table(temp, 3)
+    if excel_name:
         writer.save()
     # TODO: Can deal with it from there
 
 
-def total(player_file, totals_file, regional=False):
-    with open()
-    if regional:
-        pass
-    else:
-        pass
-    pass
+def total(team_file, totals_file, stats_file):
+    with open(team_file, "r") as file:
+        team = yaml.safe_load(file)
+    regions = {"total": {}}
+    for element in team:
+        if team[element]["division"] not in regions:
+            regions[team[element]["division"]] = {}
+        for stat in team[element]:
+            regions[team[element]["division"]][stat] = \
+                regions[team[element]["division"]].get(stat, 0) + team[element][stat]
+            regions["total"][stat] = regions["total"].get(stat, 0) + team[element][stat]
+        regions[team[element]["division"]]["teams"] = regions[team[element]["division"]].get("teams", 0) + 1
+        regions["total"]["teams"] = regions["total"].get("teams", 0) + 1
+    # TODO: Need to calculate the calculable elements, otherwise they will be simply added together
+    with open(totals_file, "w") as file:
+        yaml.safe_dump(regions, file)
+    generate_stats(totals_file, stats_file, team=True)
 
 generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
