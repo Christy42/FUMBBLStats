@@ -1,0 +1,12 @@
+[["blocks", "turns"],
+["blocks", "games"],
+["casualties", "blocks"],
+["casualties", "games"],
+["touchdowns", "games"],
+["spp", "turns"],
+["spp", "games"],
+["fouls", "games"],
+["passing", "games"],
+["rushing", "games"],
+["turns", "games"]
+]
