@@ -29,7 +29,8 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
             section = match.find(element)
             team_id = section.attrib["id"]
             if team_id not in teams_found:
-                teams_found[team_id] = team_name(team_id)
+                teams_found[team_id] = {"id": team_name(team_id), "games": 0}
+            teams_found[team_id]["games"] += 1
             name = teams_found[team_id]
             team_perf = section.find("performances")
             for child in team_perf:
@@ -38,7 +39,7 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
                 performances.append(individual)
     for p in performances:
         print(p)
-    return performances
+    return performances, teams_found
 
 
 def team_name(team_id):
@@ -85,7 +86,7 @@ def add_player_attribs(performances, player_file, div):
         yaml.safe_dump(players, file)
 
 
-def add_team_performances(performances, team_file, division):
+def add_team_performances(performances, team_file, division, team_games):
     teams_accessed = []
     with open(team_file, "r") as t_file:
         teams = yaml.safe_load(t_file)
@@ -97,7 +98,7 @@ def add_team_performances(performances, team_file, division):
             if stat not in ["name", "team", "team id", "player"]:
                 teams[player["team id"]][stat] = int(teams[player["team id"]].get(stat, 0)) + int(player[stat])
     for team in set(teams_accessed):
-        teams[team]["games"] = teams[team].get("games", 0) + 1
+        teams[team]["games"] = teams[team].get("games", 0) + team_games[team]["games"]
     with open(team_file, "w") as file:
         yaml.safe_dump(teams, file)
 
@@ -138,13 +139,13 @@ def cycle_divisions(division_folder, player_folder, team_folder, rerun_folder=No
         divisions = yaml.safe_load(file)
     for element in divisions:
         print(divisions[element], element)
-        performances = matches_in_division(divisions[element]["group"], element, rerun_folder)
+        performances, team_games = matches_in_division(divisions[element]["group"], element, rerun_folder)
         add_player_attribs(performances, player_folder, divisions[element]["name"])
-        add_team_performances(performances, team_folder, divisions[element]["name"])
+        add_team_performances(performances, team_folder, divisions[element]["name"], team_games)
 # get_match(3986223)
 # get_name(4697130)
 # reset_file("player_list/Player.yaml")
 # reset_file("player_list/Team.yaml")
 # cycle_matches("match_list/WILSeason48.yaml", "player_list/Player.yaml", "player_list/Team.yaml")
 # get_name(11103735)
-cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml")
+# cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml")

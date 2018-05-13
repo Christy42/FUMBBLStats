@@ -4,8 +4,6 @@ import pandas as pd
 import generateBBCode
 
 
-# TODO: Total Each region by itself
-# TODO: Total, sum the regions together
 # TODO: Top x for each region in each category given
 def get_spp(stats):
     return 1 * stats["completions"] + 2 * stats["casualties"] + 3 * stats["touchdowns"] + 5 * stats["mvps"]
@@ -15,10 +13,9 @@ def get_stat(numerator, denominator, stats):
     return 0.0 if int(stats[denominator]) == 0 else round(float(stats[numerator]) / float(stats[denominator]), 2)
 
 
-def generate_stats(player_file, stats_file, team=False):
+def generate_stats(player_file, stats_file, team=False, region=False):
     with open(stats_file, "r") as stat_file:
         stats = yaml.safe_load(stat_file)
-
     with open(player_file, "r") as p_file:
         players = yaml.safe_load(p_file)
     for player in players:
@@ -29,12 +26,14 @@ def generate_stats(player_file, stats_file, team=False):
                 players[player][element[0] + "/" + element[1]] /= (16 * (1 + 10 * team))
                 players[player][element[0] + "/" + element[1]] = \
                     round(players[player][element[0] + "/" + element[1]], 2)
+            if region:
+                players[player][element[0] + "/" + element[1]] /= players[player]["teams"]
 
     with open(player_file, "w") as p_file:
         yaml.safe_dump(players, p_file)
 
 
-def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5, team=False, bbcode=False):
+def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5, team=False, bbcode=False, region=None):
     if excel_name:
         writer = pd.ExcelWriter(excel_name, engine='xlsxwriter')
     with open(stat_file, "r") as file:
@@ -122,19 +121,22 @@ def total(team_file, totals_file, stats_file):
         if team[element]["division"] not in regions:
             regions[team[element]["division"]] = {}
         for stat in team[element]:
-            regions[team[element]["division"]][stat] = \
-                regions[team[element]["division"]].get(stat, 0) + team[element][stat]
-            regions["total"][stat] = regions["total"].get(stat, 0) + team[element][stat]
+            try:
+                regions[team[element]["division"]][stat] = \
+                    float(regions[team[element]["division"]].get(stat, 0)) + float(team[element][stat])
+                regions["total"][stat] = regions["total"].get(stat, 0) + team[element][stat]
+            except (ValueError, TypeError) as e:
+                pass
         regions[team[element]["division"]]["teams"] = regions[team[element]["division"]].get("teams", 0) + 1
         regions["total"]["teams"] = regions["total"].get("teams", 0) + 1
-    # TODO: Need to calculate the calculable elements, otherwise they will be simply added together
     with open(totals_file, "w") as file:
         yaml.safe_dump(regions, file)
     generate_stats(totals_file, stats_file, team=True)
 
-generate_stats("player_list//Player.yaml", "utility//stats.yaml")
-generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
+# generate_stats("player_list//Player.yaml", "utility//stats.yaml")
+# generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
 # sort_players("utility/stats.yaml", "utility/total_stats.yaml",
-#              "player_list/Player.yaml", "C:/Users/Mark/Documents/FUMBBL/PlayerStats.xlsx", bbcode=True)
+#             "player_list/Player.yaml", "C:/Users/Mark/Documents/FUMBBL/PlayerStats.xlsx", bbcode=True)
 # sort_players("utility/stats.yaml", "utility/total_stats.yaml",
 #              "player_list/Team.yaml", "C:/Users/Mark/Documents/FUMBBL/TeamStats.xlsx", team=True, bbcode=True)
+total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")

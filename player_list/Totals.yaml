@@ -1,0 +1,35 @@
+Albany Regional: {blocks: 1000.0, blocks/games: 45.45, blocks/turns: 0.3, casualties: 35.0,
+  casualties/blocks: 0.04, casualties/games: 1.59, completions: 17.0, fouls: 30.0,
+  fouls/games: 1.36, games: 22.0, interceptions: 0.0, mvps: 22.0, passing: 38.0, passing/games: 1.73,
+  rushing: 488.0, rushing/games: 22.18, spp: 257.0, spp/games: 11.68, spp/turns: 0.08,
+  teams: 8, touchdowns: 20.0, touchdowns/games: 0.91, turns: 3337.0, turns/games: 0.86}
+Great Albion Regional: {blocks: 1207.0, blocks/games: 40.23, blocks/turns: 0.26, casualties: 49.0,
+  casualties/blocks: 0.04, casualties/games: 1.63, completions: 15.0, fouls: 15.0,
+  fouls/games: 0.5, games: 30.0, interceptions: 0.0, mvps: 30.0, passing: 33.0, passing/games: 1.1,
+  rushing: 767.0, rushing/games: 25.57, spp: 368.0, spp/games: 12.27, spp/turns: 0.08,
+  teams: 8, touchdowns: 35.0, touchdowns/games: 1.17, turns: 4610.0, turns/games: 0.87}
+Lion Conference: {blocks: 1149.0, blocks/games: 41.04, blocks/turns: 0.28, casualties: 62.0,
+  casualties/blocks: 0.05, casualties/games: 2.21, completions: 19.0, fouls: 76.0,
+  fouls/games: 2.71, games: 28.0, interceptions: 1.0, mvps: 28.0, passing: 35.0, passing/games: 1.25,
+  rushing: 741.0, rushing/games: 26.46, spp: 385.0, spp/games: 13.75, spp/turns: 0.09,
+  teams: 8, touchdowns: 34.0, touchdowns/games: 1.21, turns: 4148.0, turns/games: 0.84}
+Morien Regional: {blocks: 780.0, blocks/games: 35.45, blocks/turns: 0.26, casualties: 57.0,
+  casualties/blocks: 0.07, casualties/games: 2.59, completions: 15.0, fouls: 44.0,
+  fouls/games: 2.0, games: 22.0, interceptions: 0.0, mvps: 22.0, passing: 53.0, passing/games: 2.41,
+  rushing: 581.0, rushing/games: 26.41, spp: 341.0, spp/games: 15.5, spp/turns: 0.11,
+  teams: 8, touchdowns: 34.0, touchdowns/games: 1.55, turns: 3025.0, turns/games: 0.78}
+Premier Division: {blocks: 1351.0, blocks/games: 39.74, blocks/turns: 0.26, casualties: 69.0,
+  casualties/blocks: 0.05, casualties/games: 2.03, completions: 21.0, fouls: 74.0,
+  fouls/games: 2.18, games: 34.0, interceptions: 0.0, mvps: 34.0, passing: 56.0, passing/games: 1.65,
+  rushing: 927.0, rushing/games: 27.26, spp: 470.0, spp/games: 13.82, spp/turns: 0.09,
+  teams: 10, touchdowns: 47.0, touchdowns/games: 1.38, turns: 5157.0, turns/games: 0.86}
+Unicorn Conference: {blocks: 933.0, blocks/games: 42.41, blocks/turns: 0.28, casualties: 46.0,
+  casualties/blocks: 0.05, casualties/games: 2.09, completions: 21.0, fouls: 38.0,
+  fouls/games: 1.73, games: 22.0, interceptions: 2.0, mvps: 22.0, passing: 71.0, passing/games: 3.23,
+  rushing: 560.0, rushing/games: 25.45, spp: 298.0, spp/games: 13.55, spp/turns: 0.09,
+  teams: 9, touchdowns: 25.0, touchdowns/games: 1.14, turns: 3287.0, turns/games: 0.85}
+total: {blocks: 6420, blocks/games: 40.63, blocks/turns: 0.27, casualties: 318, casualties/blocks: 0.05,
+  casualties/games: 2.01, completions: 108, fouls: 277, fouls/games: 1.75, games: 158,
+  interceptions: 3, mvps: 158, passing: 286, passing/games: 1.81, rushing: 4064, rushing/games: 25.72,
+  spp: 2119, spp/games: 13.41, spp/turns: 0.09, teams: 51, touchdowns: 195, touchdowns/games: 1.23,
+  turns: 23564, turns/games: 0.85}
