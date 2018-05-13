@@ -33,7 +33,16 @@ def generate_stats(player_file, stats_file, team=False, region=False):
         yaml.safe_dump(players, p_file)
 
 
-def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5, team=False, bbcode=False, region=None):
+# TODO: Tidy this function up a lot, doing far too much.
+def sort_players(stat_file, total_stats_file, player_file, region_stats_file,
+                 excel_name=None, n=3, team=False, bbcode=False, region="total"):
+    with open(region_stats_file, "r") as file:
+        region_line = yaml.safe_load(file)[region]
+    region_line["name"] = "League"
+    region_line["position"] = ""
+    region_line["skills"] = ""
+    region_line["team"] = ""
+
     if excel_name:
         writer = pd.ExcelWriter(excel_name, engine='xlsxwriter')
     with open(stat_file, "r") as file:
@@ -42,6 +51,8 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5,
         players = yaml.safe_load(file)
     # stats = [["blocks", "turns"]]
     dataframe = pd.DataFrame(players).transpose()
+    if region != "Total":
+        dataframe = dataframe[dataframe.loc[:, "division"] == region]
     for stat in stats:
 
         temp = dataframe.copy(deep=True)
@@ -52,10 +63,15 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5,
         elif stat[1] == "blocks":
             temp = temp[temp.loc[:, "blocks"] >= 10 * (1 + team * 9)]
         cols = ["name", "team", "position", "skills", stat[0] + "/" + stat[1], stat[0], stat[1]]
+
         if team:
             cols = ["name", stat[0] + "/" + stat[1], stat[0], stat[1]]
         temp = temp[cols]
+        append_list = []
+        for element in cols:
+            append_list.append(region_line[element])
         temp_good = temp.sort_values(by=[stat[0] + "/" + stat[1], stat[1]], ascending=[False, False]).head(n)
+        temp_good.loc[-1] = append_list
         if not team:
             del temp_good["skills"]
         if excel_name:
@@ -75,6 +91,7 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5,
                 del temp["Chainsaw"]
 
         temp_bad = temp.sort_values(by=[stat[0] + "/" + stat[1], stat[1]], ascending=[True, False]).head(n)
+        temp_bad.loc[-1] = append_list
         if not team:
             del temp_bad["skills"]
         if excel_name:
@@ -88,16 +105,20 @@ def sort_players(stat_file, total_stats_file, player_file, excel_name=None, n=5,
                 for col in ["E", "F", "G"] if not team else ["C", "D", "E"]:
                     worksheet.set_column(col + ':' + col, 15, None)
         if bbcode:
-            generateBBCode.make_table(temp_good, 3)
-            generateBBCode.make_table(temp_bad, 3)
+            generateBBCode.make_table(temp_good, n+1)
+            generateBBCode.make_table(temp_bad, n+1)
     with open(total_stats_file, "r") as file:
         total_stats = yaml.safe_load(file)
     for stat in total_stats:
         temp = dataframe.copy(deep=True)
         cols = ["name", stat] if team else ["name", "team", "position", stat]
         temp = temp[cols]
+        append_list = []
+        for element in cols:
+            append_list.append(region_line[element])
         temp = temp.sort_values(by=[stat], ascending=[False])
         temp = temp.head(n)
+        temp.iloc[-1] = append_list
         if excel_name:
             temp.to_excel(writer, sheet_name=stat)
             worksheet = writer.sheets[stat]
@@ -123,9 +144,9 @@ def total(team_file, totals_file, stats_file):
         for stat in team[element]:
             try:
                 regions[team[element]["division"]][stat] = \
-                    float(regions[team[element]["division"]].get(stat, 0)) + float(team[element][stat])
-                regions["total"][stat] = regions["total"].get(stat, 0) + team[element][stat]
-            except (ValueError, TypeError) as e:
+                    int(regions[team[element]["division"]].get(stat, 0)) + int(team[element][stat])
+                regions["total"][stat] = int(regions["total"].get(stat, 0)) + int(team[element][stat])
+            except (ValueError, TypeError):
                 pass
         regions[team[element]["division"]]["teams"] = regions[team[element]["division"]].get("teams", 0) + 1
         regions["total"]["teams"] = regions["total"].get("teams", 0) + 1
@@ -136,7 +157,7 @@ def total(team_file, totals_file, stats_file):
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 # generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
 # sort_players("utility/stats.yaml", "utility/total_stats.yaml",
-#             "player_list/Player.yaml", "C:/Users/Mark/Documents/FUMBBL/PlayerStats.xlsx", bbcode=True)
-# sort_players("utility/stats.yaml", "utility/total_stats.yaml",
-#              "player_list/Team.yaml", "C:/Users/Mark/Documents/FUMBBL/TeamStats.xlsx", team=True, bbcode=True)
-total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
+#              "player_list/Player.yaml", "player_list/Totals.yaml", bbcode=True, region="Morien Regional")
+sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml",
+             "player_list/Totals.yaml", team=True, bbcode=True, region="Morien Regional")
+# total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")

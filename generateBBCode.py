@@ -9,12 +9,10 @@ def make_table(dataframe, rows):
         title_col += "[th]{}[/th]".format(column)
     title_col += "[/tr]"
     row_strings = []
-    for i in range(rows):
+    for i in range(min(rows, len(dataframe))):
         row_strings.append("[tr]")
         for j in range(len(dataframe.columns)):
-            print(i)
-            print(j)
-            print(dataframe)
+
             row_strings[i] += "[td]" + str(dataframe.iloc[i][j]) + "[/td]"
         row_strings[i] += "[/tr]"
     base_string += title_col

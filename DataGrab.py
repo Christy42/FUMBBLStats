@@ -22,7 +22,6 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
         with open(rerun_folder, "r") as rerun:
             already_run = yaml.safe_load(rerun)
     for match in matches:
-        print(match.attrib["id"])
         if match.attrib["id"] in already_run:
             continue
         for element in ["home", "away"]:
@@ -75,7 +74,7 @@ def add_player_attribs(performances, player_file, div):
         if ident not in players:
             name, star, skills, position = get_name(ident)
             ident = name if star else ident
-            players[ident] = {"team": "Star Player" if star else element["team"], "division": div,
+            players[ident] = {"team": "Star Player" if star else element["team"]["id"], "division": "" if star else div,
                               "name": name, "position": position, "skills": skills} \
                 if ident not in players else players[ident]
         for stat in element:
@@ -92,7 +91,7 @@ def add_team_performances(performances, team_file, division, team_games):
         teams = yaml.safe_load(t_file)
     for player in performances:
         if player["team id"] not in teams:
-            teams[player["team id"]] = {"name": player["team"], "division": division}
+            teams[player["team id"]] = {"name": player["team"]["id"], "division": division}
         teams_accessed.append(player["team id"])
         for stat in player:
             if stat not in ["name", "team", "team id", "player"]:
@@ -104,6 +103,7 @@ def add_team_performances(performances, team_file, division, team_games):
 
 
 def get_name(player_id):
+    print("https://fumbbl.com/api/player/get/" + str(player_id) + "/xml")
     player_details = requests.get("https://fumbbl.com/api/player/get/" + str(player_id) + "/xml").text
     root = Et.fromstring(player_details)
     star = True if int(root.find("number").text) >= 90 else False
