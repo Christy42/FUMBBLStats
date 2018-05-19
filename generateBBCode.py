@@ -33,7 +33,7 @@ import pandas as pd
 
 def make_table(pickle_file, rows, name):
     base_string = \
-        "[block=panel floatleft width=350px][block=panelheader center]{}[/block][table width=100%]".format(name)
+        "[block=panel floatleft width=400px][block=panelheader center]{}[/block][table width=100%]".format(name)
     title_col = "[tr]".format(name)
     dataframe = pd.read_pickle(pickle_file)
     for column in dataframe:
@@ -95,6 +95,7 @@ def generate_section(division, section):
     for element in elements:
 
         for up_down in ["Good", "Bad"]:
+            initial_section += "[block=floatcontainer]"
             if elements[element][up_down]["Individual"]:
                 initial_section += "[block=floatleft pad5]"
                 initial_section += make_table("tables/" + element.replace("/", "-") + up_down + ".pkl",
@@ -107,6 +108,8 @@ def generate_section(division, section):
                                               4, elements[element][up_down]["name"][-1])
                 initial_section += "[/block]"
                 initial_section += "\n"
+                initial_section += "\n"
+            initial_section += "[/block]"
     initial_section += "[/block][/block][/block]"
     return initial_section
 
