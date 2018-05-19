@@ -1,0 +1,26 @@
+{cas/block: {name: [Block to Kill], style: Bash, Team: True, Individual: True},
+ cas/game: {name: [Killer], style: Bash, Team: True, Individual: True},
+ cas: {name: [Top Killer], style: Bash, Team: True, Individual: True},
+ block/turn: {name: [Swarmer], style: Bash, Team: True, Individual: True},
+ block/game: {name: [Slugger], style: Bash, Team: True, Individual: True},
+ foul/game: {name: [Another Boot Another Day], style: Misc, Team: True, Individual: True},
+ foul: {name: [Top Fouler], style: Misc, Team: True, Individual: True},
+ spp/game: {name: [Hot Streak], style: Misc, Team: True, Individual: True}
+ spp: {name: [Season's star], style: Misc, Team: True, Individual: True}
+ turn/game: {name: [60 minute player], style: Misc, Team: True, Individual: True}
+ rushing/game: {name: [Keep On Truckin'], style: Score, Team: True, Individual: True},
+ rushing: {name: [Top Rusher], style: Score, Team: True, Individual: True},
+ passing/game: {name: [Airin' it out], style: Score, Team: True, Individual: True},
+ passing: {name: [Top Passer], style: Score, Team: True, Individual: True},
+ td/game: {name: [Efficient], style: Score, Team: True, Individual: True},
+ td: {name: [Top Scorer], style: Score, Team: True, Individual: True},
+ cas/block down: {name: [Fair Tackle Award], style: Bash, Team: True, Individual: True},
+ cas down: {name: [Elfballer], style: Bash, Team: True, Individual: True},
+ block/turn down: {name: [Swarmer], style: Bash, Team: True, Individual: True},
+ block/game down: {name: [Slugger], style: Bash, Team: True, Individual: True},
+ foul down: {name: [Bright Crusader Wannabees], style: Misc, Team: True, Individual: True},
+ spp down: {name: [Watching the game pass them by], style: Misc, Team: True, Individual: True}
+ turn/game down: {name: [Best seat in the house], style: Misc, Team: True, Individual: True}
+ rushing down: {name: [Top Rusher], style: Score, Team: True, Individual: True},
+ td down: {name: [Forgot About the Ball], style: Score, Team: True, Individual: True}
+ }

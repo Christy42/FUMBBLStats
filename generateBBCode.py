@@ -71,5 +71,9 @@ def section_toggles(section):
 [toggle group={} block=scor label=Scoring]
 [toggle group={} block=misc label=Misc.]""".format(section, section, section)
 
+
+def generate_section():
+    pass
+
 print(section_toggles("overall"))
 print(initial_toggles())
