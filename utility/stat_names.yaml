@@ -1,26 +1,49 @@
-{cas/block: {name: [Block to Kill], style: Bash, Team: True, Individual: True},
- cas/game: {name: [Killer], style: Bash, Team: True, Individual: True},
- cas: {name: [Top Killer], style: Bash, Team: True, Individual: True},
- block/turn: {name: [Swarmer], style: Bash, Team: True, Individual: True},
- block/game: {name: [Slugger], style: Bash, Team: True, Individual: True},
- foul/game: {name: [Another Boot Another Day], style: Misc, Team: True, Individual: True},
- foul: {name: [Top Fouler], style: Misc, Team: True, Individual: True},
- spp/game: {name: [Hot Streak], style: Misc, Team: True, Individual: True},
- spp: {name: [Season's star], style: Misc, Team: True, Individual: True},
- turn/game: {name: [60 minute player], style: Misc, Team: True, Individual: True},
- rushing/game: {name: [Keep On Truckin'], style: Score, Team: True, Individual: True},
- rushing: {name: [Top Rusher], style: Score, Team: True, Individual: True},
- passing/game: {name: [Airin' it out], style: Score, Team: True, Individual: True},
- passing: {name: [Top Passer], style: Score, Team: True, Individual: True},
- td/game: {name: [Efficient], style: Score, Team: True, Individual: True},
- td: {name: [Top Scorer], style: Score, Team: True, Individual: True},
- cas/block down: {name: [Fair Tackle Award], style: Bash, Team: True, Individual: True},
- cas down: {name: [Elfballer], style: Bash, Team: True, Individual: True},
- block/turn down: {name: [Swarmer], style: Bash, Team: True, Individual: True},
- block/game down: {name: [Slugger], style: Bash, Team: True, Individual: True},
- foul down: {name: [Bright Crusader Wannabees], style: Misc, Team: True, Individual: True},
- spp down: {name: [Watching the game pass them by], style: Misc, Team: True, Individual: True},
- turn/game down: {name: [Best seat in the house], style: Misc, Team: True, Individual: True},
- rushing down: {name: [Top Rusher], style: Score, Team: True, Individual: True},
- td down: {name: [Forgot About the Ball], style: Score, Team: True, Individual: True}
+{casualties/blocks: {Good: {name: [Block to Kill], style: Bash, Team: True, Individual: True},
+                     Bad: {name: [Fair Tackle Award], style: Bash, Team: True, Individual: True}
+                    },
+ casualties/games: {Good: {name: [Killer], style: Bash, Team: True, Individual: True},
+                    Bad: {name: [Killer], style: Bash, Team: False, Individual: False}
+                   },
+ casualties: {Good: {name: [Top Killer], style: Bash, Team: True, Individual: True},
+              Bad: {name: [Elfballer], style: Bash, Team: True, Individual: False}
+             },
+ blocks/turns: {Good: {name: [Swarmer], style: Bash, Team: True, Individual: True},
+              Bad: {name: [Pacifist], style: Bash, Team: True, Individual: True}
+               },
+ blocks/games: {Good: {name: [Slugger], style: Bash, Team: True, Individual: True},
+                Bad: {name: [Slugger], style: Bash, Team: False, Individual: False}
+               },
+ fouls/games: {Good: {name: [Another Boot Another Day], style: Misc, Team: True, Individual: True},
+               Bad: {name: [Another Boot Another Day], style: Misc, Team: False, Individual: False}
+              },
+ fouls: {Good: {name: [Top Fouler], style: Misc, Team: True, Individual: True},
+         Bad: {name: [Bright Crusader Wannabees], style: Misc, Team: True, Individual: False}
+        },
+ spp/games: {Good: {name: [Hot Streak], style: Misc, Team: True, Individual: True},
+             Bad: {name: [Hot Streak], style: Misc, Team: False, Individual: False}
+            },
+ spp: {Good: {name: [Season's star], style: Misc, Team: True, Individual: True},
+       Bad: {name: [Watching the game pass them by], style: Misc, Team: True, Individual: False}
+      },
+ turns/games: {Good: {name: [60 minute player], style: Misc, Team: True, Individual: True},
+               Bad: {name: [Best seat in the house], style: Misc, Team: True, Individual: True}
+              },
+ rushing/games: {Good: {name: [Keep On Truckin'], style: Score, Team: True, Individual: True},
+                 Bad: {name: [Keep On Truckin'], style: Score, Team: False, Individual: False}
+                },
+ rushing: {Good: {name: [Top Rusher], style: Score, Team: True, Individual: True},
+           Bad: {name: [Top Rusher], style: Score, Team: True, Individual: False}
+          },
+ passing/games: {Good: {name: [Airin' it out], style: Score, Team: True, Individual: True},
+                 Bad: {name: [Airin' it out], style: Score, Team: False, Individual: False}
+                },
+ passing: {Good: {name: [Top Passer], style: Score, Team: True, Individual: True},
+           Bad: {name: [Top Passer], style: Score, Team: False, Individual: False}
+          },
+ touchdowns/games: {Good: {name: [Efficient], style: Score, Team: True, Individual: True},
+                    Bad: {name: [Efficient], style: Score, Team: False, Individual: False}
+                   },
+ touchdowns: {Good: {name: [Top Scorer], style: Score, Team: True, Individual: True},
+              Bad: {name: [Forgot About the Ball], style: Score, Team: True, Individual: False}
+             }
  }

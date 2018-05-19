@@ -49,7 +49,7 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         players = yaml.safe_load(file)
     # stats = [["blocks", "turns"]]
     dataframe = pd.DataFrame(players).transpose()
-    if region != "Total":
+    if region != "total":
         dataframe = dataframe[dataframe.loc[:, "division"] == region]
     for stat in stats:
 
@@ -72,6 +72,8 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         temp_good.loc[-1] = append_list
         if not team:
             del temp_good["skills"]
+        del temp_good[stat[0]]
+        del temp_good[stat[1]]
         if not team:
             if stat[0] == "turns":
                 temp["Secret Weapon"] = temp.apply(lambda row: "Secret Weapon" in row.skills, axis=1)
@@ -90,6 +92,8 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         temp_bad.loc[-1] = append_list
         if not team:
             del temp_bad["skills"]
+        del temp_bad[stat[0]]
+        del temp_bad[stat[1]]
         if pkl_file:
             temp_good.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Good.pkl")
             temp_bad.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Bad.pkl")
@@ -137,7 +141,14 @@ def total(team_file, totals_file, stats_file):
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 # generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
 sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
-             "tables", pkl_file=True, region="Morien Regional")
+             "tables", pkl_file=True)
 sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
-             "tables", team=True, pkl_file=True, region="Morien Regional")
+             "tables", team=True, pkl_file=True)
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
+
+
+def test():
+    b = pd.read_pickle("tables/blocks-gamesBad.pkl")
+    print(b)
+
+test()

@@ -31,9 +31,11 @@ import pandas as pd
 # Note 114, 34 pixels for pics Careful with text placement, size 9 writing
 
 
-def make_table(dataframe, rows, name):
-    base_string = "[table width=100%]"
-    title_col = "[tr][th bg=#f9f black center colspan=6]{}[/th][/tr][tr]".format(name)
+def make_table(pickle_file, rows, name):
+    base_string = \
+        "[block=panel floatleft width=350px][block=panelheader center]{}[/block][table width=100%]".format(name)
+    title_col = "[tr]".format(name)
+    dataframe = pd.read_pickle(pickle_file)
     for column in dataframe:
         title_col += "[th]{}[/th]".format(column)
     title_col += "[/tr]"
@@ -48,8 +50,10 @@ def make_table(dataframe, rows, name):
     base_string += title_col
     for i in range(len(row_strings)):
         base_string += row_strings[i]
-    base_string += "[/table]"
-    print(base_string)
+    base_string += "[/table][/block]"
+    return base_string
+
+# make_table("tables/casualtiesGood.pkl", 4, "Casualties")
 
 # [tr][td]R1C1[/td] [td]R1C2[/td] [td]Debir Dullza [/td][td]R1C4[/td][/tr]
 # [tr][td]R1C1[/td] [td]R1C2[/td] [td]R1C3 [/td][td]R1C4[/td][/tr]
@@ -68,14 +72,14 @@ def initial_toggles():
 
 
 def section_toggles(section):
-    return """[toggle group={} block=bash label=Bashing]
-[toggle group={} block=scor label=Scoring]
-[toggle group={} block=misc label=Misc.]""".format(section, section, section)
+    return """[toggle group={} block=Bash label=Bashing]
+[toggle group={} block=Score label=Scoring]
+[toggle group={} block=Misc label=Misc.]""".format(section, section, section)
 
 
 def generate_division(division):
     initial_section = "[block=hidden group=initial id={}]".format(division) + section_toggles(division)
-    for element in ["bash", "score", "misc"]:
+    for element in ["Bash", "Score", "Misc"]:
         initial_section += generate_section(division, element)
     return initial_section
 
@@ -85,17 +89,35 @@ def generate_section(division, section):
         cats = yaml.safe_load(stat_file)
     elements = {}
     for element in cats:
-        if cats[element]["style"] == section:
-            elements.update(cats[element])
-    initial_section = "[block=hidden group={} id=bash][block=floatcontainer]".format(division)
+        if cats[element]["Good"]["style"] == section:
+            elements.update({element: cats[element]})
+    initial_section = "[block=hidden group={} id={}][block=floatcontainer]".format(division, section)
+    for element in elements:
+
+        for up_down in ["Good", "Bad"]:
+            if elements[element][up_down]["Individual"]:
+                initial_section += "[block=floatleft pad5]"
+                initial_section += make_table("tables/" + element.replace("/", "-") + up_down + ".pkl",
+                                              4, elements[element][up_down]["name"][0])
+                initial_section += "[/block]"
+
+            if elements[element][up_down]["Individual"]:
+                initial_section += "[block=floatright pad5]"
+                initial_section += make_table("tables/" + element.replace("/", "-") + "Team" + up_down + ".pkl",
+                                              4, elements[element][up_down]["name"][-1])
+                initial_section += "[/block]"
+                initial_section += "\n"
     initial_section += "[/block][/block][/block]"
     return initial_section
 
 
+# print(generate_section("overall", "Bash"))
+
+
 def generate_full_tables():
     main_string = initial_toggles()
-    for element in ["overall", "premier", "lion", "unicorn", "albany", "greatalbany", "morien"]:
+    for element in ["overall"]:
         main_string += generate_division(element)
     return main_string
 
-# print(generate_full_tables())
+print(generate_full_tables())
