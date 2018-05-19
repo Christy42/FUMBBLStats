@@ -100,6 +100,7 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
     with open(total_stats_file, "r") as file:
         total_stats = yaml.safe_load(file)
     for stat in total_stats:
+
         temp = dataframe.copy(deep=True)
         cols = ["name", stat] if team else ["name", "team", "position", stat]
         temp = temp[cols]
@@ -108,8 +109,8 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
             append_list.append(region_line[element])
         temp = temp.sort_values(by=[stat], ascending=[False])
         temp_bad = temp.sort_values(by=[stat], ascending=[True])
-        temp_bad = temp_bad.head(n)
-        temp = temp.head(n)
+        temp_bad = temp_bad.head(n + 1)
+        temp = temp.head(n + 1)
         temp.iloc[-1] = append_list
         temp_bad.iloc[-1] = append_list
         if pkl_file:
@@ -142,6 +143,7 @@ def total(team_file, totals_file, stats_file):
 def sort_regions():
     for region in ["overall", "Premier Division", "Lion Conference", "Unicorn Conference",
                    "Albany Regional", "Great Albion Regional", "Morien Regional"]:
+        print(region)
         sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml",
                      "player_list/Totals.yaml", "tables", pkl_file=True, region=region)
         sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml",

@@ -29,6 +29,12 @@ import pandas as pd
 # White | FFFFFF # Whitesmoke | F5F5F5 # Yellow | FFFF00 # Yellowgreen | 9ACD32
 
 # Note 114, 34 pixels for pics Careful with text placement, size 9 writing
+# #EF82ED Great Albion
+# #ADD7F0 Albany
+# Morien #9ACE2E
+# Lion #B8860B
+# Unicorn #696969
+# Premier #FFFFFF
 
 
 def make_table(pickle_file, rows, name):
@@ -77,15 +83,19 @@ def section_toggles(section):
 [toggle group={} block=Misc{} label=Misc.]""".format(section, section, section, section, section, section)
 
 
-def generate_division(division, formal_division):
+def generate_division(division, formal_division, yaml_file=None):
     initial_section = "[block=hidden group=initial id={}]".format(division) + section_toggles(division)
     for element in ["Bash", "Score", "Misc"]:
-        initial_section += generate_section(division, element, formal_division)
+        initial_section += generate_section(division, element, formal_division, yaml_file=yaml_file)
     initial_section += "[/block]"
     return initial_section
 
 
-def generate_section(division, section, formal_division):
+def generate_section(division, section, formal_division, yaml_file=None):
+    fluff = {}
+    if yaml_file:
+        with open(yaml_file, "r") as file:
+            fluff = yaml.safe_load(file)
     with open("utility/stat_names.yaml", "r") as stat_file:
         cats = yaml.safe_load(stat_file)
     elements = {}
@@ -96,6 +106,9 @@ def generate_section(division, section, formal_division):
     # elements = {"blocks/turns": {"Good": {"name": ["Swarmer"], "style": "Bash", "Team": True, "Individual": True},
     #                              "Bad": {"name": ["Pacifist"], "style": "Bash", "Team": False, "Individual": False}}}
     for element in elements:
+        initial_section += "[block display=none]Here is{} {}[/block]".format(division, section)
+        if division + section in fluff:
+            initial_section += fluff[division + section]
         for up_down in ["Good", "Bad"]:
             initial_section += "[block=floatcontainer]"
             if elements[element][up_down]["Individual"]:
@@ -119,11 +132,12 @@ def generate_section(division, section, formal_division):
 
 def generate_full_tables():
     main_string = initial_toggles()
-    for element in [["overall", "overall"], ["premier", "Premier Division"], ["lion", "Lion Conference"], ["unicorn", "Unicorn Conference"],
-                    ["albany", "Albany Regional"], ["greatalbion", "Great Albion Regional"],
-                    ["morien", "Morien Regional"]]:
-        main_string += generate_division(element[0], element[1])
+    for element in [["overall", "overall"], ["premier", "Premier Division"], ["lion", "Lion Conference"],
+                    ["unicorn", "Unicorn Conference"], ["albany", "Albany Regional"],
+                    ["greatalbion", "Great Albion Regional"], ["morien", "Morien Regional"]]:
+        main_string += generate_division(element[0], element[1], yaml_file = "tables/fluff.yaml")
         # main_string += "[/block]"
+    main_string.replace("[block=floatcontainer][/block]", "")
     return main_string
 
 print(generate_full_tables())
