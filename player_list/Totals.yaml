@@ -23,13 +23,13 @@ Premier Division: {blocks: 1351.0, blocks/games: 39.74, blocks/turns: 0.26, casu
   fouls/games: 2.18, games: 34.0, interceptions: 0.0, mvps: 34.0, passing: 56.0, passing/games: 1.65,
   rushing: 927.0, rushing/games: 27.26, spp: 470.0, spp/games: 13.82, spp/turns: 0.09,
   teams: 10, touchdowns: 47.0, touchdowns/games: 1.38, turns: 5157.0, turns/games: 0.86}
-Unicorn Conference: {blocks: 933.0, blocks/games: 42.41, blocks/turns: 0.28, casualties: 46.0,
-  casualties/blocks: 0.05, casualties/games: 2.09, completions: 21.0, fouls: 38.0,
-  fouls/games: 1.73, games: 22.0, interceptions: 2.0, mvps: 22.0, passing: 71.0, passing/games: 3.23,
-  rushing: 560.0, rushing/games: 25.45, spp: 298.0, spp/games: 13.55, spp/turns: 0.09,
-  teams: 9, touchdowns: 25.0, touchdowns/games: 1.14, turns: 3287.0, turns/games: 0.85}
-total: {blocks: 6420, blocks/games: 40.63, blocks/turns: 0.27, casualties: 318, casualties/blocks: 0.05,
-  casualties/games: 2.01, completions: 108, fouls: 277, fouls/games: 1.75, games: 158,
-  interceptions: 3, mvps: 158, passing: 286, passing/games: 1.81, rushing: 4064, rushing/games: 25.72,
-  spp: 2119, spp/games: 13.41, spp/turns: 0.09, teams: 51, touchdowns: 195, touchdowns/games: 1.23,
-  turns: 23564, turns/games: 0.85}
+Unicorn Conference: {blocks: 1009.0, blocks/games: 42.04, blocks/turns: 0.28, casualties: 51.0,
+  casualties/blocks: 0.05, casualties/games: 2.12, completions: 23.0, fouls: 40.0,
+  fouls/games: 1.67, games: 24.0, interceptions: 2.0, mvps: 24.0, passing: 76.0, passing/games: 3.17,
+  rushing: 611.0, rushing/games: 25.46, spp: 329.0, spp/games: 13.71, spp/turns: 0.09,
+  teams: 9, touchdowns: 28.0, touchdowns/games: 1.17, turns: 3596.0, turns/games: 0.85}
+total: {blocks: 6496, blocks/games: 40.6, blocks/turns: 0.27, casualties: 323, casualties/blocks: 0.05,
+  casualties/games: 2.02, completions: 110, fouls: 279, fouls/games: 1.74, games: 160,
+  interceptions: 3, mvps: 160, passing: 291, passing/games: 1.82, rushing: 4115, rushing/games: 25.72,
+  spp: 2150, spp/games: 13.44, spp/turns: 0.09, teams: 51, touchdowns: 198, touchdowns/games: 1.24,
+  turns: 23873, turns/games: 0.85}
