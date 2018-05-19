@@ -91,8 +91,8 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         if not team:
             del temp_bad["skills"]
         if pkl_file:
-            temp_good.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + "Good.pkl")
-            temp_bad.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + "Bad.pkl")
+            temp_good.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Good.pkl")
+            temp_bad.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Bad.pkl")
     with open(total_stats_file, "r") as file:
         total_stats = yaml.safe_load(file)
     for stat in total_stats:
@@ -109,8 +109,8 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         temp.iloc[-1] = append_list
         temp_bad.iloc[-1] = append_list
         if pkl_file:
-            temp.to_pickle(pkl_folder + "/" + stat + "Good.pkl")
-            temp_bad.to_pickle(pkl_folder + "/" + stat + "Bad.pkl")
+            temp.to_pickle(pkl_folder + "/" + stat + team * "Team" + "Good.pkl")
+            temp_bad.to_pickle(pkl_folder + "/" + stat + team * "Team" + "Bad.pkl")
     # TODO: Can deal with it from there
 
 
