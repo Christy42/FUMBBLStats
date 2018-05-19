@@ -35,7 +35,7 @@ def generate_stats(player_file, stats_file, team=False, region=False):
 
 # TODO: Tidy this function up a lot, doing far too much.
 def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pkl_folder,
-                 n=3, team=False, pkl_file=False, region="total"):
+                 n=3, team=False, pkl_file=False, region="overall"):
     with open(region_stats_file, "r") as file:
         region_line = yaml.safe_load(file)[region]
     region_line["name"] = "League"
@@ -49,7 +49,7 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         players = yaml.safe_load(file)
     # stats = [["blocks", "turns"]]
     dataframe = pd.DataFrame(players).transpose()
-    if region != "total":
+    if region != "overall":
         dataframe = dataframe[dataframe.loc[:, "division"] == region]
     for stat in stats:
 
@@ -95,8 +95,8 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         del temp_bad[stat[0]]
         del temp_bad[stat[1]]
         if pkl_file:
-            temp_good.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Good.pkl")
-            temp_bad.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Bad.pkl")
+            temp_good.to_pickle(pkl_folder + "/" + region + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Good.pkl")
+            temp_bad.to_pickle(pkl_folder + "/" + region + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Bad.pkl")
     with open(total_stats_file, "r") as file:
         total_stats = yaml.safe_load(file)
     for stat in total_stats:
@@ -113,15 +113,15 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         temp.iloc[-1] = append_list
         temp_bad.iloc[-1] = append_list
         if pkl_file:
-            temp.to_pickle(pkl_folder + "/" + stat + team * "Team" + "Good.pkl")
-            temp_bad.to_pickle(pkl_folder + "/" + stat + team * "Team" + "Bad.pkl")
+            temp.to_pickle(pkl_folder + "/" + region + "/" + stat + team * "Team" + "Good.pkl")
+            temp_bad.to_pickle(pkl_folder + "/" + region + "/" + stat + team * "Team" + "Bad.pkl")
     # TODO: Can deal with it from there
 
 
 def total(team_file, totals_file, stats_file):
     with open(team_file, "r") as file:
         team = yaml.safe_load(file)
-    regions = {"total": {}}
+    regions = {"overall": {}}
     for element in team:
         if team[element]["division"] not in regions:
             regions[team[element]["division"]] = {}
@@ -129,26 +129,31 @@ def total(team_file, totals_file, stats_file):
             try:
                 regions[team[element]["division"]][stat] = \
                     int(regions[team[element]["division"]].get(stat, 0)) + int(team[element][stat])
-                regions["total"][stat] = int(regions["total"].get(stat, 0)) + int(team[element][stat])
+                regions["overall"][stat] = int(regions["overall"].get(stat, 0)) + int(team[element][stat])
             except (ValueError, TypeError):
                 pass
         regions[team[element]["division"]]["teams"] = regions[team[element]["division"]].get("teams", 0) + 1
-        regions["total"]["teams"] = regions["total"].get("teams", 0) + 1
+        regions["overall"]["teams"] = regions["overall"].get("teams", 0) + 1
     with open(totals_file, "w") as file:
         yaml.safe_dump(regions, file)
     generate_stats(totals_file, stats_file, team=True)
 
+
+def sort_regions():
+    for region in ["overall", "Premier Division", "Lion Conference", "Unicorn Conference",
+                   "Albany Regional", "Great Albion Regional", "Morien Regional"]:
+        sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml",
+                     "player_list/Totals.yaml", "tables", pkl_file=True, region=region)
+        sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml",
+                     "player_list/Totals.yaml", "tables", team=True, pkl_file=True, region=region)
+
+
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 # generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
-sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
-             "tables", pkl_file=True)
-sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
-             "tables", team=True, pkl_file=True)
+# sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
+#              "tables", pkl_file=True)
+# sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
+#              "tables", team=True, pkl_file=True)
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
 
-
-def test():
-    b = pd.read_pickle("tables/blocks-gamesBad.pkl")
-    print(b)
-
-test()
+sort_regions()

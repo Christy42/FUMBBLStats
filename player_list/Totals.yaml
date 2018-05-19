@@ -28,7 +28,7 @@ Unicorn Conference: {blocks: 1009.0, blocks/games: 42.04, blocks/turns: 0.28, ca
   fouls/games: 1.67, games: 24.0, interceptions: 2.0, mvps: 24.0, passing: 76.0, passing/games: 3.17,
   rushing: 611.0, rushing/games: 25.46, spp: 329.0, spp/games: 13.71, spp/turns: 0.09,
   teams: 9, touchdowns: 28.0, touchdowns/games: 1.17, turns: 3596.0, turns/games: 0.85}
-total: {blocks: 6496, blocks/games: 40.6, blocks/turns: 0.27, casualties: 323, casualties/blocks: 0.05,
+overall: {blocks: 6496, blocks/games: 40.6, blocks/turns: 0.27, casualties: 323, casualties/blocks: 0.05,
   casualties/games: 2.02, completions: 110, fouls: 279, fouls/games: 1.74, games: 160,
   interceptions: 3, mvps: 160, passing: 291, passing/games: 1.82, rushing: 4115, rushing/games: 25.72,
   spp: 2150, spp/games: 13.44, spp/turns: 0.09, teams: 51, touchdowns: 198, touchdowns/games: 1.24,

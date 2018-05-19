@@ -67,50 +67,50 @@ def initial_toggles():
 [toggle group=initial block=lion label=Lion Conference]\
 [toggle group=initial block=unicorn label=Unicorn Conference]
 [toggle group=initial block=albany label=Albany Regional]\
-[toggle group=initial block=greatalbany label=Great Albion Regional]\
-[toggle=image src=/i/558171 group=initial block=morien][/block][/block]"""
+[toggle group=initial block=greatalbion label=Great Albion Regional]\
+[toggle=image src=/i/558171 group=initial block=morien][/block]"""
 
 
 def section_toggles(section):
-    return """[toggle group={} block=Bash label=Bashing]
-[toggle group={} block=Score label=Scoring]
-[toggle group={} block=Misc label=Misc.]""".format(section, section, section)
+    return """[toggle group={} block=Bash{} label=Bashing]
+[toggle group={} block=Score{} label=Scoring]
+[toggle group={} block=Misc{} label=Misc.]""".format(section, section, section, section, section, section)
 
 
-def generate_division(division):
+def generate_division(division, formal_division):
     initial_section = "[block=hidden group=initial id={}]".format(division) + section_toggles(division)
     for element in ["Bash", "Score", "Misc"]:
-        initial_section += generate_section(division, element)
+        initial_section += generate_section(division, element, formal_division)
+    initial_section += "[/block]"
     return initial_section
 
 
-def generate_section(division, section):
+def generate_section(division, section, formal_division):
     with open("utility/stat_names.yaml", "r") as stat_file:
         cats = yaml.safe_load(stat_file)
     elements = {}
     for element in cats:
         if cats[element]["Good"]["style"] == section:
             elements.update({element: cats[element]})
-    initial_section = "[block=hidden group={} id={}][block=floatcontainer]".format(division, section)
+    initial_section = "[block=hidden group={} id={}][block=floatcontainer]".format(division, section+division)
+    # elements = {"blocks/turns": {"Good": {"name": ["Swarmer"], "style": "Bash", "Team": True, "Individual": True},
+    #                              "Bad": {"name": ["Pacifist"], "style": "Bash", "Team": False, "Individual": False}}}
     for element in elements:
-
         for up_down in ["Good", "Bad"]:
             initial_section += "[block=floatcontainer]"
             if elements[element][up_down]["Individual"]:
                 initial_section += "[block=floatleft pad5]"
-                initial_section += make_table("tables/" + element.replace("/", "-") + up_down + ".pkl",
-                                              4, elements[element][up_down]["name"][0])
+                initial_section += make_table("tables/" + formal_division + "/" + element.replace("/", "-") +
+                                              up_down + ".pkl", 4, elements[element][up_down]["name"][0])
                 initial_section += "[/block]"
 
-            if elements[element][up_down]["Individual"]:
+            if elements[element][up_down]["Team"]:
                 initial_section += "[block=floatright pad5]"
-                initial_section += make_table("tables/" + element.replace("/", "-") + "Team" + up_down + ".pkl",
-                                              4, elements[element][up_down]["name"][-1])
+                initial_section += make_table("tables/" + formal_division + "/" + element.replace("/", "-") + "Team" +
+                                              up_down + ".pkl", 4, elements[element][up_down]["name"][-1])
                 initial_section += "[/block]"
-                initial_section += "\n"
-                initial_section += "\n"
             initial_section += "[/block]"
-    initial_section += "[/block][/block][/block]"
+    initial_section += "[/block][/block]"
     return initial_section
 
 
@@ -119,8 +119,11 @@ def generate_section(division, section):
 
 def generate_full_tables():
     main_string = initial_toggles()
-    for element in ["overall"]:
-        main_string += generate_division(element)
+    for element in [["overall", "overall"], ["premier", "Premier Division"], ["lion", "Lion Conference"], ["unicorn", "Unicorn Conference"],
+                    ["albany", "Albany Regional"], ["greatalbion", "Great Albion Regional"],
+                    ["morien", "Morien Regional"]]:
+        main_string += generate_division(element[0], element[1])
+        # main_string += "[/block]"
     return main_string
 
 print(generate_full_tables())
