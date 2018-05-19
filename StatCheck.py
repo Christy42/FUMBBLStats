@@ -34,8 +34,8 @@ def generate_stats(player_file, stats_file, team=False, region=False):
 
 
 # TODO: Tidy this function up a lot, doing far too much.
-def sort_players(stat_file, total_stats_file, player_file, region_stats_file,
-                 excel_name=None, n=3, team=False, bbcode=False, region="total"):
+def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pkl_folder,
+                 n=3, team=False, pkl_file=False, region="total"):
     with open(region_stats_file, "r") as file:
         region_line = yaml.safe_load(file)[region]
     region_line["name"] = "League"
@@ -43,8 +43,6 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file,
     region_line["skills"] = ""
     region_line["team"] = ""
 
-    if excel_name:
-        writer = pd.ExcelWriter(excel_name, engine='xlsxwriter')
     with open(stat_file, "r") as file:
         stats = yaml.safe_load(file)
     with open(player_file, "r") as file:
@@ -74,8 +72,6 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file,
         temp_good.loc[-1] = append_list
         if not team:
             del temp_good["skills"]
-        if excel_name:
-            temp_good.to_excel(writer, sheet_name=stat[0] + " per " + stat[1] + " Good")
         if not team:
             if stat[0] == "turns":
                 temp["Secret Weapon"] = temp.apply(lambda row: "Secret Weapon" in row.skills, axis=1)
@@ -94,19 +90,9 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file,
         temp_bad.loc[-1] = append_list
         if not team:
             del temp_bad["skills"]
-        if excel_name:
-            temp_bad.to_excel(writer, sheet_name=stat[0] + " per " + stat[1] + " Bad")
-            for style in [" Good", " Bad"]:
-                worksheet = writer.sheets[stat[0] + " per " + stat[1] + style]
-                for col in ["A", "B"]:
-                    worksheet.set_column(col + ':' + col, 20, None)
-                for col in ["C", "D"] if not team else []:
-                    worksheet.set_column(col + ':' + col, 24, None)
-                for col in ["E", "F", "G"] if not team else ["C", "D", "E"]:
-                    worksheet.set_column(col + ':' + col, 15, None)
-        if bbcode:
-            generateBBCode.make_table(temp_good, n+1)
-            generateBBCode.make_table(temp_bad, n+1)
+        if pkl_file:
+            temp_good.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + "Good.pkl")
+            temp_bad.to_pickle(pkl_folder + "/" + stat[0] + "-" + stat[1] + "Bad.pkl")
     with open(total_stats_file, "r") as file:
         total_stats = yaml.safe_load(file)
     for stat in total_stats:
@@ -117,20 +103,14 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file,
         for element in cols:
             append_list.append(region_line[element])
         temp = temp.sort_values(by=[stat], ascending=[False])
+        temp_bad = temp.sort_values(by=[stat], ascending=[True])
+        temp_bad = temp_bad.head(n)
         temp = temp.head(n)
         temp.iloc[-1] = append_list
-        if excel_name:
-            temp.to_excel(writer, sheet_name=stat)
-            worksheet = writer.sheets[stat]
-            for col in ["A", "B"] if not team else ["A"]:
-                worksheet.set_column(col + ':' + col, 20, None)
-            for col in ["C", "D"] if not team else ["B"]:
-                worksheet.set_column(col + ':' + col, 24, None)
-            worksheet.set_column('E:E' if not team else 'C:C', 10, None)
-        if bbcode:
-            generateBBCode.make_table(temp, 3)
-    if excel_name:
-        writer.save()
+        temp_bad.iloc[-1] = append_list
+        if pkl_file:
+            temp.to_pickle(pkl_folder + "/" + stat + "Good.pkl")
+            temp_bad.to_pickle(pkl_folder + "/" + stat + "Bad.pkl")
     # TODO: Can deal with it from there
 
 
@@ -156,8 +136,8 @@ def total(team_file, totals_file, stats_file):
 
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 # generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
-# sort_players("utility/stats.yaml", "utility/total_stats.yaml",
-#              "player_list/Player.yaml", "player_list/Totals.yaml", bbcode=True, region="Morien Regional")
-sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml",
-             "player_list/Totals.yaml", team=True, bbcode=True, region="Morien Regional")
+sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
+             "tables", pkl_file=True, region="Morien Regional")
+sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
+             "tables", team=True, pkl_file=True, region="Morien Regional")
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")

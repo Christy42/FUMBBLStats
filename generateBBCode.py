@@ -31,12 +31,13 @@ import pandas as pd
 # Note 114, 34 pixels for pics Careful with text placement, size 9 writing
 
 
-def make_table(dataframe, rows):
+def make_table(dataframe, rows, name):
     base_string = "[table width=100%]"
-    title_col = "[tr]"
+    title_col = "[tr][th bg=#f9f black center colspan=6]{}[/th][/tr][tr]".format(name)
     for column in dataframe:
         title_col += "[th]{}[/th]".format(column)
     title_col += "[/tr]"
+
     row_strings = []
     for i in range(min(rows, len(dataframe))):
         row_strings.append("[tr]")
@@ -72,8 +73,29 @@ def section_toggles(section):
 [toggle group={} block=misc label=Misc.]""".format(section, section, section)
 
 
-def generate_section():
-    pass
+def generate_division(division):
+    initial_section = "[block=hidden group=initial id={}]".format(division) + section_toggles(division)
+    for element in ["bash", "score", "misc"]:
+        initial_section += generate_section(division, element)
+    return initial_section
 
-print(section_toggles("overall"))
-print(initial_toggles())
+
+def generate_section(division, section):
+    with open("utility/stat_names.yaml", "r") as stat_file:
+        cats = yaml.safe_load(stat_file)
+    elements = {}
+    for element in cats:
+        if cats[element]["style"] == section:
+            elements.update(cats[element])
+    initial_section = "[block=hidden group={} id=bash][block=floatcontainer]".format(division)
+    initial_section += "[/block][/block][/block]"
+    return initial_section
+
+
+def generate_full_tables():
+    main_string = initial_toggles()
+    for element in ["overall", "premier", "lion", "unicorn", "albany", "greatalbany", "morien"]:
+        main_string += generate_division(element)
+    return main_string
+
+# print(generate_full_tables())
