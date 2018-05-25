@@ -24,6 +24,7 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
     for match in matches:
         if match.attrib["id"] in already_run:
             continue
+        already_run.append(match.attrib["id"])
         for element in ["home", "away"]:
             section = match.find(element)
             team_id = section.attrib["id"]
@@ -36,8 +37,9 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
                 individual = child.attrib
                 individual.update({"team": name, "team id": team_id})
                 performances.append(individual)
-    for p in performances:
-        print(p)
+    if rerun_folder:
+        with open(rerun_folder, "w") as file:
+            yaml.safe_dump(already_run, file)
     return performances, teams_found
 
 
@@ -46,6 +48,7 @@ def team_name(team_id):
     root = Et.fromstring(team.text)
     team_name = root.find("name").text
     return team_name
+
 
 # matches_in_division(3449, 44811, "")
 def get_match(match_number):
@@ -75,7 +78,7 @@ def add_player_attribs(performances, player_file, div):
             name, star, skills, position = get_name(ident)
             ident = name if star else ident
             players[ident] = {"team": "Star Player" if star else element["team"]["id"], "division": "" if star else div,
-                              "name": name, "position": position, "skills": skills} \
+                              "name": name, "position": position, "skills": skills, "team id": element["team id"]} \
                 if ident not in players else players[ident]
         for stat in element:
             if stat not in ["player", "team", "team id"]:
@@ -123,7 +126,6 @@ def cycle_matches(match_files, player_folder, team_folder, run_list=None):
             finished = yaml.safe_load(run_file)
     with open(match_files, "r") as file:
         matches = yaml.safe_load(file)
-    print("number of matches to do {}".format(len(set(matches)) - len(set(finished))))
     count = 0
     for match in set(matches):
         if match not in finished:
@@ -131,7 +133,6 @@ def cycle_matches(match_files, player_folder, team_folder, run_list=None):
             perf = get_match(match)
             add_player_attribs(perf, player_folder, "")
             add_team_performances(perf, team_folder)
-            print("{}  {}".format(count, match))
 
 
 def cycle_divisions(division_folder, player_folder, team_folder, rerun_folder=None):

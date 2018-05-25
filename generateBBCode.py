@@ -38,20 +38,43 @@ import pandas as pd
 
 
 def make_table(pickle_file, rows, name):
+    with open("utility/region_colours.yaml", "r") as file:
+        region_colours = yaml.safe_load(file)
     base_string = \
         "[block=panel floatleft width=400px][block=panelheader center]{}[/block][table width=100%]".format(name)
     title_col = "[tr]".format(name)
     dataframe = pd.read_pickle(pickle_file)
     for column in dataframe:
-        title_col += "[th]{}[/th]".format(column)
+        if column not in ["team id", "division"]:
+            title_col += "[th]{}[/th]".format(column)
     title_col += "[/tr]"
 
     row_strings = []
     for i in range(min(rows, len(dataframe))):
-        row_strings.append("[tr]")
-        for j in range(len(dataframe.columns)):
+        colour = region_colours.get(dataframe.iloc[i]["division"], "FFFFFF")
+        row_strings.append("[tr bg=#{}]".format(colour))
+        if str(dataframe.index[i]) != "-1":
+            if "team" in dataframe:
+                try:
+                    int(dataframe.index[i])
+                    row_strings[i] += "[td][url=https://fumbbl.com/p/player?player_id={}]".format(dataframe.index[i]) +\
+                                      str(dataframe.iloc[i][0]) + "[/url][/td]"
+                except ValueError:
+                    row_strings[i] += "[td]" + str(dataframe.iloc[i][0]) + "[/td]"
+            else:
+                row_strings[i] += \
+                        "[td][url=https://fumbbl.com/p/team?op=view&team_id={}]".format(dataframe.index[i]) + \
+                        str(dataframe.iloc[i][0]) + "[/url][/td]"
+        else:
+            row_strings[i] += "[td]League[/td]"
+        for j in range(1, min(2 + 2 * ("team" in dataframe), len(dataframe.columns))):
+            if j == 1 and "team" in dataframe.columns:
+                row_strings[i] += \
+                    "[td][url=https://fumbbl.com/p/team?op=view&team_id={}]".format(dataframe.iloc[i][-1]) + \
+                    str(dataframe.iloc[i][1]) + "[/url][/td]"
+            else:
 
-            row_strings[i] += "[td]" + str(dataframe.iloc[i][j]) + "[/td]"
+                row_strings[i] += "[td]" + str(dataframe.iloc[i][j]) + "[/td]"
         row_strings[i] += "[/tr]"
     base_string += title_col
     for i in range(len(row_strings)):
@@ -69,12 +92,12 @@ def make_table(pickle_file, rows, name):
 def initial_toggles():
     return """[block display=none]Set up the buttons[/block]
 [block=center][toggle group=initial block=overall label=Overall]
-[toggle group=initial block=premier label=Premier Division]
-[toggle group=initial block=lion label=Lion Conference]\
-[toggle group=initial block=unicorn label=Unicorn Conference]
-[toggle group=initial block=albany label=Albany Regional]\
-[toggle group=initial block=greatalbion label=Great Albion Regional]\
-[toggle=image src=/i/558171 group=initial block=morien][/block]"""
+[toggle=image src=/i/558402 group=initial block=premier]
+[toggle=image src=/i/558401 group=initial block=lion]\
+[toggle=image src=/i/558403 group=initial block=unicorn]
+[toggle=image src=/i/558399 group=initial block=albany]\
+[toggle=image src=/i/558400 group=initial block=greatalbion]\
+[toggle=image src=/i/558398 group=initial block=morien][/block]"""
 
 
 def section_toggles(section):
@@ -106,7 +129,7 @@ def generate_section(division, section, formal_division, yaml_file=None):
     # elements = {"blocks/turns": {"Good": {"name": ["Swarmer"], "style": "Bash", "Team": True, "Individual": True},
     #                              "Bad": {"name": ["Pacifist"], "style": "Bash", "Team": False, "Individual": False}}}
     for element in elements:
-        initial_section += "[block display=none]Here is{} {}[/block]".format(division, section)
+        initial_section += "[block display=none]Here is {} {}[/block]".format(division, section)
         if division + section in fluff:
             initial_section += fluff[division + section]
         for up_down in ["Good", "Bad"]:
@@ -131,11 +154,20 @@ def generate_section(division, section, formal_division, yaml_file=None):
 
 
 def generate_full_tables():
-    main_string = initial_toggles()
+    main_string = """[block=center][url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/123844.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=8098][img]http://fumbbl.com/teams/123851.jpg[/img][/url][url=FUMBBL.php?page=group&op=view&group=3699][img]http://fumbbl.com/teams/123846.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761][img]http://fumbbl.com/teams/123850.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=9482][img]http://fumbbl.com/teams/123848.jpg[/img][/url]
+
+[url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/98322.jpg[/img][/url]
+
+[table automargin][tr][td colspan=2 bg=lightblue][block=center][b]Hall of Fame: [i]Current as of the close of Season 42[/i][/b][/block][/td][/tr]\
+[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4683]On Fire this Season[/url][/td][td rowspan=6 valign=middle]Current top and all-time legendary players in the [url=FUMBBL.php?page=group&op=view&group=3449]White Isle League[/url].  British or based in Britain?  Want to compete in your own nation's league?  Go to our [url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761]recruitment thread[/url] or the [url=FUMBBL.php?page=group&op=view&group=6340]WIL Fringe[/url], and get involved in [i]your[/i] local, friendly league.[/td][/tr]\
+[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=3699]Hall of Fame[/url][/td][/tr]\
+[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4360]League Champions[/url][/td][/tr]\
+[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=5573]Ref's Report[/url][/td][/tr]\
+[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=5574]Trivia[/url][/td][/tr][/table]""" + initial_toggles()
     for element in [["overall", "overall"], ["premier", "Premier Division"], ["lion", "Lion Conference"],
                     ["unicorn", "Unicorn Conference"], ["albany", "Albany Regional"],
                     ["greatalbion", "Great Albion Regional"], ["morien", "Morien Regional"]]:
-        main_string += generate_division(element[0], element[1], yaml_file = "tables/fluff.yaml")
+        main_string += generate_division(element[0], element[1], yaml_file="tables/fluff.yaml")
         # main_string += "[/block]"
     main_string.replace("[block=floatcontainer][/block]", "")
     return main_string

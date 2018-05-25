@@ -8,61 +8,61 @@
   games: 4, interceptions: 0, mvps: 4, name: Rickson By Armbar, passing: 1, passing/games: 0.25,
   rushing: 116, rushing/games: 29.0, spp: 63, spp/games: 15.75, spp/turns: 0.1, touchdowns: 5,
   touchdowns/games: 1.25, turns: 652, turns/games: 0.93}
-'295042': {blocks: 124, blocks/games: 31.0, blocks/turns: 0.21, casualties: 6, casualties/blocks: 0.05,
-  casualties/games: 1.5, completions: 10, division: Great Albion Regional, fouls: 1,
-  fouls/games: 0.25, games: 4, interceptions: 0, mvps: 4, name: Clar Karond Fury,
-  passing: 27, passing/games: 6.75, rushing: 99, rushing/games: 24.75, spp: 66, spp/games: 16.5,
-  spp/turns: 0.11, touchdowns: 8, touchdowns/games: 2.0, turns: 594, turns/games: 0.84}
-'389999': {blocks: 120, blocks/games: 40.0, blocks/turns: 0.31, casualties: 3, casualties/blocks: 0.03,
-  casualties/games: 1.0, completions: 7, division: Albany Regional, fouls: 3, fouls/games: 1.0,
-  games: 3, interceptions: 0, mvps: 3, name: Rough Rides, passing: 7, passing/games: 2.33,
-  rushing: 65, rushing/games: 21.67, spp: 40, spp/games: 13.33, spp/turns: 0.1, touchdowns: 4,
-  touchdowns/games: 1.33, turns: 384, turns/games: 0.73}
+'295042': {blocks: 143, blocks/games: 28.6, blocks/turns: 0.2, casualties: 6, casualties/blocks: 0.04,
+  casualties/games: 1.2, completions: 12, division: Great Albion Regional, fouls: 1,
+  fouls/games: 0.2, games: 5, interceptions: 0, mvps: 5, name: Clar Karond Fury, passing: 30,
+  passing/games: 6.0, rushing: 99, rushing/games: 19.8, spp: 73, spp/games: 14.6,
+  spp/turns: 0.1, touchdowns: 8, touchdowns/games: 1.6, turns: 731, turns/games: 0.83}
+'389999': {blocks: 154, blocks/games: 38.5, blocks/turns: 0.31, casualties: 5, casualties/blocks: 0.03,
+  casualties/games: 1.25, completions: 9, division: Albany Regional, fouls: 4, fouls/games: 1.0,
+  games: 4, interceptions: 0, mvps: 4, name: Rough Rides, passing: 3, passing/games: 0.75,
+  rushing: 69, rushing/games: 17.25, spp: 51, spp/games: 12.75, spp/turns: 0.1, touchdowns: 4,
+  touchdowns/games: 1.0, turns: 494, turns/games: 0.7}
 '529170': {blocks: 162, blocks/games: 40.5, blocks/turns: 0.28, casualties: 10, casualties/blocks: 0.06,
   casualties/games: 2.5, completions: 5, division: Lion Conference, fouls: 2, fouls/games: 0.5,
   games: 4, interceptions: 0, mvps: 4, name: Har Ganeth Headrippers, passing: 10,
   passing/games: 2.5, rushing: 125, rushing/games: 31.25, spp: 69, spp/games: 17.25,
   spp/turns: 0.12, touchdowns: 8, touchdowns/games: 2.0, turns: 584, turns/games: 0.83}
-'616275': {blocks: 156, blocks/games: 39.0, blocks/turns: 0.25, casualties: 10, casualties/blocks: 0.06,
-  casualties/games: 2.5, completions: 0, division: Premier Division, fouls: 26, fouls/games: 6.5,
-  games: 4, interceptions: 0, mvps: 4, name: Death Isle Ghosts, passing: 0, passing/games: 0.0,
-  rushing: 121, rushing/games: 30.25, spp: 61, spp/games: 15.25, spp/turns: 0.1, touchdowns: 7,
-  touchdowns/games: 1.75, turns: 616, turns/games: 0.88}
-'655745': {blocks: 122, blocks/games: 40.67, blocks/turns: 0.27, casualties: 5, casualties/blocks: 0.04,
-  casualties/games: 1.67, completions: 5, division: Premier Division, fouls: 6, fouls/games: 2.0,
-  games: 3, interceptions: 0, mvps: 3, name: White and Purple Smoke, passing: 5, passing/games: 1.67,
-  rushing: 69, rushing/games: 23.0, spp: 45, spp/games: 15.0, spp/turns: 0.1, touchdowns: 5,
-  touchdowns/games: 1.67, turns: 451, turns/games: 0.85}
-'655795': {blocks: 100, blocks/games: 33.33, blocks/turns: 0.23, casualties: 1, casualties/blocks: 0.01,
-  casualties/games: 0.33, completions: 5, division: Premier Division, fouls: 2, fouls/games: 0.67,
-  games: 3, interceptions: 0, mvps: 3, name: '[H] Rebel Pride', passing: 22, passing/games: 7.33,
-  rushing: 64, rushing/games: 21.33, spp: 37, spp/games: 12.33, spp/turns: 0.08, touchdowns: 5,
-  touchdowns/games: 1.67, turns: 440, turns/games: 0.83}
+'616275': {blocks: 191, blocks/games: 38.2, blocks/turns: 0.25, casualties: 11, casualties/blocks: 0.06,
+  casualties/games: 2.2, completions: 1, division: Premier Division, fouls: 30, fouls/games: 6.0,
+  games: 5, interceptions: 0, mvps: 5, name: Death Isle Ghosts, passing: 4, passing/games: 0.8,
+  rushing: 142, rushing/games: 28.4, spp: 72, spp/games: 14.4, spp/turns: 0.09, touchdowns: 8,
+  touchdowns/games: 1.6, turns: 767, turns/games: 0.87}
+'655745': {blocks: 215, blocks/games: 35.83, blocks/turns: 0.24, casualties: 10, casualties/blocks: 0.05,
+  casualties/games: 1.67, completions: 7, division: Premier Division, fouls: 8, fouls/games: 1.33,
+  games: 6, interceptions: 0, mvps: 6, name: White and Purple Smoke, passing: 14,
+  passing/games: 2.33, rushing: 155, rushing/games: 25.83, spp: 87, spp/games: 14.5,
+  spp/turns: 0.1, touchdowns: 10, touchdowns/games: 1.67, turns: 903, turns/games: 0.86}
+'655795': {blocks: 133, blocks/games: 33.25, blocks/turns: 0.23, casualties: 4, casualties/blocks: 0.03,
+  casualties/games: 1.0, completions: 8, division: Premier Division, fouls: 2, fouls/games: 0.5,
+  games: 4, interceptions: 0, mvps: 4, name: '[H] Rebel Pride', passing: 26, passing/games: 6.5,
+  rushing: 94, rushing/games: 23.5, spp: 60, spp/games: 15.0, spp/turns: 0.1, touchdowns: 8,
+  touchdowns/games: 2.0, turns: 590, turns/games: 0.84}
 '710376': {blocks: 126, blocks/games: 31.5, blocks/turns: 0.22, casualties: 6, casualties/blocks: 0.05,
   casualties/games: 1.5, completions: 1, division: Premier Division, fouls: 12, fouls/games: 3.0,
   games: 4, interceptions: 0, mvps: 4, name: Seven Pillars, passing: 5, passing/games: 1.25,
   rushing: 142, rushing/games: 35.5, spp: 51, spp/games: 12.75, spp/turns: 0.09, touchdowns: 6,
   touchdowns/games: 1.5, turns: 578, turns/games: 0.82}
-'732256': {blocks: 117, blocks/games: 39.0, blocks/turns: 0.27, casualties: 7, casualties/blocks: 0.06,
-  casualties/games: 2.33, completions: 3, division: Lion Conference, fouls: 21, fouls/games: 7.0,
-  games: 3, interceptions: 0, mvps: 3, name: Jorvik Raiders, passing: 3, passing/games: 1.0,
-  rushing: 60, rushing/games: 20.0, spp: 38, spp/games: 12.67, spp/turns: 0.09, touchdowns: 2,
-  touchdowns/games: 0.67, turns: 441, turns/games: 0.84}
-'750788': {blocks: 148, blocks/games: 49.33, blocks/turns: 0.28, casualties: 11, casualties/blocks: 0.07,
-  casualties/games: 3.67, completions: 0, division: Premier Division, fouls: 3, fouls/games: 1.0,
-  games: 3, interceptions: 0, mvps: 3, name: WIL to Win, passing: 2, passing/games: 0.67,
-  rushing: 102, rushing/games: 34.0, spp: 52, spp/games: 17.33, spp/turns: 0.1, touchdowns: 5,
-  touchdowns/games: 1.67, turns: 526, turns/games: 1.0}
-'753085': {blocks: 149, blocks/games: 49.67, blocks/turns: 0.31, casualties: 12, casualties/blocks: 0.08,
-  casualties/games: 4.0, completions: 2, division: Unicorn Conference, fouls: 4, fouls/games: 1.33,
-  games: 3, interceptions: 1, mvps: 3, name: '[L] Genesis Apocryphon', passing: 8,
-  passing/games: 2.67, rushing: 105, rushing/games: 35.0, spp: 59, spp/games: 19.67,
-  spp/turns: 0.12, touchdowns: 6, touchdowns/games: 2.0, turns: 482, turns/games: 0.91}
-'769068': {blocks: 143, blocks/games: 47.67, blocks/turns: 0.31, casualties: 5, casualties/blocks: 0.03,
-  casualties/games: 1.67, completions: 3, division: Premier Division, fouls: 0, fouls/games: 0.0,
-  games: 3, interceptions: 0, mvps: 3, name: Salamonis Glory, passing: 4, passing/games: 1.33,
-  rushing: 110, rushing/games: 36.67, spp: 43, spp/games: 14.33, spp/turns: 0.09,
-  touchdowns: 5, touchdowns/games: 1.67, turns: 458, turns/games: 0.87}
+'732256': {blocks: 160, blocks/games: 40.0, blocks/turns: 0.28, casualties: 8, casualties/blocks: 0.05,
+  casualties/games: 2.0, completions: 3, division: Lion Conference, fouls: 23, fouls/games: 5.75,
+  games: 4, interceptions: 0, mvps: 4, name: Jorvik Raiders, passing: 3, passing/games: 0.75,
+  rushing: 74, rushing/games: 18.5, spp: 45, spp/games: 11.25, spp/turns: 0.08, touchdowns: 2,
+  touchdowns/games: 0.5, turns: 574, turns/games: 0.82}
+'750788': {blocks: 195, blocks/games: 48.75, blocks/turns: 0.28, casualties: 17, casualties/blocks: 0.09,
+  casualties/games: 4.25, completions: 0, division: Premier Division, fouls: 4, fouls/games: 1.0,
+  games: 4, interceptions: 0, mvps: 4, name: WIL to Win, passing: 3, passing/games: 0.75,
+  rushing: 146, rushing/games: 36.5, spp: 75, spp/games: 18.75, spp/turns: 0.11, touchdowns: 7,
+  touchdowns/games: 1.75, turns: 699, turns/games: 0.99}
+'753085': {blocks: 190, blocks/games: 47.5, blocks/turns: 0.3, casualties: 12, casualties/blocks: 0.06,
+  casualties/games: 3.0, completions: 3, division: Unicorn Conference, fouls: 4, fouls/games: 1.0,
+  games: 4, interceptions: 1, mvps: 4, name: '[L] Genesis Apocryphon', passing: 8,
+  passing/games: 2.0, rushing: 117, rushing/games: 29.25, spp: 65, spp/games: 16.25,
+  spp/turns: 0.1, touchdowns: 6, touchdowns/games: 1.5, turns: 642, turns/games: 0.91}
+'769068': {blocks: 177, blocks/games: 44.25, blocks/turns: 0.28, casualties: 6, casualties/blocks: 0.03,
+  casualties/games: 1.5, completions: 5, division: Premier Division, fouls: 0, fouls/games: 0.0,
+  games: 4, interceptions: 0, mvps: 4, name: Salamonis Glory, passing: 15, passing/games: 3.75,
+  rushing: 151, rushing/games: 37.75, spp: 61, spp/games: 15.25, spp/turns: 0.1, touchdowns: 8,
+  touchdowns/games: 2.0, turns: 622, turns/games: 0.88}
 '773706': {blocks: 115, blocks/games: 38.33, blocks/turns: 0.27, casualties: 10, casualties/blocks: 0.09,
   casualties/games: 3.33, completions: 4, division: Lion Conference, fouls: 1, fouls/games: 0.33,
   games: 3, interceptions: 0, mvps: 3, name: Moonwood Mages, passing: 7, passing/games: 2.33,
@@ -83,97 +83,97 @@
   games: 2, interceptions: 0, mvps: 2, name: Ardbrugh Albany Thistle, passing: 15,
   passing/games: 7.5, rushing: 73, rushing/games: 36.5, spp: 49, spp/games: 24.5,
   spp/turns: 0.17, touchdowns: 5, touchdowns/games: 2.5, turns: 293, turns/games: 0.83}
-'791766': {blocks: 96, blocks/games: 48.0, blocks/turns: 0.28, casualties: 7, casualties/blocks: 0.07,
-  casualties/games: 3.5, completions: 0, division: Albany Regional, fouls: 0, fouls/games: 0.0,
-  games: 2, interceptions: 0, mvps: 2, name: Glorious Canuckistan Moose, passing: 0,
-  passing/games: 0.0, rushing: 40, rushing/games: 20.0, spp: 30, spp/games: 15.0,
-  spp/turns: 0.09, touchdowns: 2, touchdowns/games: 1.0, turns: 338, turns/games: 0.96}
-'799240': {blocks: 85, blocks/games: 42.5, blocks/turns: 0.29, casualties: 3, casualties/blocks: 0.04,
-  casualties/games: 1.5, completions: 3, division: Albany Regional, fouls: 4, fouls/games: 2.0,
-  games: 2, interceptions: 0, mvps: 2, name: Underground Unit, passing: 16, passing/games: 8.0,
-  rushing: 39, rushing/games: 19.5, spp: 25, spp/games: 12.5, spp/turns: 0.09, touchdowns: 2,
-  touchdowns/games: 1.0, turns: 292, turns/games: 0.83}
-'800052': {blocks: 180, blocks/games: 60.0, blocks/turns: 0.37, casualties: 2, casualties/blocks: 0.01,
-  casualties/games: 0.67, completions: 2, division: Unicorn Conference, fouls: 5,
-  fouls/games: 1.67, games: 3, interceptions: 0, mvps: 3, name: Grimditch Shufflers,
-  passing: 3, passing/games: 1.0, rushing: 71, rushing/games: 23.67, spp: 33, spp/games: 11.0,
-  spp/turns: 0.07, touchdowns: 4, touchdowns/games: 1.33, turns: 490, turns/games: 0.93}
+'791766': {blocks: 146, blocks/games: 48.67, blocks/turns: 0.3, casualties: 8, casualties/blocks: 0.05,
+  casualties/games: 2.67, completions: 0, division: Albany Regional, fouls: 3, fouls/games: 1.0,
+  games: 3, interceptions: 0, mvps: 3, name: Glorious Canuckistan Moose, passing: 2,
+  passing/games: 0.67, rushing: 82, rushing/games: 27.33, spp: 43, spp/games: 14.33,
+  spp/turns: 0.09, touchdowns: 4, touchdowns/games: 1.33, turns: 486, turns/games: 0.92}
+'799240': {blocks: 119, blocks/games: 39.67, blocks/turns: 0.27, casualties: 5, casualties/blocks: 0.04,
+  casualties/games: 1.67, completions: 3, division: Albany Regional, fouls: 8, fouls/games: 2.67,
+  games: 3, interceptions: 0, mvps: 3, name: Underground Unit, passing: 16, passing/games: 5.33,
+  rushing: 55, rushing/games: 18.33, spp: 37, spp/games: 12.33, spp/turns: 0.08, touchdowns: 3,
+  touchdowns/games: 1.0, turns: 444, turns/games: 0.84}
+'800052': {blocks: 221, blocks/games: 55.25, blocks/turns: 0.34, casualties: 4, casualties/blocks: 0.02,
+  casualties/games: 1.0, completions: 2, division: Unicorn Conference, fouls: 6, fouls/games: 1.5,
+  games: 4, interceptions: 0, mvps: 4, name: Grimditch Shufflers, passing: 3, passing/games: 0.75,
+  rushing: 90, rushing/games: 22.5, spp: 45, spp/games: 11.25, spp/turns: 0.07, touchdowns: 5,
+  touchdowns/games: 1.25, turns: 642, turns/games: 0.91}
 '833566': {blocks: 66, blocks/games: 33.0, blocks/turns: 0.29, casualties: 4, casualties/blocks: 0.06,
   casualties/games: 2.0, completions: 1, division: Morien Regional, fouls: 3, fouls/games: 1.5,
   games: 2, interceptions: 0, mvps: 2, name: Good WIL Hunting, passing: 7, passing/games: 3.5,
   rushing: 53, rushing/games: 26.5, spp: 31, spp/games: 15.5, spp/turns: 0.13, touchdowns: 4,
   touchdowns/games: 2.0, turns: 231, turns/games: 0.66}
-'839378': {blocks: 78, blocks/games: 26.0, blocks/turns: 0.22, casualties: 1, casualties/blocks: 0.01,
-  casualties/games: 0.33, completions: 5, division: Premier Division, fouls: 1, fouls/games: 0.33,
-  games: 3, interceptions: 0, mvps: 3, name: White Isle cuisine, passing: 10, passing/games: 3.33,
-  rushing: 42, rushing/games: 14.0, spp: 25, spp/games: 8.33, spp/turns: 0.07, touchdowns: 1,
-  touchdowns/games: 0.33, turns: 352, turns/games: 0.67}
+'839378': {blocks: 120, blocks/games: 30.0, blocks/turns: 0.24, casualties: 1, casualties/blocks: 0.01,
+  casualties/games: 0.25, completions: 7, division: Premier Division, fouls: 6, fouls/games: 1.5,
+  games: 4, interceptions: 0, mvps: 4, name: White Isle cuisine, passing: 11, passing/games: 2.75,
+  rushing: 71, rushing/games: 17.75, spp: 35, spp/games: 8.75, spp/turns: 0.07, touchdowns: 2,
+  touchdowns/games: 0.5, turns: 504, turns/games: 0.72}
 '841874': {blocks: 166, blocks/games: 55.33, blocks/turns: 0.34, casualties: 9, casualties/blocks: 0.05,
   casualties/games: 3.0, completions: 1, division: Great Albion Regional, fouls: 1,
   fouls/games: 0.33, games: 3, interceptions: 0, mvps: 3, name: Ochness Monster Hunters,
   passing: 1, passing/games: 0.33, rushing: 88, rushing/games: 29.33, spp: 43, spp/games: 14.33,
   spp/turns: 0.09, touchdowns: 3, touchdowns/games: 1.0, turns: 494, turns/games: 0.94}
-'859155': {blocks: 137, blocks/games: 45.67, blocks/turns: 0.27, casualties: 12, casualties/blocks: 0.09,
-  casualties/games: 4.0, completions: 1, division: Premier Division, fouls: 18, fouls/games: 6.0,
-  games: 3, interceptions: 0, mvps: 3, name: Rot Ramblers, passing: 3, passing/games: 1.0,
-  rushing: 80, rushing/games: 26.67, spp: 49, spp/games: 16.33, spp/turns: 0.1, touchdowns: 3,
-  touchdowns/games: 1.0, turns: 507, turns/games: 0.96}
-'860382': {blocks: 130, blocks/games: 43.33, blocks/turns: 0.28, casualties: 8, casualties/blocks: 0.06,
-  casualties/games: 2.67, completions: 2, division: Unicorn Conference, fouls: 5,
-  fouls/games: 1.67, games: 3, interceptions: 0, mvps: 3, name: Karak-Hirn Longbeards,
-  passing: 10, passing/games: 3.33, rushing: 74, rushing/games: 24.67, spp: 45, spp/games: 15.0,
-  spp/turns: 0.1, touchdowns: 4, touchdowns/games: 1.33, turns: 465, turns/games: 0.88}
-'871102': {blocks: 71, blocks/games: 23.67, blocks/turns: 0.19, casualties: 2, casualties/blocks: 0.03,
-  casualties/games: 0.67, completions: 4, division: Unicorn Conference, fouls: 5,
-  fouls/games: 1.67, games: 3, interceptions: 0, mvps: 3, name: '[WIL] Violent Spam',
-  passing: 7, passing/games: 2.33, rushing: 76, rushing/games: 25.33, spp: 29, spp/games: 9.67,
-  spp/turns: 0.08, touchdowns: 2, touchdowns/games: 0.67, turns: 382, turns/games: 0.72}
-'872808': {blocks: 145, blocks/games: 48.33, blocks/turns: 0.31, casualties: 10, casualties/blocks: 0.07,
-  casualties/games: 3.33, completions: 1, division: Unicorn Conference, fouls: 12,
-  fouls/games: 4.0, games: 3, interceptions: 1, mvps: 3, name: Night of the Walking
-    Dead, passing: 2, passing/games: 0.67, rushing: 99, rushing/games: 33.0, spp: 48,
-  spp/games: 16.0, spp/turns: 0.1, touchdowns: 4, touchdowns/games: 1.33, turns: 472,
-  turns/games: 0.89}
+'859155': {blocks: 265, blocks/games: 44.17, blocks/turns: 0.27, casualties: 21, casualties/blocks: 0.08,
+  casualties/games: 3.5, completions: 5, division: Premier Division, fouls: 35, fouls/games: 5.83,
+  games: 6, interceptions: 0, mvps: 6, name: Rot Ramblers, passing: 12, passing/games: 2.0,
+  rushing: 139, rushing/games: 23.17, spp: 92, spp/games: 15.33, spp/turns: 0.1, touchdowns: 5,
+  touchdowns/games: 0.83, turns: 968, turns/games: 0.92}
+'860382': {blocks: 174, blocks/games: 43.5, blocks/turns: 0.3, casualties: 9, casualties/blocks: 0.05,
+  casualties/games: 2.25, completions: 2, division: Unicorn Conference, fouls: 5,
+  fouls/games: 1.25, games: 4, interceptions: 0, mvps: 4, name: Karak-Hirn Longbeards,
+  passing: 10, passing/games: 2.5, rushing: 93, rushing/games: 23.25, spp: 55, spp/games: 13.75,
+  spp/turns: 0.1, touchdowns: 5, touchdowns/games: 1.25, turns: 577, turns/games: 0.82}
+'871102': {blocks: 113, blocks/games: 28.25, blocks/turns: 0.21, casualties: 4, casualties/blocks: 0.04,
+  casualties/games: 1.0, completions: 4, division: Unicorn Conference, fouls: 6, fouls/games: 1.5,
+  games: 4, interceptions: 0, mvps: 4, name: '[WIL] Violent Spam', passing: 6, passing/games: 1.5,
+  rushing: 112, rushing/games: 28.0, spp: 44, spp/games: 11.0, spp/turns: 0.08, touchdowns: 4,
+  touchdowns/games: 1.0, turns: 534, turns/games: 0.76}
+'872808': {blocks: 194, blocks/games: 48.5, blocks/turns: 0.31, casualties: 13, casualties/blocks: 0.07,
+  casualties/games: 3.25, completions: 1, division: Unicorn Conference, fouls: 18,
+  fouls/games: 4.5, games: 4, interceptions: 1, mvps: 4, name: Night of the Walking
+    Dead, passing: 3, passing/games: 0.75, rushing: 141, rushing/games: 35.25, spp: 65,
+  spp/games: 16.25, spp/turns: 0.1, touchdowns: 6, touchdowns/games: 1.5, turns: 633,
+  turns/games: 0.9}
 '872967': {blocks: 175, blocks/games: 43.75, blocks/turns: 0.32, casualties: 5, casualties/blocks: 0.03,
   casualties/games: 1.25, completions: 4, division: Lion Conference, fouls: 3, fouls/games: 0.75,
   games: 4, interceptions: 1, mvps: 4, name: Ripe With Decay, passing: 12, passing/games: 3.0,
   rushing: 88, rushing/games: 22.0, spp: 40, spp/games: 10.0, spp/turns: 0.07, touchdowns: 2,
   touchdowns/games: 0.5, turns: 547, turns/games: 0.78}
-'873139': {blocks: 118, blocks/games: 39.33, blocks/turns: 0.26, casualties: 4, casualties/blocks: 0.03,
-  casualties/games: 1.33, completions: 4, division: Albany Regional, fouls: 1, fouls/games: 0.33,
-  games: 3, interceptions: 0, mvps: 3, name: 'Death Wishes of Nagronath ', passing: 11,
-  passing/games: 3.67, rushing: 83, rushing/games: 27.67, spp: 36, spp/games: 12.0,
-  spp/turns: 0.08, touchdowns: 3, touchdowns/games: 1.0, turns: 449, turns/games: 0.85}
-'877463': {blocks: 189, blocks/games: 47.25, blocks/turns: 0.32, casualties: 3, casualties/blocks: 0.02,
-  casualties/games: 0.75, completions: 1, division: Great Albion Regional, fouls: 1,
-  fouls/games: 0.25, games: 4, interceptions: 0, mvps: 4, name: Yucatan Impact, passing: 3,
-  passing/games: 0.75, rushing: 96, rushing/games: 24.0, spp: 42, spp/games: 10.5,
-  spp/turns: 0.07, touchdowns: 5, touchdowns/games: 1.25, turns: 584, turns/games: 0.83}
+'873139': {blocks: 183, blocks/games: 45.75, blocks/turns: 0.3, casualties: 6, casualties/blocks: 0.03,
+  casualties/games: 1.5, completions: 7, division: Albany Regional, fouls: 1, fouls/games: 0.25,
+  games: 4, interceptions: 0, mvps: 4, name: 'Death Wishes of Nagronath ', passing: 13,
+  passing/games: 3.25, rushing: 131, rushing/games: 32.75, spp: 57, spp/games: 14.25,
+  spp/turns: 0.09, touchdowns: 6, touchdowns/games: 1.5, turns: 611, turns/games: 0.87}
+'877463': {blocks: 229, blocks/games: 45.8, blocks/turns: 0.31, casualties: 5, casualties/blocks: 0.02,
+  casualties/games: 1.0, completions: 1, division: Great Albion Regional, fouls: 4,
+  fouls/games: 0.8, games: 5, interceptions: 0, mvps: 5, name: Yucatan Impact, passing: 3,
+  passing/games: 0.6, rushing: 117, rushing/games: 23.4, spp: 54, spp/games: 10.8,
+  spp/turns: 0.07, touchdowns: 6, touchdowns/games: 1.2, turns: 735, turns/games: 0.84}
 '879524': {blocks: 135, blocks/games: 45.0, blocks/turns: 0.29, casualties: 7, casualties/blocks: 0.05,
   casualties/games: 2.33, completions: 2, division: Morien Regional, fouls: 4, fouls/games: 1.33,
   games: 3, interceptions: 0, mvps: 3, name: All About That Bass, passing: 7, passing/games: 2.33,
   rushing: 103, rushing/games: 34.33, spp: 46, spp/games: 15.33, spp/turns: 0.1, touchdowns: 5,
   touchdowns/games: 1.67, turns: 461, turns/games: 0.87}
-'879831': {blocks: 114, blocks/games: 38.0, blocks/turns: 0.29, casualties: 13, casualties/blocks: 0.11,
-  casualties/games: 4.33, completions: 2, division: Morien Regional, fouls: 6, fouls/games: 2.0,
-  games: 3, interceptions: 0, mvps: 3, name: Wollassonnns Wingers, passing: 6, passing/games: 2.0,
-  rushing: 64, rushing/games: 21.33, spp: 52, spp/games: 17.33, spp/turns: 0.13, touchdowns: 3,
-  touchdowns/games: 1.0, turns: 392, turns/games: 0.74}
+'879831': {blocks: 160, blocks/games: 40.0, blocks/turns: 0.29, casualties: 16, casualties/blocks: 0.1,
+  casualties/games: 4.0, completions: 2, division: Morien Regional, fouls: 7, fouls/games: 1.75,
+  games: 4, interceptions: 0, mvps: 4, name: Wollassonnns Wingers, passing: 6, passing/games: 1.5,
+  rushing: 98, rushing/games: 24.5, spp: 69, spp/games: 17.25, spp/turns: 0.13, touchdowns: 5,
+  touchdowns/games: 1.25, turns: 543, turns/games: 0.77}
 '881450': {blocks: 28, blocks/games: 28.0, blocks/turns: 0.21, casualties: 2, casualties/blocks: 0.07,
   casualties/games: 2.0, completions: 2, division: Unicorn Conference, fouls: 0, fouls/games: 0.0,
   games: 1, interceptions: 0, mvps: 1, name: Hell Pit Hotspur, passing: 5, passing/games: 5.0,
   rushing: 31, rushing/games: 31.0, spp: 14, spp/games: 14.0, spp/turns: 0.11, touchdowns: 1,
   touchdowns/games: 1.0, turns: 133, turns/games: 0.76}
-'884214': {blocks: 139, blocks/games: 34.75, blocks/turns: 0.24, casualties: 5, casualties/blocks: 0.04,
-  casualties/games: 1.25, completions: 0, division: Premier Division, fouls: 3, fouls/games: 0.75,
-  games: 4, interceptions: 0, mvps: 4, name: Dumnonia Stall Monitors, passing: 3,
-  passing/games: 0.75, rushing: 103, rushing/games: 25.75, spp: 45, spp/games: 11.25,
-  spp/turns: 0.08, touchdowns: 5, touchdowns/games: 1.25, turns: 584, turns/games: 0.83}
-'884335': {blocks: 118, blocks/games: 39.33, blocks/turns: 0.23, casualties: 7, casualties/blocks: 0.06,
-  casualties/games: 2.33, completions: 0, division: Lion Conference, fouls: 25, fouls/games: 8.33,
-  games: 3, interceptions: 0, mvps: 3, name: Keep WIL and Claw, passing: 1, passing/games: 0.33,
-  rushing: 113, rushing/games: 37.67, spp: 47, spp/games: 15.67, spp/turns: 0.09,
-  touchdowns: 6, touchdowns/games: 2.0, turns: 507, turns/games: 0.96}
+'884214': {blocks: 179, blocks/games: 35.8, blocks/turns: 0.24, casualties: 5, casualties/blocks: 0.03,
+  casualties/games: 1.0, completions: 0, division: Premier Division, fouls: 3, fouls/games: 0.6,
+  games: 5, interceptions: 0, mvps: 5, name: Dumnonia Stall Monitors, passing: 3,
+  passing/games: 0.6, rushing: 110, rushing/games: 22.0, spp: 50, spp/games: 10.0,
+  spp/turns: 0.07, touchdowns: 5, touchdowns/games: 1.0, turns: 732, turns/games: 0.83}
+'884335': {blocks: 184, blocks/games: 46.0, blocks/turns: 0.28, casualties: 12, casualties/blocks: 0.07,
+  casualties/games: 3.0, completions: 0, division: Lion Conference, fouls: 29, fouls/games: 7.25,
+  games: 4, interceptions: 0, mvps: 4, name: Keep WIL and Claw, passing: 3, passing/games: 0.75,
+  rushing: 155, rushing/games: 38.75, spp: 68, spp/games: 17.0, spp/turns: 0.1, touchdowns: 8,
+  touchdowns/games: 2.0, turns: 667, turns/games: 0.95}
 '884379': {blocks: 132, blocks/games: 33.0, blocks/turns: 0.21, casualties: 9, casualties/blocks: 0.07,
   casualties/games: 2.25, completions: 0, division: Great Albion Regional, fouls: 1,
   fouls/games: 0.25, games: 4, interceptions: 0, mvps: 4, name: Dead Player Recreation
@@ -185,16 +185,16 @@
   games: 3, interceptions: 0, mvps: 3, name: "B\xF6genhafen Brayherds", passing: 4,
   passing/games: 1.33, rushing: 35, rushing/games: 11.67, spp: 31, spp/games: 10.33,
   spp/turns: 0.07, touchdowns: 2, touchdowns/games: 0.67, turns: 442, turns/games: 0.84}
-'888450': {blocks: 67, blocks/games: 22.33, blocks/turns: 0.18, casualties: 0, casualties/blocks: 0.0,
-  casualties/games: 0.0, completions: 0, division: Morien Regional, fouls: 13, fouls/games: 4.33,
-  games: 3, interceptions: 0, mvps: 3, name: Creeping Spiders, passing: 2, passing/games: 0.67,
-  rushing: 75, rushing/games: 25.0, spp: 27, spp/games: 9.0, spp/turns: 0.07, touchdowns: 4,
-  touchdowns/games: 1.33, turns: 363, turns/games: 0.69}
-'890910': {blocks: 135, blocks/games: 45.0, blocks/turns: 0.3, casualties: 2, casualties/blocks: 0.01,
-  casualties/games: 0.67, completions: 1, division: Albany Regional, fouls: 6, fouls/games: 2.0,
-  games: 3, interceptions: 0, mvps: 3, name: Miofjoror Maulers, passing: 1, passing/games: 0.33,
-  rushing: 90, rushing/games: 30.0, spp: 35, spp/games: 11.67, spp/turns: 0.08, touchdowns: 5,
-  touchdowns/games: 1.67, turns: 446, turns/games: 0.84}
+'888450': {blocks: 103, blocks/games: 25.75, blocks/turns: 0.21, casualties: 3, casualties/blocks: 0.03,
+  casualties/games: 0.75, completions: 0, division: Morien Regional, fouls: 18, fouls/games: 4.5,
+  games: 4, interceptions: 0, mvps: 4, name: Creeping Spiders, passing: 2, passing/games: 0.5,
+  rushing: 102, rushing/games: 25.5, spp: 44, spp/games: 11.0, spp/turns: 0.09, touchdowns: 6,
+  touchdowns/games: 1.5, turns: 501, turns/games: 0.71}
+'890910': {blocks: 179, blocks/games: 44.75, blocks/turns: 0.3, casualties: 5, casualties/blocks: 0.03,
+  casualties/games: 1.25, completions: 1, division: Albany Regional, fouls: 9, fouls/games: 2.25,
+  games: 4, interceptions: 0, mvps: 4, name: Miofjoror Maulers, passing: 1, passing/games: 0.25,
+  rushing: 121, rushing/games: 30.25, spp: 49, spp/games: 12.25, spp/turns: 0.08,
+  touchdowns: 6, touchdowns/games: 1.5, turns: 605, turns/games: 0.86}
 '892886': {blocks: 159, blocks/games: 39.75, blocks/turns: 0.26, casualties: 6, casualties/blocks: 0.04,
   casualties/games: 1.5, completions: 0, division: Great Albion Regional, fouls: 0,
   fouls/games: 0.0, games: 4, interceptions: 0, mvps: 4, name: Smashy Dodgerz, passing: 0,
@@ -205,46 +205,46 @@
   fouls/games: 0.67, games: 3, interceptions: 0, mvps: 3, name: WIL Of The People,
   passing: -1, passing/games: -0.33, rushing: 87, rushing/games: 29.0, spp: 37, spp/games: 12.33,
   spp/turns: 0.08, touchdowns: 3, touchdowns/games: 1.0, turns: 456, turns/games: 0.86}
-'895667': {blocks: 54, blocks/games: 27.0, blocks/turns: 0.18, casualties: 1, casualties/blocks: 0.02,
-  casualties/games: 0.5, completions: 4, division: Unicorn Conference, fouls: 6, fouls/games: 3.0,
-  games: 2, interceptions: 0, mvps: 2, name: Bufonite Bulls, passing: 7, passing/games: 3.5,
-  rushing: 19, rushing/games: 9.5, spp: 19, spp/games: 9.5, spp/turns: 0.06, touchdowns: 1,
-  touchdowns/games: 0.5, turns: 305, turns/games: 0.87}
-'895727': {blocks: 119, blocks/games: 39.67, blocks/turns: 0.27, casualties: 11, casualties/blocks: 0.09,
-  casualties/games: 3.67, completions: 0, division: Morien Regional, fouls: 11, fouls/games: 3.67,
-  games: 3, interceptions: 0, mvps: 3, name: Chunky Goodness, passing: 0, passing/games: 0.0,
-  rushing: 76, rushing/games: 25.33, spp: 49, spp/games: 16.33, spp/turns: 0.11, touchdowns: 4,
-  touchdowns/games: 1.33, turns: 433, turns/games: 0.82}
-'896029': {blocks: 160, blocks/games: 53.33, blocks/turns: 0.32, casualties: 10, casualties/blocks: 0.06,
-  casualties/games: 3.33, completions: 2, division: Albany Regional, fouls: 4, fouls/games: 1.33,
-  games: 3, interceptions: 0, mvps: 3, name: Detach Men, passing: 2, passing/games: 0.67,
-  rushing: 51, rushing/games: 17.0, spp: 40, spp/games: 13.33, spp/turns: 0.08, touchdowns: 1,
-  touchdowns/games: 0.33, turns: 493, turns/games: 0.93}
+'895667': {blocks: 89, blocks/games: 29.67, blocks/turns: 0.19, casualties: 1, casualties/blocks: 0.01,
+  casualties/games: 0.33, completions: 5, division: Unicorn Conference, fouls: 7,
+  fouls/games: 2.33, games: 3, interceptions: 0, mvps: 3, name: Bufonite Bulls, passing: 9,
+  passing/games: 3.0, rushing: 61, rushing/games: 20.33, spp: 31, spp/games: 10.33,
+  spp/turns: 0.07, touchdowns: 3, touchdowns/games: 1.0, turns: 458, turns/games: 0.87}
+'895727': {blocks: 152, blocks/games: 38.0, blocks/turns: 0.27, casualties: 13, casualties/blocks: 0.09,
+  casualties/games: 3.25, completions: 0, division: Morien Regional, fouls: 12, fouls/games: 3.0,
+  games: 4, interceptions: 0, mvps: 4, name: Chunky Goodness, passing: 0, passing/games: 0.0,
+  rushing: 80, rushing/games: 20.0, spp: 61, spp/games: 15.25, spp/turns: 0.11, touchdowns: 5,
+  touchdowns/games: 1.25, turns: 561, turns/games: 0.8}
+'896029': {blocks: 213, blocks/games: 53.25, blocks/turns: 0.33, casualties: 13, casualties/blocks: 0.06,
+  casualties/games: 3.25, completions: 3, division: Albany Regional, fouls: 6, fouls/games: 1.5,
+  games: 4, interceptions: 0, mvps: 4, name: Detach Men, passing: 4, passing/games: 1.0,
+  rushing: 79, rushing/games: 19.75, spp: 55, spp/games: 13.75, spp/turns: 0.09, touchdowns: 2,
+  touchdowns/games: 0.5, turns: 646, turns/games: 0.92}
 '898402': {blocks: 101, blocks/games: 33.67, blocks/turns: 0.24, casualties: 4, casualties/blocks: 0.04,
   casualties/games: 1.33, completions: 3, division: Morien Regional, fouls: 3, fouls/games: 1.0,
   games: 3, interceptions: 0, mvps: 3, name: Free Hill Coolers, passing: 12, passing/games: 4.0,
   rushing: 51, rushing/games: 17.0, spp: 35, spp/games: 11.67, spp/turns: 0.08, touchdowns: 3,
   touchdowns/games: 1.0, turns: 421, turns/games: 0.8}
-'898783': {blocks: 96, blocks/games: 32.0, blocks/turns: 0.22, casualties: 9, casualties/blocks: 0.09,
-  casualties/games: 3.0, completions: 1, division: Morien Regional, fouls: 3, fouls/games: 1.0,
-  games: 3, interceptions: 0, mvps: 3, name: Hugleik's Warriors, passing: 4, passing/games: 1.33,
-  rushing: 86, rushing/games: 28.67, spp: 52, spp/games: 17.33, spp/turns: 0.12, touchdowns: 6,
-  touchdowns/games: 2.0, turns: 431, turns/games: 0.82}
-'899278': {blocks: 161, blocks/games: 53.67, blocks/turns: 0.34, casualties: 2, casualties/blocks: 0.01,
-  casualties/games: 0.67, completions: 0, division: Albany Regional, fouls: 0, fouls/games: 0.0,
-  games: 3, interceptions: 0, mvps: 3, name: Game Master's Vault, passing: 0, passing/games: 0.0,
-  rushing: 59, rushing/games: 19.67, spp: 25, spp/games: 8.33, spp/turns: 0.05, touchdowns: 2,
-  touchdowns/games: 0.67, turns: 472, turns/games: 0.89}
+'898783': {blocks: 136, blocks/games: 34.0, blocks/turns: 0.25, casualties: 9, casualties/blocks: 0.07,
+  casualties/games: 2.25, completions: 1, division: Morien Regional, fouls: 5, fouls/games: 1.25,
+  games: 4, interceptions: 0, mvps: 4, name: Hugleik's Warriors, passing: 4, passing/games: 1.0,
+  rushing: 116, rushing/games: 29.0, spp: 60, spp/games: 15.0, spp/turns: 0.11, touchdowns: 7,
+  touchdowns/games: 1.75, turns: 554, turns/games: 0.79}
+'899278': {blocks: 188, blocks/games: 47.0, blocks/turns: 0.29, casualties: 4, casualties/blocks: 0.02,
+  casualties/games: 1.0, completions: 0, division: Albany Regional, fouls: 0, fouls/games: 0.0,
+  games: 4, interceptions: 0, mvps: 4, name: Game Master's Vault, passing: 0, passing/games: 0.0,
+  rushing: 89, rushing/games: 22.25, spp: 37, spp/games: 9.25, spp/turns: 0.06, touchdowns: 3,
+  touchdowns/games: 0.75, turns: 642, turns/games: 0.91}
 '899317': {blocks: 47, blocks/games: 23.5, blocks/turns: 0.16, casualties: 2, casualties/blocks: 0.04,
   casualties/games: 1.0, completions: 2, division: Unicorn Conference, fouls: 2, fouls/games: 1.0,
   games: 2, interceptions: 0, mvps: 2, name: Smell of DeFeet, passing: 10, passing/games: 5.0,
   rushing: 50, rushing/games: 25.0, spp: 19, spp/games: 9.5, spp/turns: 0.07, touchdowns: 1,
   touchdowns/games: 0.5, turns: 291, turns/games: 0.83}
-'899531': {blocks: 125, blocks/games: 41.67, blocks/turns: 0.27, casualties: 4, casualties/blocks: 0.03,
-  casualties/games: 1.33, completions: 0, division: Albany Regional, fouls: 12, fouls/games: 4.0,
-  games: 3, interceptions: 0, mvps: 3, name: WIL they pick up the ball, passing: 1,
-  passing/games: 0.33, rushing: 61, rushing/games: 20.33, spp: 26, spp/games: 8.67,
-  spp/turns: 0.06, touchdowns: 1, touchdowns/games: 0.33, turns: 463, turns/games: 0.88}
+'899531': {blocks: 180, blocks/games: 45.0, blocks/turns: 0.29, casualties: 8, casualties/blocks: 0.04,
+  casualties/games: 2.0, completions: 0, division: Albany Regional, fouls: 21, fouls/games: 5.25,
+  games: 4, interceptions: 1, mvps: 4, name: WIL they pick up the ball, passing: 1,
+  passing/games: 0.25, rushing: 78, rushing/games: 19.5, spp: 42, spp/games: 10.5,
+  spp/turns: 0.07, touchdowns: 2, touchdowns/games: 0.5, turns: 620, turns/games: 0.88}
 '899844': {blocks: 204, blocks/games: 51.0, blocks/turns: 0.32, casualties: 7, casualties/blocks: 0.03,
   casualties/games: 1.75, completions: 1, division: Great Albion Regional, fouls: 7,
   fouls/games: 1.75, games: 4, interceptions: 0, mvps: 4, name: '[WIL] Blood Drive',

@@ -60,15 +60,16 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
             temp = temp[temp.loc[:, "turns"] >= 30 * (1 + team * 9)]
         elif stat[1] == "blocks":
             temp = temp[temp.loc[:, "blocks"] >= 10 * (1 + team * 9)]
-        cols = ["name", "team", "position", "skills", stat[0] + "/" + stat[1], stat[0], stat[1]]
+        cols = ["name", "team", "position", "skills", stat[0] + "/" + stat[1], stat[0], stat[1], "division", "team id"]
 
         if team:
-            cols = ["name", stat[0] + "/" + stat[1], stat[0], stat[1]]
+            cols = ["name", stat[0] + "/" + stat[1], stat[0], stat[1], "division"]
         temp = temp[cols]
         append_list = []
         for element in cols:
-            append_list.append(region_line[element])
+            append_list.append(region_line[element]) if element in region_line else append_list.append(-1)
         temp_good = temp.sort_values(by=[stat[0] + "/" + stat[1], stat[1]], ascending=[False, False]).head(n)
+
         temp_good.loc[-1] = append_list
         if not team:
             del temp_good["skills"]
@@ -100,19 +101,18 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
     with open(total_stats_file, "r") as file:
         total_stats = yaml.safe_load(file)
     for stat in total_stats:
-
         temp = dataframe.copy(deep=True)
-        cols = ["name", stat] if team else ["name", "team", "position", stat]
+        cols = ["name", stat, "division"] if team else ["name", "team", "position", stat, "division", "team id"]
         temp = temp[cols]
         append_list = []
         for element in cols:
-            append_list.append(region_line[element])
+            append_list.append(region_line[element]) if element in region_line else append_list.append(-1)
         temp = temp.sort_values(by=[stat], ascending=[False])
         temp_bad = temp.sort_values(by=[stat], ascending=[True])
-        temp_bad = temp_bad.head(n + 1)
-        temp = temp.head(n + 1)
-        temp.iloc[-1] = append_list
-        temp_bad.iloc[-1] = append_list
+        temp_bad = temp_bad.head(n)
+        temp = temp.head(n)
+        temp.loc[-1] = append_list
+        temp_bad.loc[-1] = append_list
         if pkl_file:
             temp.to_pickle(pkl_folder + "/" + region + "/" + stat + team * "Team" + "Good.pkl")
             temp_bad.to_pickle(pkl_folder + "/" + region + "/" + stat + team * "Team" + "Bad.pkl")
@@ -149,7 +149,7 @@ def sort_regions():
         sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml",
                      "player_list/Totals.yaml", "tables", team=True, pkl_file=True, region=region)
 
-
+# TODO: Ensure that the league always has a -1 id.  Pass team id and region into pickle files
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 # generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
 # sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
@@ -159,3 +159,5 @@ def sort_regions():
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
 
 sort_regions()
+# v = pd.read_pickle("tables/Albany Regional/blocksBad.pkl")
+# print(v)
