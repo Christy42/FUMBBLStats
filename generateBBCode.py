@@ -56,7 +56,8 @@ def make_table(pickle_file, rows, name):
         if str(dataframe.index[i]) != "-1":
             if "team" in dataframe:
                 try:
-                    int(dataframe.index[i])
+                    if int(dataframe.index[i]) == -1:
+                        raise ValueError("Star player and so no team link")
                     row_strings[i] += "[td][url=https://fumbbl.com/p/player?player_id={}]".format(dataframe.index[i]) +\
                                       str(dataframe.iloc[i][0]) + "[/url][/td]"
                 except ValueError:
@@ -69,9 +70,12 @@ def make_table(pickle_file, rows, name):
             row_strings[i] += "[td]League[/td]"
         for j in range(1, min(2 + 2 * ("team" in dataframe), len(dataframe.columns))):
             if j == 1 and "team" in dataframe.columns:
-                row_strings[i] += \
-                    "[td][url=https://fumbbl.com/p/team?op=view&team_id={}]".format(dataframe.iloc[i][-1]) + \
-                    str(dataframe.iloc[i][1]) + "[/url][/td]"
+                if int(dataframe.iloc[i][-1]) != -1:
+                    row_strings[i] += \
+                        "[td][url=https://fumbbl.com/p/team?op=view&team_id={}]".format(dataframe.iloc[i][-1]) + \
+                        str(dataframe.iloc[i][1]) + "[/url][/td]"
+                else:
+                    row_strings[i] += "[td]" + str(dataframe.iloc[i][1]) + "[/td]"
             else:
 
                 row_strings[i] += "[td]" + str(dataframe.iloc[i][j]) + "[/td]"
@@ -123,29 +127,26 @@ def generate_section(division, section, formal_division, yaml_file=None):
             fluff = yaml.safe_load(file)
     with open("utility/stat_names.yaml", "r") as stat_file:
         cats = yaml.safe_load(stat_file)
-    elements = {}
-    for element in cats:
-        if cats[element]["Good"]["style"] == section:
-            elements.update({element: cats[element]})
+    elements = cats[section]
     initial_section = "[block=hidden group={} id={}][block=floatcontainer]".format(division, section+division)
-    # elements = {"blocks/turns": {"Good": {"name": ["Swarmer"], "style": "Bash", "Team": True, "Individual": True},
-    #                              "Bad": {"name": ["Pacifist"], "style": "Bash", "Team": False, "Individual": False}}}
-    for element in elements:
-        initial_section += "[block display=none]Here is {} {} {}[/block]".format(division, section, element)
+    for i in range(len(elements)):
+        initial_section += "[block display=none]Here is {} {} {}[/block]".format(division, section, elements[i]["name"])
         if division + section in fluff:
-            initial_section += fluff[division + section]
+            initial_section += fluff[division + section + elements[i]["name"]]
         for up_down in ["Good", "Bad"]:
             initial_section += "[block=floatcontainer]"
-            if elements[element][up_down]["Individual"]:
+            if elements[i][up_down]["Individual"]:
                 initial_section += "[block=floatleft pad5]"
-                initial_section += make_table("tables/" + formal_division + "/" + element.replace("/", "-") +
-                                              up_down + ".pkl", 4, elements[element][up_down]["name"][0])
+                initial_section += make_table("tables/" + formal_division + "/" +
+                                              elements[i]["name"].replace("/", "-") +
+                                              up_down + ".pkl", 4, elements[i][up_down]["name"][0])
                 initial_section += "[/block]"
 
-            if elements[element][up_down]["Team"]:
+            if elements[i][up_down]["Team"]:
                 initial_section += "[block=floatright pad5]"
-                initial_section += make_table("tables/" + formal_division + "/" + element.replace("/", "-") + "Team" +
-                                              up_down + ".pkl", 4, elements[element][up_down]["name"][-1])
+                initial_section += make_table("tables/" + formal_division + "/" +
+                                              elements[i]["name"].replace("/", "-") + "Team" +
+                                              up_down + ".pkl", 4, elements[i][up_down]["name"][-1])
                 initial_section += "[/block]"
             initial_section += "[/block]"
     initial_section += "[/block][/block]"
@@ -160,7 +161,7 @@ def generate_full_tables():
 
 [url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/98322.jpg[/img][/url]
 
-[table automargin][tr][td colspan=2 bg=lightblue][block=center][b]Hall of Fame: [i]Current as of the close of Season 42[/i][/b][/block][/td][/tr]\
+[table automargin][tr][td colspan=2 bg=lightblue][block=center][b]Hall of Fame: [i]Current as of round 5 of Season 48[/i][/b][/block][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4683]On Fire this Season[/url][/td][td rowspan=6 valign=middle]Current top and all-time legendary players in the [url=FUMBBL.php?page=group&op=view&group=3449]White Isle League[/url].  British or based in Britain?  Want to compete in your own nation's league?  Go to our [url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761]recruitment thread[/url] or the [url=FUMBBL.php?page=group&op=view&group=6340]WIL Fringe[/url], and get involved in [i]your[/i] local, friendly league.[/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=3699]Hall of Fame[/url][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4360]League Champions[/url][/td][/tr]\

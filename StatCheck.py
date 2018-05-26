@@ -88,8 +88,8 @@ def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
         temp_split["Bad"] = temp.sort_values(by=[sort_stat, sec_stat], ascending=[True, False]).head(n)
         for style in ["Good", "Bad"]:
             temp_split[style].loc[-1] = append_list
-            del temp_split[style][stat[0]]
             if len(stat) > 1:
+                del temp_split[style][stat[0]]
                 del temp_split[style][stat[1]]
             if not team:
                 del temp_split[style]["skills"]
