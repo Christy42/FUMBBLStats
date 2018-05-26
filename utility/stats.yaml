@@ -8,5 +8,14 @@
 ["fouls", "games"],
 ["passing", "games"],
 ["rushing", "games"],
-["turns", "games"]
+["turns", "games"],
+["casualties"],
+["blocks"],
+["touchdowns"],
+["turns"],
+["fouls"],
+["spp"],
+["completions"],
+["rushing"],
+["passing"]
 ]

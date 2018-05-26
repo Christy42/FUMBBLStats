@@ -90,7 +90,9 @@ def make_table(pickle_file, rows, name):
 
 
 def initial_toggles():
-    return """[block display=none]Set up the buttons[/block]
+    return """
+
+    [block display=none]Set up the buttons[/block]
 [block=center][toggle group=initial block=overall label=Overall]
 [toggle=image src=/i/558402 group=initial block=premier]
 [toggle=image src=/i/558401 group=initial block=lion]\
@@ -129,7 +131,7 @@ def generate_section(division, section, formal_division, yaml_file=None):
     # elements = {"blocks/turns": {"Good": {"name": ["Swarmer"], "style": "Bash", "Team": True, "Individual": True},
     #                              "Bad": {"name": ["Pacifist"], "style": "Bash", "Team": False, "Individual": False}}}
     for element in elements:
-        initial_section += "[block display=none]Here is {} {}[/block]".format(division, section)
+        initial_section += "[block display=none]Here is {} {} {}[/block]".format(division, section, element)
         if division + section in fluff:
             initial_section += fluff[division + section]
         for up_down in ["Good", "Bad"]:

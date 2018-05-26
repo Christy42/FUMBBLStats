@@ -8,7 +8,7 @@
               Bad: {name: [Elfballer], style: Bash, Team: True, Individual: False}
              },
  blocks/turns: {Good: {name: [Swarmer], style: Bash, Team: True, Individual: True},
-              Bad: {name: [Pacifist], style: Bash, Team: True, Individual: True}
+              Bad: {name: [Pacifist], style: Bash, Team: True, Individual: False}
                },
  blocks/games: {Good: {name: [Slugger], style: Bash, Team: True, Individual: True},
                 Bad: {name: [Slugger], style: Bash, Team: False, Individual: False}
@@ -32,7 +32,7 @@
                  Bad: {name: [Keep On Truckin'], style: Score, Team: False, Individual: False}
                 },
  rushing: {Good: {name: [Top Rusher], style: Score, Team: True, Individual: True},
-           Bad: {name: [Top Rusher], style: Score, Team: True, Individual: False}
+           Bad: {name: [Non Runner], style: Score, Team: True, Individual: False}
           },
  passing/games: {Good: {name: [Airin' it out], style: Score, Team: True, Individual: True},
                  Bad: {name: [Airin' it out], style: Score, Team: False, Individual: False}

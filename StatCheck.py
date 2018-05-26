@@ -1,8 +1,6 @@
 import yaml
 import pandas as pd
 
-import generateBBCode
-
 
 # TODO: Top x for each region in each category given
 def get_spp(stats):
@@ -34,14 +32,11 @@ def generate_stats(player_file, stats_file, team=False, region=False):
 
 
 # TODO: Tidy this function up a lot, doing far too much.
-def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pkl_folder,
+def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
                  n=3, team=False, pkl_file=False, region="overall"):
     with open(region_stats_file, "r") as file:
         region_line = yaml.safe_load(file)[region]
-    region_line["name"] = "League"
-    region_line["position"] = ""
-    region_line["skills"] = ""
-    region_line["team"] = ""
+    region_line.update({"name": "League", "position": "", "skills": "", "team": ""})
 
     with open(stat_file, "r") as file:
         stats = yaml.safe_load(file)
@@ -49,32 +44,33 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
         players = yaml.safe_load(file)
     # stats = [["blocks", "turns"]]
     dataframe = pd.DataFrame(players).transpose()
-    if region != "overall":
-        dataframe = dataframe[dataframe.loc[:, "division"] == region]
+    dataframe = dataframe[dataframe.loc[:, "division"] == region] if region != "overall" else dataframe
     for stat in stats:
-
         temp = dataframe.copy(deep=True)
-        if stat[1] == "games":
+        if len(stat) > 1 and stat[1] == "games":
             temp = temp[temp.loc[:, "games"] >= 3]
-        elif stat[1] == "turns":
+        elif len(stat) > 1 and stat[1] == "turns":
             temp = temp[temp.loc[:, "turns"] >= 30 * (1 + team * 9)]
-        elif stat[1] == "blocks":
+        elif len(stat) > 1 and stat[1] == "blocks":
             temp = temp[temp.loc[:, "blocks"] >= 10 * (1 + team * 9)]
-        cols = ["name", "team", "position", "skills", stat[0] + "/" + stat[1], stat[0], stat[1], "division", "team id"]
-
-        if team:
-            cols = ["name", stat[0] + "/" + stat[1], stat[0], stat[1], "division"]
+        if not team and len(stat) > 1:
+            cols = ["name", "team", "position", "skills", stat[0] + "/" + stat[1],
+                    stat[0], stat[1], "division", "team id"]
+        elif not team:
+            cols = ["name", "team", "position", "skills", stat[0], "division", "team id"]
+        elif len(stat) > 1:
+            cols = ["name",  stat[0] + "/" + stat[1], stat[0], stat[1], "division"]
+        else:
+            cols = ["name",  stat[0], "division"]
         temp = temp[cols]
         append_list = []
         for element in cols:
             append_list.append(region_line[element]) if element in region_line else append_list.append(-1)
-        temp_good = temp.sort_values(by=[stat[0] + "/" + stat[1], stat[1]], ascending=[False, False]).head(n)
+        sort_stat = stat[0] if len(stat) == 1 else stat[0] + "/" + stat[1]
+        sec_stat = stat[0] if len(stat) == 1 else stat[1]
+        temp_split = dict()
+        temp_split["Good"] = temp.sort_values(by=[sort_stat, sec_stat], ascending=[False, False]).head(n)
 
-        temp_good.loc[-1] = append_list
-        if not team:
-            del temp_good["skills"]
-        del temp_good[stat[0]]
-        del temp_good[stat[1]]
         if not team:
             if stat[0] == "turns":
                 temp["Secret Weapon"] = temp.apply(lambda row: "Secret Weapon" in row.skills, axis=1)
@@ -89,34 +85,17 @@ def sort_players(stat_file, total_stats_file, player_file, region_stats_file, pk
                 temp = temp[temp.loc[:, "Chainsaw"] == 0]
                 del temp["Chainsaw"]
 
-        temp_bad = temp.sort_values(by=[stat[0] + "/" + stat[1], stat[1]], ascending=[True, False]).head(n)
-        temp_bad.loc[-1] = append_list
-        if not team:
-            del temp_bad["skills"]
-        del temp_bad[stat[0]]
-        del temp_bad[stat[1]]
-        if pkl_file:
-            temp_good.to_pickle(pkl_folder + "/" + region + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Good.pkl")
-            temp_bad.to_pickle(pkl_folder + "/" + region + "/" + stat[0] + "-" + stat[1] + team * "Team" + "Bad.pkl")
-    with open(total_stats_file, "r") as file:
-        total_stats = yaml.safe_load(file)
-    for stat in total_stats:
-        temp = dataframe.copy(deep=True)
-        cols = ["name", stat, "division"] if team else ["name", "team", "position", stat, "division", "team id"]
-        temp = temp[cols]
-        append_list = []
-        for element in cols:
-            append_list.append(region_line[element]) if element in region_line else append_list.append(-1)
-        temp = temp.sort_values(by=[stat], ascending=[False])
-        temp_bad = temp.sort_values(by=[stat], ascending=[True])
-        temp_bad = temp_bad.head(n)
-        temp = temp.head(n)
-        temp.loc[-1] = append_list
-        temp_bad.loc[-1] = append_list
-        if pkl_file:
-            temp.to_pickle(pkl_folder + "/" + region + "/" + stat + team * "Team" + "Good.pkl")
-            temp_bad.to_pickle(pkl_folder + "/" + region + "/" + stat + team * "Team" + "Bad.pkl")
-    # TODO: Can deal with it from there
+        temp_split["Bad"] = temp.sort_values(by=[sort_stat, sec_stat], ascending=[True, False]).head(n)
+        for style in ["Good", "Bad"]:
+            temp_split[style].loc[-1] = append_list
+            del temp_split[style][stat[0]]
+            if len(stat) > 1:
+                del temp_split[style][stat[1]]
+            if not team:
+                del temp_split[style]["skills"]
+            if pkl_file:
+                temp_split[style].to_pickle(pkl_folder + "/" + region + "/" +
+                                            sort_stat.replace("/", "-") + team * "Team" + style + ".pkl")
 
 
 def total(team_file, totals_file, stats_file):
@@ -144,17 +123,17 @@ def sort_regions():
     for region in ["overall", "Premier Division", "Lion Conference", "Unicorn Conference",
                    "Albany Regional", "Great Albion Regional", "Morien Regional"]:
         print(region)
-        sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml",
+        sort_players("utility/stats.yaml", "player_list/Player.yaml",
                      "player_list/Totals.yaml", "tables", pkl_file=True, region=region)
-        sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml",
+        sort_players("utility/stats.yaml", "player_list/Team.yaml",
                      "player_list/Totals.yaml", "tables", team=True, pkl_file=True, region=region)
 
 # TODO: Ensure that the league always has a -1 id.  Pass team id and region into pickle files
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 # generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
-# sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
+# sort_players("utility/stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
 #              "tables", pkl_file=True)
-# sort_players("utility/stats.yaml", "utility/total_stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
+# sort_players("utility/stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
 #              "tables", team=True, pkl_file=True)
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
 
