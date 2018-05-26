@@ -67,7 +67,7 @@ def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
         for element in cols:
             append_list.append(region_line[element]) if element in region_line else append_list.append(-1)
         sort_stat = stat[0] if len(stat) == 1 else stat[0] + "/" + stat[1]
-        sec_stat = stat[0] if len(stat) == 1 else stat[1]
+        sec_stat = stat[-1]
         temp_split = dict()
         temp_split["Good"] = temp.sort_values(by=[sort_stat, sec_stat], ascending=[False, False]).head(n)
 
@@ -127,6 +127,26 @@ def sort_regions():
                      "player_list/Totals.yaml", "tables", pkl_file=True, region=region)
         sort_players("utility/stats.yaml", "player_list/Team.yaml",
                      "player_list/Totals.yaml", "tables", team=True, pkl_file=True, region=region)
+        create_league_tables("player_list/Totals.yaml", "utility/stats.yaml", "tables")
+
+
+def create_league_tables(region_stats_file, stat_list, pkl_folder):
+    with open(region_stats_file, "r") as file:
+        region_line = yaml.safe_load(file)
+    with open(stat_list, "r") as file:
+        stats = yaml.safe_load(file)
+    dataframe = pd.DataFrame(region_line).transpose()
+    for stat in stats:
+        temp = dataframe.copy(deep=True)
+        cols = [stat[0]] if len(stat) == 1 else [stat[0] + "/" + stat[1], stat[1]]
+        temp = temp[cols]
+        sort_stat = cols[0]
+        sec_stat = stat[-1]
+        temp = temp.sort_values(by=[sort_stat, sec_stat], ascending=[False, False])
+        if len(stat) > 1:
+            del temp[stat[1]]
+        temp.to_pickle(pkl_folder + "/Leagues/" + sort_stat.replace("/", "-") + ".pkl")
+
 
 # TODO: Ensure that the league always has a -1 id.  Pass team id and region into pickle files
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
@@ -137,6 +157,6 @@ def sort_regions():
 #              "tables", team=True, pkl_file=True)
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
 
-sort_regions()
-# v = pd.read_pickle("tables/Albany Regional/blocksBad.pkl")
-# print(v)
+# sort_regions()
+v = pd.read_pickle("tables/Leagues/blocks-games.pkl")
+print(v)
