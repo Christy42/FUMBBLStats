@@ -141,8 +141,7 @@ def create_league_tables(region_stats_file, stat_list, pkl_folder):
         temp = dataframe.copy(deep=True)
         cols = ["name", stat[0]] if len(stat) == 1 else ["name", stat[0] + "/" + stat[1], stat[1]]
         temp = temp[cols]
-
-        sort_stat = cols[0]
+        sort_stat = cols[1]
         sec_stat = stat[-1]
         temp = temp.sort_values(by=[sort_stat, sec_stat], ascending=[False, False])
         if len(stat) > 1:
@@ -154,11 +153,13 @@ def create_league_tables(region_stats_file, stat_list, pkl_folder):
 # generate_stats("player_list//Player.yaml", "utility//stats.yaml")
 # generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
 # sort_players("utility/stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
-#              "tables", pkl_file=True)
+#              "tables", pkl_file=True)1
 # sort_players("utility/stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
 #              "tables", team=True, pkl_file=True)
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
-
-sort_regions()
+create_league_tables("player_list/Totals.yaml", "utility/stats.yaml", "tables")
+# sort_regions()
 v = pd.read_pickle("tables/Leagues/blocks-games.pkl")
 print(v)
+# v = pd.read_pickle("tables/Lion Conference/blocks-gamesGood.pkl")
+# print(v)
