@@ -103,7 +103,8 @@ def initial_toggles():
 [toggle=image src=/i/558403 group=initial block=unicorn]
 [toggle=image src=/i/558399 group=initial block=albany]\
 [toggle=image src=/i/558400 group=initial block=greatalbion]\
-[toggle=image src=/i/558398 group=initial block=morien][/block]"""
+[toggle=image src=/i/558398 group=initial block=morien]
+[toggle group=initial block=leagues label=Leagues][/block]"""
 
 
 def section_toggles(section):
@@ -131,24 +132,29 @@ def generate_section(division, section, formal_division, yaml_file=None):
     initial_section = "[block=hidden group={} id={}][block=floatcontainer]".format(division, section+division)
     for i in range(len(elements)):
         initial_section += "[block display=none]Here is {} {} {}[/block]".format(division, section, elements[i]["name"])
-        if division + section in fluff:
+        if division + section + elements[i]["name"] in fluff:
             initial_section += fluff[division + section + elements[i]["name"]]
         for up_down in ["Good", "Bad"]:
             initial_section += "[block=floatcontainer]"
-            if elements[i][up_down]["Individual"]:
+            if elements[i][up_down]["Individual"] and division != "League":
                 initial_section += "[block=floatleft pad5]"
                 initial_section += make_table("tables/" + formal_division + "/" +
                                               elements[i]["name"].replace("/", "-") +
                                               up_down + ".pkl", 4, elements[i][up_down]["name"][0])
                 initial_section += "[/block]"
 
-            if elements[i][up_down]["Team"]:
+            if elements[i][up_down]["Team"] and division != "League":
                 initial_section += "[block=floatright pad5]"
                 initial_section += make_table("tables/" + formal_division + "/" +
                                               elements[i]["name"].replace("/", "-") + "Team" +
                                               up_down + ".pkl", 4, elements[i][up_down]["name"][-1])
                 initial_section += "[/block]"
+            if elements[i][up_down]["League"] and division == "League":
+                initial_section += "[block=floatright pad5]"
+                # TODO: Need a make table version of this one
+                initial_section += "[/block]"
             initial_section += "[/block]"
+
     initial_section += "[/block][/block]"
     return initial_section
 
