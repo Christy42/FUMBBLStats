@@ -136,10 +136,12 @@ def create_league_tables(region_stats_file, stat_list, pkl_folder):
     with open(stat_list, "r") as file:
         stats = yaml.safe_load(file)
     dataframe = pd.DataFrame(region_line).transpose()
+    dataframe["name"] = dataframe.index
     for stat in stats:
         temp = dataframe.copy(deep=True)
-        cols = [stat[0]] if len(stat) == 1 else [stat[0] + "/" + stat[1], stat[1]]
+        cols = ["name", stat[0]] if len(stat) == 1 else ["name", stat[0] + "/" + stat[1], stat[1]]
         temp = temp[cols]
+
         sort_stat = cols[0]
         sec_stat = stat[-1]
         temp = temp.sort_values(by=[sort_stat, sec_stat], ascending=[False, False])
@@ -157,6 +159,6 @@ def create_league_tables(region_stats_file, stat_list, pkl_folder):
 #              "tables", team=True, pkl_file=True)
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
 
-# sort_regions()
+sort_regions()
 v = pd.read_pickle("tables/Leagues/blocks-games.pkl")
 print(v)
