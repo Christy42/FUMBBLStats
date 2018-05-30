@@ -11,6 +11,7 @@ from utility_func import reset_file
 # TODO: Give each player a region as they come in, for old ones just check which page they are on - stars get blank
 # Just get a list of all players in each page.  Go through them and assign appropriately - get new ones first
 # TODO: Use this for historical stats.  Use Team.yaml for all team ids
+# TODO: Test the already run section.  Just don't clear all data first dumbass
 def matches_in_division(group_number, division_number, rerun_folder=None):
     division = requests.get("https://fumbbl.com/xml:group?id={}&op=matches&t={}".format(group_number, division_number))
     root = Et.fromstring(division.text)
@@ -23,6 +24,7 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
             already_run = yaml.safe_load(rerun)
     for match in matches:
         if match.attrib["id"] in already_run:
+            print(match.attrib["id"])
             continue
         already_run.append(match.attrib["id"])
         for element in ["home", "away"]:
@@ -119,22 +121,6 @@ def get_name(player_id):
     return root.find("name").text, star, base_skills, position
 
 
-def cycle_matches(match_files, player_folder, team_folder, run_list=None):
-    finished = []
-    if run_list:
-        with open(run_list, "r") as run_file:
-            finished = yaml.safe_load(run_file)
-    with open(match_files, "r") as file:
-        matches = yaml.safe_load(file)
-    count = 0
-    for match in set(matches):
-        if match not in finished:
-            count += 1
-            perf = get_match(match)
-            add_player_attribs(perf, player_folder, "")
-            add_team_performances(perf, team_folder)
-
-
 def cycle_divisions(division_folder, player_folder, team_folder, rerun_folder=None):
     with open(division_folder, "r") as file:
         divisions = yaml.safe_load(file)
@@ -149,4 +135,5 @@ def cycle_divisions(division_folder, player_folder, team_folder, rerun_folder=No
 # reset_file("player_list/Team.yaml")
 # cycle_matches("match_list/WILSeason48.yaml", "player_list/Player.yaml", "player_list/Team.yaml")
 # get_name(11103735)
-# cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml")
+cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml",
+                rerun_folder="match_list/run_file.yaml")

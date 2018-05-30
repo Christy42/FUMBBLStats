@@ -6,33 +6,33 @@
         {name: casualties/blocks, Good: {name: [Block to Kill], Team: True, Individual: True, League: True},
                      Bad: {name: [Fair Tackle Award], Team: True, Individual: True, League: False} },
         {name: casualties/games, Good: {name: [Killer], Team: True, Individual: True, League: True},
-                    Bad: {name: [Killer], style: Bash, Team: False, Individual: False, League: False} },
+                    Bad: {name: [ElfBaller], style: Bash, Team: True, Individual: False, League: False} },
         {name: casualties, Good: {name: [Top Killer], Team: True, Individual: True, League: False},
-              Bad: {name: [Elfballer], Team: True, Individual: False, League: False} }
+              Bad: {name: [Elfballer], Team: False, Individual: False, League: False} }
         ],
 Misc: [
          {name: fouls/games, Good: {name: [Another Boot Another Day], Team: True, Individual: True, League: True},
-               Bad: {name: [Another Boot Another Day], Team: False, Individual: False, League: False} },
+               Bad: {name: [Bright Crusader Wannabees], Team: True, Individual: False, League: False} },
          {name: fouls, Good: {name: [Top Fouler], Team: True, Individual: True, League: False},
-         Bad: {name: [Bright Crusader Wannabees], Team: True, Individual: False, League: False} },
+         Bad: {name: [Bright Crusader Wannabees], Team: False, Individual: False, League: False} },
          {name: turns/games, Good: {name: [60 minute player], Team: True, Individual: True, League: True},
                Bad: {name: [Best seat in the house], Team: True, Individual: True, League: False} },
          {name: spp/games, Good: {name: [Hot Streak], Team: True, Individual: True, League: True},
-             Bad: {name: [Hot Streak], Team: False, Individual: False, League: False} },
+             Bad: {name: [Watching the game pass them by], Team: True, Individual: False, League: False} },
          {name: spp, Good: {name: [Season's star], Team: True, Individual: True, League: False},
-                     Bad: {name: [Watching the game pass them by], Team: True, Individual: False, League: False} }
+                     Bad: {name: [Watching the game pass them by], Team: False, Individual: False, League: False} }
         ],
  Score: [ {name: rushing/games, Good: {name: [Keep On Truckin'], Team: True, Individual: True, League: True},
-                 Bad: {name: [Keep On Truckin'], Team: False, Individual: False, League: False} },
+                 Bad: {name: [Non Runner], Team: True, Individual: False, League: False} },
          {name: rushing, Good: {name: [Top Rusher], Team: True, Individual: True, League: False},
-           Bad: {name: [Non Runner], Team: True, Individual: False, League: False} },
+           Bad: {name: [Non Runner], Team: False, Individual: False, League: False} },
          {name: passing/games, Good: {name: [Airin' it out], Team: True, Individual: True, League: True},
                  Bad: {name: [Airin' it out], Team: False, Individual: False, League: False} },
          {name: passing, Good: {name: [Top Passer], Team: True, Individual: True, League: False},
            Bad: {name: [Top Passer], Team: False, Individual: False, League: False} },
          {name: touchdowns/games, Good: {name: [Efficient], Team: True, Individual: True, League: True},
-                    Bad: {name: [Efficient], Team: False, Individual: False, League: False} },
+                    Bad: {name: [Forgot About the Ball], Team: True, Individual: False, League: False} },
          {name: touchdowns, Good: {name: [Top Scorer], Team: True, Individual: True, League: False},
-              Bad: {name: [Forgot About the Ball], Team: True, Individual: False, League: False} }
+              Bad: {name: [Forgot About the Ball], Team: False, Individual: False, League: False} }
         ]
 }

@@ -19,13 +19,14 @@ def generate_stats(player_file, stats_file, team=False, region=False):
     for player in players:
         players[player]["spp"] = get_spp(players[player])
         for element in stats:
-            players[player][element[0] + "/" + element[1]] = get_stat(element[0], element[1], players[player])
-            if element[0] in ["turns"]:
-                players[player][element[0] + "/" + element[1]] /= (16 * (1 + 10 * team))
-                players[player][element[0] + "/" + element[1]] = \
-                    round(players[player][element[0] + "/" + element[1]], 2)
-            if region:
-                players[player][element[0] + "/" + element[1]] /= players[player]["teams"]
+            if len(element) > 1:
+                players[player][element[0] + "/" + element[1]] = get_stat(element[0], element[1], players[player])
+                if element[0] in ["turns"]:
+                    players[player][element[0] + "/" + element[1]] /= (16 * (1 + 10 * team))
+                    players[player][element[0] + "/" + element[1]] = \
+                        round(players[player][element[0] + "/" + element[1]], 2)
+                if region:
+                    players[player][element[0] + "/" + element[1]] /= players[player]["teams"]
 
     with open(player_file, "w") as p_file:
         yaml.safe_dump(players, p_file)
@@ -150,16 +151,16 @@ def create_league_tables(region_stats_file, stat_list, pkl_folder):
 
 
 # TODO: Ensure that the league always has a -1 id.  Pass team id and region into pickle files
-# generate_stats("player_list//Player.yaml", "utility//stats.yaml")
-# generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
+generate_stats("player_list//Player.yaml", "utility//stats.yaml")
+generate_stats("player_list//Team.yaml", "utility//stats.yaml", team=True)
 # sort_players("utility/stats.yaml", "player_list/Player.yaml", "player_list/Totals.yaml",
 #              "tables", pkl_file=True)1
 # sort_players("utility/stats.yaml", "player_list/Team.yaml", "player_list/Totals.yaml",
 #              "tables", team=True, pkl_file=True)
 # total("player_list/Team.yaml", "player_list/Totals.yaml", "utility/stats.yaml")
-create_league_tables("player_list/Totals.yaml", "utility/stats.yaml", "tables")
-# sort_regions()
-v = pd.read_pickle("tables/Leagues/blocks-games.pkl")
+# create_league_tables("player_list/Totals.yaml", "utility/stats.yaml", "tables")
+sort_regions()
+v = pd.read_pickle("tables/Morien Regional/touchdownsTeamGood.pkl")
 print(v)
 # v = pd.read_pickle("tables/Lion Conference/blocks-gamesGood.pkl")
 # print(v)

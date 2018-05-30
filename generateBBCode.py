@@ -34,7 +34,8 @@ import pandas as pd
 # Morien #9ACE2E
 # Lion #B8860B
 # Unicorn #696969
-# Premier #FFFFFF
+# Premier #CACFCB
+# Leagues #FFFFFF
 
 
 def make_table(pickle_file, rows, name):
@@ -51,7 +52,7 @@ def make_table(pickle_file, rows, name):
 
     row_strings = []
     for i in range(min(rows, len(dataframe))):
-        colour = region_colours.get(dataframe.iloc[i]["division"], "FFFFFF")
+        colour = region_colours.get(dataframe.iloc[i].get("division", ""), "FFFFFF")
         row_strings.append("[tr bg=#{}]".format(colour))
         if str(dataframe.index[i]) != "-1":
             if "team" in dataframe:
@@ -62,10 +63,12 @@ def make_table(pickle_file, rows, name):
                                       str(dataframe.iloc[i][0]) + "[/url][/td]"
                 except ValueError:
                     row_strings[i] += "[td]" + str(dataframe.iloc[i][0]) + "[/td]"
-            else:
+            elif "overall" not in dataframe["name"]:
                 row_strings[i] += \
                         "[td][url=https://fumbbl.com/p/team?op=view&team_id={}]".format(dataframe.index[i]) + \
                         str(dataframe.iloc[i][0]) + "[/url][/td]"
+            else:
+                row_strings[i] += "[td]" + str(dataframe.iloc[i][0]) + "[/td]"
         else:
             row_strings[i] += "[td]League[/td]"
         for j in range(1, min(2 + 2 * ("team" in dataframe), len(dataframe.columns))):
@@ -86,7 +89,6 @@ def make_table(pickle_file, rows, name):
     base_string += "[/table][/block]"
     return base_string
 
-# make_table("tables/casualtiesGood.pkl", 4, "Casualties")
 
 # [tr][td]R1C1[/td] [td]R1C2[/td] [td]Debir Dullza [/td][td]R1C4[/td][/tr]
 # [tr][td]R1C1[/td] [td]R1C2[/td] [td]R1C3 [/td][td]R1C4[/td][/tr]
@@ -98,13 +100,13 @@ def initial_toggles():
 
     [block display=none]Set up the buttons[/block]
 [block=center][toggle group=initial block=overall label=Overall]
-[toggle=image src=/i/558402 group=initial block=premier]
+[toggle=image src=/i/558896 group=initial block=premier]
 [toggle=image src=/i/558401 group=initial block=lion]\
 [toggle=image src=/i/558403 group=initial block=unicorn]
 [toggle=image src=/i/558399 group=initial block=albany]\
 [toggle=image src=/i/558400 group=initial block=greatalbion]\
 [toggle=image src=/i/558398 group=initial block=morien]
-[toggle group=initial block=leagues label=Leagues][/block]"""
+[toggle=image src=/i/558897 group=initial block=Leagues][/block]"""
 
 
 def section_toggles(section):
@@ -136,22 +138,24 @@ def generate_section(division, section, formal_division, yaml_file=None):
             initial_section += fluff[division + section + elements[i]["name"]]
         for up_down in ["Good", "Bad"]:
             initial_section += "[block=floatcontainer]"
-            if elements[i][up_down]["Individual"] and division != "League":
+            if elements[i][up_down]["Individual"] and division != "Leagues":
                 initial_section += "[block=floatleft pad5]"
                 initial_section += make_table("tables/" + formal_division + "/" +
                                               elements[i]["name"].replace("/", "-") +
                                               up_down + ".pkl", 4, elements[i][up_down]["name"][0])
                 initial_section += "[/block]"
 
-            if elements[i][up_down]["Team"] and division != "League":
+            if elements[i][up_down]["Team"] and division != "Leagues":
                 initial_section += "[block=floatright pad5]"
                 initial_section += make_table("tables/" + formal_division + "/" +
                                               elements[i]["name"].replace("/", "-") + "Team" +
                                               up_down + ".pkl", 4, elements[i][up_down]["name"][-1])
                 initial_section += "[/block]"
-            if elements[i][up_down]["League"] and division == "League":
+            if elements[i][up_down]["League"] and division == "Leagues":
                 initial_section += "[block=floatright pad5]"
-                # TODO: Need a make table version of this one
+                initial_section += make_table("tables/" + formal_division + "/" +
+                                              elements[i]["name"].replace("/", "-") +
+                                              ".pkl", 40, elements[i][up_down]["name"][-1])
                 initial_section += "[/block]"
             initial_section += "[/block]"
 
@@ -175,7 +179,7 @@ def generate_full_tables():
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=5574]Trivia[/url][/td][/tr][/table]""" + initial_toggles()
     for element in [["overall", "overall"], ["premier", "Premier Division"], ["lion", "Lion Conference"],
                     ["unicorn", "Unicorn Conference"], ["albany", "Albany Regional"],
-                    ["greatalbion", "Great Albion Regional"], ["morien", "Morien Regional"]]:
+                    ["greatalbion", "Great Albion Regional"], ["morien", "Morien Regional"], ["Leagues", "Leagues"]]:
         main_string += generate_division(element[0], element[1], yaml_file="tables/fluff.yaml")
         # main_string += "[/block]"
     main_string.replace("[block=floatcontainer][/block]", "")
