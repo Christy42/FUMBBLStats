@@ -129,11 +129,27 @@ def cycle_divisions(division_folder, player_folder, team_folder, rerun_folder=No
         performances, team_games = matches_in_division(divisions[element]["group"], element, rerun_folder)
         add_player_attribs(performances, player_folder, divisions[element]["name"])
         add_team_performances(performances, team_folder, divisions[element]["name"], team_games)
+
+
+def race_check(team_folder):
+    with open(team_folder, "r") as file:
+        teams = yaml.safe_load(file)
+    for team in teams:
+        if "race" not in teams[team]:
+            race_text = requests.get("https://fumbbl.com/api/team/get/{}/xml".format(str(team)))
+            root = Et.fromstring(race_text.text)
+            roster_id = root.find("roster")
+            roster = roster_id.find("name").text
+            teams[team]["race"] = roster
+    with open(team_folder, "w") as file:
+        yaml.safe_dump(teams, file)
+
 # get_match(3986223)
 # get_name(4697130)
 # reset_file("player_list/Player.yaml")
 # reset_file("player_list/Team.yaml")
 # cycle_matches("match_list/WILSeason48.yaml", "player_list/Player.yaml", "player_list/Team.yaml")
 # get_name(11103735)
-cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml",
-                rerun_folder="match_list/run_file.yaml")
+# cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml",
+#                 rerun_folder="match_list/run_file.yaml")
+# race_check("player_list/Team.yaml")
