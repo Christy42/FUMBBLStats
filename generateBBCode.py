@@ -97,7 +97,6 @@ def make_table(pickle_file, rows, name):
 
 def initial_toggles():
     return """
-
     [block display=none]Set up the buttons[/block]
 [block=center][toggle group=initial block=overall label=Overall]
 [toggle=image src=/i/558896 group=initial block=premier]
@@ -167,7 +166,9 @@ def generate_section(division, section, formal_division, yaml_file=None):
 
 
 def generate_full_tables():
-    main_string = """[block=center][url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/123844.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=8098][img]http://fumbbl.com/teams/123851.jpg[/img][/url][url=FUMBBL.php?page=group&op=view&group=3699][img]http://fumbbl.com/teams/123846.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761][img]http://fumbbl.com/teams/123850.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=9482][img]http://fumbbl.com/teams/123848.jpg[/img][/url]
+    main_string = """
+
+    [block=center][url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/123844.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=8098][img]http://fumbbl.com/teams/123851.jpg[/img][/url][url=FUMBBL.php?page=group&op=view&group=3699][img]http://fumbbl.com/teams/123846.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761][img]http://fumbbl.com/teams/123850.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=9482][img]http://fumbbl.com/teams/123848.jpg[/img][/url]
 
 [url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/98322.jpg[/img][/url]
 
