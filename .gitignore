@@ -1,6 +1,6 @@
 .idea
 __*
-player_list*
+player_list/
 reserve*
-match_list*
-tables*
+match_list/
+tables/

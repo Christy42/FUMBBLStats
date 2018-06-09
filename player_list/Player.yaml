@@ -29,17 +29,17 @@
   turns: 75
   turns/games: 0.78
 '10030300':
-  blocks: 44
-  blocks/games: 8.8
-  blocks/turns: 0.65
-  casualties: 1
-  casualties/blocks: 0.02
-  casualties/games: 0.2
+  blocks: 51
+  blocks/games: 8.5
+  blocks/turns: 0.66
+  casualties: 3
+  casualties/blocks: 0.06
+  casualties/games: 0.5
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Ty'nithwyn Torcadailll
@@ -49,15 +49,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Claw, Mighty Blow, Horns, Two Heads, Tackle]
-  spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp: 6
+  spp/games: 1.0
+  spp/turns: 0.08
   team: Clan Mac Feegle
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 68
-  turns/games: 0.85
+  turns: 77
+  turns/games: 0.8
 '10068779':
   blocks: 27
   blocks/games: 6.75
@@ -240,47 +240,47 @@
   turns: 52
   turns/games: 0.81
 '10074053':
-  blocks: 33
-  blocks/games: 6.6
-  blocks/turns: 0.43
+  blocks: 44
+  blocks/games: 7.33
+  blocks/turns: 0.48
   casualties: 2
-  casualties/blocks: 0.06
-  casualties/games: 0.4
+  casualties/blocks: 0.05
+  casualties/games: 0.33
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Albert Prince Consort
   passing: 1
-  passing/games: 0.2
+  passing/games: 0.17
   position: Blitzer
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Thick Skull, Guard, Mighty Blow, Tackle, Juggernaut, Piling On]
   spp: 4
-  spp/games: 0.8
-  spp/turns: 0.05
+  spp/games: 0.67
+  spp/turns: 0.04
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 76
-  turns/games: 0.95
+  turns: 92
+  turns/games: 0.96
 '10074055':
-  blocks: 24
-  blocks/games: 4.8
-  blocks/turns: 0.3
+  blocks: 28
+  blocks/games: 4.67
+  blocks/turns: 0.29
   casualties: 3
-  casualties/blocks: 0.12
-  casualties/games: 0.6
+  casualties/blocks: 0.11
+  casualties/games: 0.5
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Queen Elizabeth II
@@ -291,26 +291,26 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, +MA, Mighty Blow, Guard, Stand Firm, Dodge]
   spp: 6
-  spp/games: 1.2
-  spp/turns: 0.07
+  spp/games: 1.0
+  spp/turns: 0.06
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 80
+  turns: 96
   turns/games: 1.0
 '10074061':
-  blocks: 21
-  blocks/games: 4.2
+  blocks: 26
+  blocks/games: 4.33
   blocks/turns: 0.32
   casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.2
+  casualties/blocks: 0.04
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Charles Philip Arthur George Windsor, Prince of Wales
@@ -321,57 +321,57 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard, Mighty Blow, Dauntless, Pro, Dodge]
   spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp/games: 0.33
+  spp/turns: 0.02
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 0.82
+  turns: 82
+  turns/games: 0.85
 '10074062':
-  blocks: 30
-  blocks/games: 6.0
-  blocks/turns: 0.41
+  blocks: 31
+  blocks/games: 5.17
+  blocks/turns: 0.34
   casualties: 2
-  casualties/blocks: 0.07
-  casualties/games: 0.4
+  casualties/blocks: 0.06
+  casualties/games: 0.33
   completions: 0
   division: Premier Division
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Richard the Lionheart, King of England
   passing: -1
-  passing/games: -0.2
+  passing/games: -0.17
   position: Blocker
   rushing: 1
-  rushing/games: 0.2
+  rushing/games: 0.17
   skills: [Block, Tackle, Thick Skull, Guard, Dodge, Side Step, Mighty Blow, Diving
       Tackle]
   spp: 4
-  spp/games: 0.8
-  spp/turns: 0.05
+  spp/games: 0.67
+  spp/turns: 0.04
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 74
-  turns/games: 0.93
+  turns: 90
+  turns/games: 0.94
 '10074074':
-  blocks: 23
-  blocks/games: 4.6
-  blocks/turns: 0.35
+  blocks: 30
+  blocks/games: 5.0
+  blocks/turns: 0.37
   casualties: 2
-  casualties/blocks: 0.09
-  casualties/games: 0.4
+  casualties/blocks: 0.07
+  casualties/games: 0.33
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: King Edward VIII
@@ -382,48 +382,48 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Mighty Blow, Guard, Stand Firm, Grab, Fend]
   spp: 4
-  spp/games: 0.8
-  spp/turns: 0.06
+  spp/games: 0.67
+  spp/turns: 0.05
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 65
-  turns/games: 0.81
+  turns: 81
+  turns/games: 0.84
 '10103735':
-  blocks: 9
-  blocks/games: 1.8
-  blocks/turns: 0.15
+  blocks: 11
+  blocks/games: 1.83
+  blocks/turns: 0.14
   casualties: 1
-  casualties/blocks: 0.11
-  casualties/games: 0.2
+  casualties/blocks: 0.09
+  casualties/games: 0.17
   completions: 1
   division: Premier Division
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: King Edward I "Longshanks"
   passing: 2
-  passing/games: 0.4
+  passing/games: 0.33
   position: Runner
-  rushing: 97
-  rushing/games: 19.4
+  rushing: 123
+  rushing/games: 20.5
   skills: [Sure Hands, Thick Skull, +MA, Block, +ST, +AG, Pass, Accurate]
-  spp: 15
-  spp/games: 3.0
-  spp/turns: 0.25
+  spp: 21
+  spp/games: 3.5
+  spp/turns: 0.27
   team: Royal Osborne
   team id: '773859'
-  touchdowns: 4
-  touchdowns/games: 0.8
-  turns: 61
-  turns/games: 0.76
+  touchdowns: 6
+  touchdowns/games: 1.0
+  turns: 77
+  turns/games: 0.8
 '10160250':
   blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.1
+  blocks/games: 1.0
+  blocks/turns: 0.08
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -431,7 +431,7 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Ehlithx Maoil Cholium
@@ -439,7 +439,7 @@
   passing/games: 0.0
   position: Gutter Runner
   rushing: 27
-  rushing/games: 5.4
+  rushing/games: 4.5
   skills: [Dodge, Wrestle, Weeping Dagger, +ST, Tackle, Strip Ball]
   spp: 0
   spp/games: 0.0
@@ -448,8 +448,8 @@
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 63
-  turns/games: 0.79
+  turns: 79
+  turns/games: 0.82
 '10236562':
   blocks: 35
   blocks/games: 7.0
@@ -662,35 +662,35 @@
   turns: 78
   turns/games: 0.97
 '10351222':
-  blocks: 8
-  blocks/games: 1.6
-  blocks/turns: 0.11
+  blocks: 10
+  blocks/games: 1.67
+  blocks/turns: 0.12
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
-  completions: 1
+  completions: 2
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Will Handi
-  passing: 3
-  passing/games: 0.6
+  passing: 8
+  passing/games: 1.33
   position: Runner
-  rushing: 93
-  rushing/games: 18.6
+  rushing: 102
+  rushing/games: 17.0
   skills: [Sure Hands, Thick Skull, +AG, Block, +MA, Pro, +MA, Kick]
-  spp: 13
-  spp/games: 2.6
-  spp/turns: 0.18
+  spp: 17
+  spp/games: 2.83
+  spp/turns: 0.21
   team: WIL to Win
   team id: '750788'
-  touchdowns: 4
-  touchdowns/games: 0.8
-  turns: 72
-  turns/games: 0.9
+  touchdowns: 5
+  touchdowns/games: 0.83
+  turns: 81
+  turns/games: 0.84
 '10371342':
   blocks: 0
   blocks/games: 0.0
@@ -1203,17 +1203,17 @@
   turns: 4
   turns/games: 0.25
 '11103736':
-  blocks: 29
-  blocks/games: 9.67
-  blocks/turns: 0.58
+  blocks: 32
+  blocks/games: 8.0
+  blocks/turns: 0.57
   casualties: 1
   casualties/blocks: 0.03
-  casualties/games: 0.33
+  casualties/games: 0.25
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Andrew Corpos
@@ -1224,18 +1224,18 @@
   rushing/games: 0.0
   skills: [Block, Mighty Blow, Tackle, Guard, Frenzy]
   spp: 2
-  spp/games: 0.67
+  spp/games: 0.5
   spp/turns: 0.04
   team: Good WIL Hunting
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 50
-  turns/games: 1.04
+  turns: 56
+  turns/games: 0.88
 '11103742':
   blocks: 8
-  blocks/games: 2.67
-  blocks/turns: 0.21
+  blocks/games: 2.0
+  blocks/turns: 0.2
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -1243,7 +1243,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Wesley Shaft
@@ -1260,41 +1260,41 @@
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 38
-  turns/games: 0.79
+  turns: 40
+  turns/games: 0.62
 '11103749':
   blocks: 3
-  blocks/games: 1.0
-  blocks/turns: 0.06
+  blocks/games: 0.75
+  blocks/turns: 0.05
   casualties: 1
   casualties/blocks: 0.33
-  casualties/games: 0.33
+  casualties/games: 0.25
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Henry Orbon
   passing: 0
   passing/games: 0.0
   position: Catcher
-  rushing: 66
-  rushing/games: 22.0
+  rushing: 97
+  rushing/games: 24.25
   skills: [Catch, Dodge, Block, +AG, Nerves Of Steel, Side Step, Sprint]
   spp: 17
-  spp/games: 5.67
-  spp/turns: 0.35
+  spp/games: 4.25
+  spp/turns: 0.28
   team: Good WIL Hunting
   team id: '833566'
   touchdowns: 5
-  touchdowns/games: 1.67
-  turns: 49
-  turns/games: 1.02
+  touchdowns/games: 1.25
+  turns: 61
+  turns/games: 0.95
 '11119368':
-  blocks: 22
-  blocks/games: 4.4
+  blocks: 26
+  blocks/games: 4.33
   blocks/turns: 0.27
   casualties: 0
   casualties/blocks: 0.0
@@ -1303,15 +1303,15 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Will Skulls
   passing: 1
-  passing/games: 0.2
+  passing/games: 0.17
   position: Blocker
   rushing: 4
-  rushing/games: 0.8
+  rushing/games: 0.67
   skills: [Block, Tackle, Thick Skull, +AV, Diving Tackle, Stand Firm]
   spp: 0
   spp/games: 0.0
@@ -1320,20 +1320,20 @@
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 81
+  turns: 97
   turns/games: 1.01
 '11170741':
-  blocks: 33
-  blocks/games: 6.6
-  blocks/turns: 0.41
+  blocks: 37
+  blocks/games: 6.17
+  blocks/turns: 0.39
   casualties: 1
   casualties/blocks: 0.03
-  casualties/games: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Prince Edward Earl of Wessex
@@ -1344,13 +1344,13 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Mighty Blow, Dodge, Guard, Side Step, Grab]
   spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp/games: 0.33
+  spp/turns: 0.02
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 80
+  turns: 96
   turns/games: 1.0
 '11201589':
   blocks: 12
@@ -1383,8 +1383,8 @@
   turns: 51
   turns/games: 0.8
 '11201771':
-  blocks: 5
-  blocks/games: 2.5
+  blocks: 6
+  blocks/games: 2.0
   blocks/turns: 0.16
   casualties: 0
   casualties/blocks: 0.0
@@ -1393,7 +1393,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: Janus Blythe
@@ -1410,8 +1410,8 @@
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 32
-  turns/games: 1.0
+  turns: 38
+  turns/games: 0.79
 '11204888':
   blocks: 1
   blocks/games: 1.0
@@ -1444,36 +1444,36 @@
   turns: 11
   turns/games: 0.69
 '11204889':
-  blocks: 14
-  blocks/games: 2.8
-  blocks/turns: 0.33
+  blocks: 16
+  blocks/games: 2.67
+  blocks/turns: 0.27
   casualties: 1
-  casualties/blocks: 0.07
-  casualties/games: 0.2
+  casualties/blocks: 0.06
+  casualties/games: 0.17
   completions: 1
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Haggis
   passing: 4
-  passing/games: 0.8
+  passing/games: 0.67
   position: Vampire
-  rushing: 45
-  rushing/games: 9.0
+  rushing: 52
+  rushing/games: 8.67
   skills: [Regeneration, Hypnotic Gaze, Blood Lust, Dodge, +MA, Block, Side Step,
     +AG]
   spp: 6
-  spp/games: 1.2
-  spp/turns: 0.14
+  spp/games: 1.0
+  spp/turns: 0.1
   team: White Isle cuisine
   team id: '839378'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 43
-  turns/games: 0.54
+  touchdowns/games: 0.17
+  turns: 59
+  turns/games: 0.61
 '11207483':
   blocks: 21
   blocks/games: 5.25
@@ -1625,47 +1625,47 @@
   turns: 11
   turns/games: 0.69
 '11248733':
-  blocks: 10
-  blocks/games: 2.5
+  blocks: 12
+  blocks/games: 2.4
   blocks/turns: 0.17
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
-  completions: 1
+  completions: 2
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Fenni Thorinsson
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Runner
   rushing: 86
-  rushing/games: 21.5
+  rushing/games: 17.2
   skills: [Sure Hands, Thick Skull, +AG, Dodge, Nerves Of Steel, Block, Tackle]
-  spp: 10
-  spp/games: 2.5
-  spp/turns: 0.17
+  spp: 11
+  spp/games: 2.2
+  spp/turns: 0.15
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 3
-  touchdowns/games: 0.75
-  turns: 60
-  turns/games: 0.94
+  touchdowns/games: 0.6
+  turns: 71
+  turns/games: 0.89
 '11248734':
-  blocks: 26
-  blocks/games: 6.5
-  blocks/turns: 0.39
+  blocks: 31
+  blocks/games: 6.2
+  blocks/turns: 0.38
   casualties: 2
-  casualties/blocks: 0.08
-  casualties/games: 0.5
+  casualties/blocks: 0.06
+  casualties/games: 0.4
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Belegar Baliksnev
@@ -1676,14 +1676,14 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Dodge, Mighty Blow, Guard, Stand Firm]
   spp: 4
-  spp/games: 1.0
-  spp/turns: 0.06
+  spp/games: 0.8
+  spp/turns: 0.05
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 1.03
+  turns: 82
+  turns/games: 1.02
 '11254953':
   blocks: 10
   blocks/games: 2.0
@@ -1745,17 +1745,17 @@
   turns: 64
   turns/games: 0.8
 '11270724':
-  blocks: 38
-  blocks/games: 7.6
-  blocks/turns: 0.47
+  blocks: 45
+  blocks/games: 7.5
+  blocks/turns: 0.46
   casualties: 2
-  casualties/blocks: 0.05
-  casualties/games: 0.4
+  casualties/blocks: 0.04
+  casualties/games: 0.33
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Will Doubles
@@ -1766,13 +1766,13 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Mighty Blow, +ST, Dodge, Guard, Grab]
   spp: 4
-  spp/games: 0.8
-  spp/turns: 0.05
+  spp/games: 0.67
+  spp/turns: 0.04
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 81
+  turns: 97
   turns/games: 1.01
 '11302423':
   blocks: 10
@@ -1836,8 +1836,8 @@
   turns: 53
   turns/games: 0.83
 '11324050':
-  blocks: 6
-  blocks/games: 2.0
+  blocks: 9
+  blocks/games: 2.25
   blocks/turns: 0.17
   casualties: 0
   casualties/blocks: 0.0
@@ -1846,7 +1846,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Darius Lemarr
@@ -1864,12 +1864,12 @@
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 36
-  turns/games: 0.75
+  turns: 52
+  turns/games: 0.81
 '11324055':
-  blocks: 12
-  blocks/games: 4.0
-  blocks/turns: 0.31
+  blocks: 15
+  blocks/games: 3.75
+  blocks/turns: 0.27
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -1877,7 +1877,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Tony Smith
@@ -1885,7 +1885,7 @@
   passing/games: 0.0
   position: Lineman
   rushing: 6
-  rushing/games: 2.0
+  rushing/games: 1.5
   skills: [Block, Kick, +MA]
   spp: 0
   spp/games: 0.0
@@ -1894,8 +1894,8 @@
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 39
-  turns/games: 0.81
+  turns: 55
+  turns/games: 0.86
 '11326330':
   blocks: 21
   blocks/games: 4.2
@@ -1927,9 +1927,9 @@
   turns: 49
   turns/games: 0.61
 '11338707':
-  blocks: 12
-  blocks/games: 4.0
-  blocks/turns: 0.26
+  blocks: 19
+  blocks/games: 4.75
+  blocks/turns: 0.3
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -1937,7 +1937,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 1
   name: Kallon Falgrimsson
@@ -1948,13 +1948,13 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard, Dodge, Stand Firm]
   spp: 5
-  spp/games: 1.67
-  spp/turns: 0.11
+  spp/games: 1.25
+  spp/turns: 0.08
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 47
+  turns: 63
   turns/games: 0.98
 '11364033':
   blocks: 2
@@ -2047,17 +2047,17 @@
   turns: 49
   turns/games: 0.77
 '11376287':
-  blocks: 20
-  blocks/games: 4.0
-  blocks/turns: 0.31
+  blocks: 23
+  blocks/games: 3.83
+  blocks/turns: 0.29
   casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.2
+  casualties/blocks: 0.04
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 2
   name: Edward Quickhawk
@@ -2068,14 +2068,14 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Dodge, Side Step, Mighty Blow]
   spp: 12
-  spp/games: 2.4
-  spp/turns: 0.19
+  spp/games: 2.0
+  spp/turns: 0.15
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 64
-  turns/games: 0.8
+  turns: 80
+  turns/games: 0.83
 '11386996':
   blocks: 14
   blocks/games: 3.5
@@ -2108,34 +2108,34 @@
   turns/games: 0.98
 '11399993':
   blocks: 2
-  blocks/games: 0.5
-  blocks/turns: 0.05
+  blocks/games: 0.4
+  blocks/turns: 0.04
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Albany Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 4
+  fouls: 1
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Alberta
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Hobgoblin Runner
   rushing: 10
-  rushing/games: 2.5
+  rushing/games: 2.0
   skills: [+AG, +AG]
   spp: 3
-  spp/games: 0.75
-  spp/turns: 0.07
+  spp/games: 0.6
+  spp/turns: 0.06
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 42
-  turns/games: 0.66
+  touchdowns/games: 0.2
+  turns: 50
+  turns/games: 0.62
 '11410853':
   blocks: 36
   blocks/games: 7.2
@@ -2167,17 +2167,17 @@
   turns: 66
   turns/games: 0.82
 '11412554':
-  blocks: 23
-  blocks/games: 4.6
-  blocks/turns: 0.32
+  blocks: 24
+  blocks/games: 4.0
+  blocks/turns: 0.29
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Premier Division
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Will Diefromfoul
@@ -2194,8 +2194,8 @@
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 73
-  turns/games: 0.91
+  turns: 82
+  turns/games: 0.85
 '11413454':
   blocks: 0
   blocks/games: 0.0
@@ -2228,34 +2228,34 @@
   turns/games: 0.19
 '11416741':
   blocks: 25
-  blocks/games: 5.0
-  blocks/turns: 0.36
+  blocks/games: 4.17
+  blocks/turns: 0.34
   casualties: 2
   casualties/blocks: 0.08
-  casualties/games: 0.4
+  casualties/games: 0.33
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Will Beintheprem
   passing: 1
-  passing/games: 0.2
+  passing/games: 0.17
   position: Blocker
   rushing: 4
-  rushing/games: 0.8
+  rushing/games: 0.67
   skills: [Block, Tackle, Thick Skull, Guard, Mighty Blow, Grab]
   spp: 4
-  spp/games: 0.8
-  spp/turns: 0.06
+  spp/games: 0.67
+  spp/turns: 0.05
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 70
-  turns/games: 0.88
+  turns: 73
+  turns/games: 0.76
 '11421475':
   blocks: 1
   blocks/games: 1.0
@@ -2287,35 +2287,35 @@
   turns: 4
   turns/games: 0.25
 '11427512':
-  blocks: 28
-  blocks/games: 9.33
-  blocks/turns: 0.61
+  blocks: 33
+  blocks/games: 8.25
+  blocks/turns: 0.56
   casualties: 5
-  casualties/blocks: 0.18
-  casualties/games: 1.67
+  casualties/blocks: 0.15
+  casualties/games: 1.25
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 1
   name: Marcus Badore
   passing: 0
   passing/games: 0.0
   position: Blitzer
-  rushing: 0
-  rushing/games: 0.0
+  rushing: -1
+  rushing/games: -0.25
   skills: [Block, Guard, Tackle, Mighty Blow, +AG]
   spp: 15
-  spp/games: 5.0
-  spp/turns: 0.33
+  spp/games: 3.75
+  spp/turns: 0.25
   team: Good WIL Hunting
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 46
-  turns/games: 0.96
+  turns: 59
+  turns/games: 0.92
 '11427514':
   blocks: 5
   blocks/games: 1.67
@@ -2438,16 +2438,16 @@
   turns/games: 0.81
 '11442430':
   blocks: 4
-  blocks/games: 1.0
-  blocks/turns: 0.1
+  blocks/games: 0.8
+  blocks/turns: 0.08
   casualties: 1
   casualties/blocks: 0.25
-  casualties/games: 0.25
+  casualties/games: 0.2
   completions: 0
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Cascadia again
@@ -2458,14 +2458,14 @@
   rushing/games: 0.0
   skills: [Kick]
   spp: 2
-  spp/games: 0.5
-  spp/turns: 0.05
+  spp/games: 0.4
+  spp/turns: 0.04
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 40
-  turns/games: 0.62
+  turns: 48
+  turns/games: 0.6
 '11448656':
   blocks: 1
   blocks/games: 1.0
@@ -2497,17 +2497,17 @@
   turns: 5
   turns/games: 0.31
 '11463476':
-  blocks: 19
-  blocks/games: 6.33
-  blocks/turns: 0.46
-  casualties: 2
-  casualties/blocks: 0.11
-  casualties/games: 0.67
+  blocks: 30
+  blocks/games: 7.5
+  blocks/turns: 0.53
+  casualties: 3
+  casualties/blocks: 0.1
+  casualties/games: 0.75
   completions: 0
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: MacTavish
@@ -2517,15 +2517,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Claw, Mighty Blow, Dodge, Side Step, +AV]
-  spp: 4
-  spp/games: 1.33
-  spp/turns: 0.1
+  spp: 6
+  spp/games: 1.5
+  spp/turns: 0.11
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 41
-  turns/games: 0.85
+  turns: 57
+  turns/games: 0.89
 '11470744':
   blocks: 3
   blocks/games: 0.75
@@ -2858,17 +2858,17 @@
   turns: 54
   turns/games: 0.84
 '11502842':
-  blocks: 28
-  blocks/games: 7.0
-  blocks/turns: 0.44
-  casualties: 3
-  casualties/blocks: 0.11
-  casualties/games: 0.75
+  blocks: 39
+  blocks/games: 7.8
+  blocks/turns: 0.49
+  casualties: 4
+  casualties/blocks: 0.1
+  casualties/games: 0.8
   completions: 0
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: 'Build that wall please '
@@ -2878,15 +2878,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard, Mighty Blow, Dauntless]
-  spp: 6
-  spp/games: 1.5
+  spp: 8
+  spp/games: 1.6
   spp/turns: 0.1
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 63
-  turns/games: 0.98
+  turns: 79
+  turns/games: 0.99
 '11513331':
   blocks: 36
   blocks/games: 6.0
@@ -3102,17 +3102,17 @@
   turns: 93
   turns/games: 0.97
 '11519077':
-  blocks: 28
-  blocks/games: 5.6
-  blocks/turns: 0.35
-  casualties: 1
-  casualties/blocks: 0.04
-  casualties/games: 0.2
+  blocks: 35
+  blocks/games: 5.83
+  blocks/turns: 0.36
+  casualties: 2
+  casualties/blocks: 0.06
+  casualties/games: 0.33
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Will Needag
@@ -3122,14 +3122,14 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Thick Skull, Guard, +ST]
-  spp: 2
-  spp/games: 0.4
-  spp/turns: 0.02
+  spp: 4
+  spp/games: 0.67
+  spp/turns: 0.04
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 81
+  turns: 97
   turns/games: 1.01
 '11526116':
   blocks: 37
@@ -3282,9 +3282,9 @@
   turns: 68
   turns/games: 0.85
 '11583425':
-  blocks: 17
-  blocks/games: 4.25
-  blocks/turns: 0.26
+  blocks: 19
+  blocks/games: 3.8
+  blocks/turns: 0.23
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -3292,7 +3292,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Bori Skalffson
@@ -3303,18 +3303,18 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard, Dodge, Stand Firm]
   spp: 5
-  spp/games: 1.25
-  spp/turns: 0.08
+  spp/games: 1.0
+  spp/turns: 0.06
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 1.03
+  turns: 81
+  turns/games: 1.01
 '11589834':
-  blocks: 28
-  blocks/games: 7.0
-  blocks/turns: 0.5
+  blocks: 34
+  blocks/games: 6.8
+  blocks/turns: 0.47
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -3322,7 +3322,7 @@
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: True North Strong and Free(zing)
@@ -3330,17 +3330,17 @@
   passing/games: 0.0
   position: Bull Centaur Blitzer
   rushing: 23
-  rushing/games: 5.75
+  rushing/games: 4.6
   skills: [Sprint, Sure Feet, Thick Skull, Block, Sure Hands, Break Tackle, Tackle]
   spp: 6
-  spp/games: 1.5
-  spp/turns: 0.11
+  spp/games: 1.2
+  spp/turns: 0.08
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 2
-  touchdowns/games: 0.5
-  turns: 56
-  turns/games: 0.88
+  touchdowns/games: 0.4
+  turns: 72
+  turns/games: 0.9
 '11596964':
   blocks: 2
   blocks/games: 0.4
@@ -3433,16 +3433,16 @@
   turns/games: 1.01
 '11607025':
   blocks: 2
-  blocks/games: 0.4
-  blocks/turns: 0.08
+  blocks/games: 0.33
+  blocks/turns: 0.07
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Premier Division
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Crubeens II
@@ -3459,12 +3459,12 @@
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 25
-  turns/games: 0.31
+  turns: 27
+  turns/games: 0.28
 '11625702':
-  blocks: 17
-  blocks/games: 4.25
-  blocks/turns: 0.28
+  blocks: 24
+  blocks/games: 4.8
+  blocks/turns: 0.31
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -3472,7 +3472,7 @@
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Screw you
@@ -3483,26 +3483,26 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard, Mighty Blow]
   spp: 5
-  spp/games: 1.25
-  spp/turns: 0.08
+  spp/games: 1.0
+  spp/turns: 0.06
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 61
-  turns/games: 0.95
+  turns: 77
+  turns/games: 0.96
 '11625704':
-  blocks: 37
-  blocks/games: 9.25
-  blocks/turns: 0.59
-  casualties: 2
-  casualties/blocks: 0.05
-  casualties/games: 0.5
+  blocks: 48
+  blocks/games: 9.6
+  blocks/turns: 0.61
+  casualties: 3
+  casualties/blocks: 0.06
+  casualties/games: 0.6
   completions: 0
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: And the horse
@@ -3512,15 +3512,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, +ST, Mighty Blow, Guard]
-  spp: 4
-  spp/games: 1.0
-  spp/turns: 0.06
+  spp: 6
+  spp/games: 1.2
+  spp/turns: 0.08
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 63
-  turns/games: 0.98
+  turns: 79
+  turns/games: 0.99
 '11627406':
   blocks: 19
   blocks/games: 3.8
@@ -3643,17 +3643,17 @@
   turns: 93
   turns/games: 0.97
 '11636392':
-  blocks: 19
-  blocks/games: 3.8
-  blocks/turns: 0.29
+  blocks: 24
+  blocks/games: 4.0
+  blocks/turns: 0.32
   casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.2
+  casualties/blocks: 0.04
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 1
   name: Will Newbieone
@@ -3664,14 +3664,14 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Side Step, Guard, Mighty Blow]
   spp: 7
-  spp/games: 1.4
-  spp/turns: 0.11
+  spp/games: 1.17
+  spp/turns: 0.09
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 65
-  turns/games: 0.81
+  turns: 74
+  turns/games: 0.77
 '11637317':
   blocks: 30
   blocks/games: 6.0
@@ -3764,16 +3764,16 @@
   turns/games: 0.78
 '11646568':
   blocks: 2
-  blocks/games: 1.0
-  blocks/turns: 0.25
+  blocks/games: 0.67
+  blocks/turns: 0.2
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 2
+  fouls: 1
+  fouls/games: 0.33
+  games: 3
   interceptions: 0
   mvps: 0
   name: Stuart LeShark
@@ -3790,8 +3790,8 @@
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 8
-  turns/games: 0.25
+  turns: 10
+  turns/games: 0.21
 '11663933':
   blocks: 29
   blocks/games: 5.8
@@ -4064,9 +4064,9 @@
   turns: 56
   turns/games: 0.7
 '11713064':
-  blocks: 21
-  blocks/games: 5.25
-  blocks/turns: 0.32
+  blocks: 23
+  blocks/games: 4.6
+  blocks/turns: 0.28
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -4074,7 +4074,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Fodrin Ranulfsson
@@ -4091,8 +4091,8 @@
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 1.03
+  turns: 82
+  turns/games: 1.02
 '11718778':
   blocks: 1
   blocks/games: 0.33
@@ -4667,17 +4667,17 @@
   turns: 54
   turns/games: 0.68
 '11743829':
-  blocks: 27
-  blocks/games: 6.75
-  blocks/turns: 0.41
+  blocks: 28
+  blocks/games: 5.6
+  blocks/turns: 0.39
   casualties: 4
-  casualties/blocks: 0.15
-  casualties/games: 1.0
+  casualties/blocks: 0.14
+  casualties/games: 0.8
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Yadri Budriksson
@@ -4688,14 +4688,14 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Dodge, Mighty Blow, Side Step, Guard]
   spp: 8
-  spp/games: 2.0
-  spp/turns: 0.12
+  spp/games: 1.6
+  spp/turns: 0.11
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 1.03
+  turns: 72
+  turns/games: 0.9
 '11744918':
   blocks: 14
   blocks/games: 3.5
@@ -4847,17 +4847,17 @@
   turns: 44
   turns/games: 0.69
 '11750872':
-  blocks: 45
-  blocks/games: 9.0
-  blocks/turns: 0.56
+  blocks: 56
+  blocks/games: 9.33
+  blocks/turns: 0.58
   casualties: 7
-  casualties/blocks: 0.16
-  casualties/games: 1.4
+  casualties/blocks: 0.12
+  casualties/games: 1.17
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Will Dietoosoon
@@ -4868,13 +4868,13 @@
   rushing/games: 0.0
   skills: [Block, Dauntless, Frenzy, Thick Skull, Tackle, Multiple Block, Mighty Blow]
   spp: 19
-  spp/games: 3.8
-  spp/turns: 0.23
+  spp/games: 3.17
+  spp/turns: 0.2
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 81
+  turns: 97
   turns/games: 1.01
 '11756889':
   blocks: 21
@@ -5119,17 +5119,17 @@
   turns: 51
   turns/games: 0.64
 '11774287':
-  blocks: 9
-  blocks/games: 1.8
-  blocks/turns: 0.12
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  blocks: 14
+  blocks/games: 2.33
+  blocks/turns: 0.16
+  casualties: 1
+  casualties/blocks: 0.07
+  casualties/games: 0.17
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Rotrach
@@ -5137,17 +5137,17 @@
   passing/games: 0.0
   position: Lineman
   rushing: 1
-  rushing/games: 0.2
+  rushing/games: 0.17
   skills: [+AG, Block, Kick]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 2
+  spp/games: 0.33
+  spp/turns: 0.02
   team: Clan Mac Feegle
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 72
-  turns/games: 0.9
+  turns: 88
+  turns/games: 0.92
 '11777784':
   blocks: 26
   blocks/games: 4.33
@@ -5270,8 +5270,8 @@
   turns: 62
   turns/games: 0.78
 '11784846':
-  blocks: 24
-  blocks/games: 4.8
+  blocks: 26
+  blocks/games: 4.33
   blocks/turns: 0.35
   casualties: 0
   casualties/blocks: 0.0
@@ -5280,7 +5280,7 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Welsh rarebit II
@@ -5297,8 +5297,8 @@
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 68
-  turns/games: 0.85
+  turns: 74
+  turns/games: 0.77
 '11785013':
   blocks: 32
   blocks/games: 6.4
@@ -5360,17 +5360,17 @@
   turns: 18
   turns/games: 0.23
 '11786418':
-  blocks: 11
-  blocks/games: 2.75
-  blocks/turns: 0.19
+  blocks: 12
+  blocks/games: 2.4
+  blocks/turns: 0.16
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
-  completions: 0
+  completions: 1
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Grunni Morgrimsson
@@ -5378,17 +5378,17 @@
   passing/games: 0.0
   position: Blitzer
   rushing: 14
-  rushing/games: 3.5
+  rushing/games: 2.8
   skills: [Block, Thick Skull, Guard, +AG, Tackle]
-  spp: 5
-  spp/games: 1.25
-  spp/turns: 0.09
+  spp: 6
+  spp/games: 1.2
+  spp/turns: 0.08
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 57
-  turns/games: 0.89
+  turns: 73
+  turns/games: 0.91
 '11790795':
   blocks: 28
   blocks/games: 5.6
@@ -5421,16 +5421,16 @@
   turns/games: 0.69
 '11791290':
   blocks: 22
-  blocks/games: 5.5
+  blocks/games: 4.4
   blocks/turns: 0.35
   casualties: 2
   casualties/blocks: 0.09
-  casualties/games: 0.5
+  casualties/games: 0.4
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 2
   name: ' Utlrick'
@@ -5441,14 +5441,14 @@
   rushing/games: 0.0
   skills: [+ST, Mighty Blow, Block, +AG]
   spp: 14
-  spp/games: 3.5
-  spp/turns: 0.23
+  spp/games: 2.8
+  spp/turns: 0.22
   team: Clan Mac Feegle
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 62
-  turns/games: 0.97
+  turns: 63
+  turns/games: 0.79
 '11791422':
   blocks: 20
   blocks/games: 4.0
@@ -5540,17 +5540,17 @@
   turns: 73
   turns/games: 0.91
 '11801394':
-  blocks: 40
-  blocks/games: 8.0
-  blocks/turns: 0.56
+  blocks: 49
+  blocks/games: 8.17
+  blocks/turns: 0.57
   casualties: 2
-  casualties/blocks: 0.05
-  casualties/games: 0.4
+  casualties/blocks: 0.04
+  casualties/games: 0.33
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 3
   name: Hunucma
@@ -5561,18 +5561,18 @@
   rushing/games: 0.0
   skills: [Block, Tackle]
   spp: 19
-  spp/games: 3.8
-  spp/turns: 0.27
+  spp/games: 3.17
+  spp/turns: 0.22
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 71
-  turns/games: 0.89
+  turns: 86
+  turns/games: 0.9
 '11801395':
-  blocks: 42
-  blocks/games: 8.4
-  blocks/turns: 0.64
+  blocks: 47
+  blocks/games: 7.83
+  blocks/turns: 0.58
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -5580,7 +5580,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Kinchil
@@ -5597,12 +5597,12 @@
   team id: '877463'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 0.82
+  turns: 81
+  turns/games: 0.84
 '11801406':
-  blocks: 40
+  blocks: 48
   blocks/games: 8.0
-  blocks/turns: 0.52
+  blocks/turns: 0.55
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -5610,7 +5610,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Xocchel
@@ -5618,29 +5618,29 @@
   passing/games: 0.0
   position: Saurus Blocker
   rushing: 12
-  rushing/games: 2.4
+  rushing/games: 2.0
   skills: [Dodge, Block]
   spp: 8
-  spp/games: 1.6
-  spp/turns: 0.1
+  spp/games: 1.33
+  spp/turns: 0.09
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 77
-  turns/games: 0.96
+  touchdowns/games: 0.17
+  turns: 88
+  turns/games: 0.92
 '11801421':
-  blocks: 3
-  blocks/games: 0.6
-  blocks/turns: 0.05
+  blocks: 4
+  blocks/games: 0.67
+  blocks/turns: 0.06
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Sanahcat
@@ -5648,21 +5648,21 @@
   passing/games: 0.0
   position: Skink Runner
   rushing: 7
-  rushing/games: 1.4
+  rushing/games: 1.17
   skills: [Dodge, Stunty, Diving Tackle]
   spp: 3
-  spp/games: 0.6
-  spp/turns: 0.05
+  spp/games: 0.5
+  spp/turns: 0.04
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 56
-  turns/games: 0.7
+  touchdowns/games: 0.17
+  turns: 71
+  turns/games: 0.74
 '11801423':
-  blocks: 4
-  blocks/games: 0.8
-  blocks/turns: 0.05
+  blocks: 5
+  blocks/games: 0.83
+  blocks/turns: 0.06
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -5670,39 +5670,39 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Dzoncauich
-  passing: 0
-  passing/games: 0.0
+  passing: 1
+  passing/games: 0.17
   position: Skink Runner
-  rushing: 81
-  rushing/games: 16.2
+  rushing: 114
+  rushing/games: 19.0
   skills: [Dodge, Stunty, Side Step, Block, +MA]
   spp: 9
-  spp/games: 1.8
-  spp/turns: 0.12
+  spp/games: 1.5
+  spp/turns: 0.1
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 3
-  touchdowns/games: 0.6
-  turns: 73
-  turns/games: 0.91
+  touchdowns/games: 0.5
+  turns: 88
+  turns/games: 0.92
 '11801426':
-  blocks: 37
-  blocks/games: 7.4
-  blocks/turns: 0.47
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  blocks: 42
+  blocks/games: 7.0
+  blocks/turns: 0.45
+  casualties: 2
+  casualties/blocks: 0.05
+  casualties/games: 0.33
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Kaua
   passing: 0
   passing/games: 0.0
@@ -5710,14 +5710,14 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Break Tackle]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 9
+  spp/games: 1.5
+  spp/turns: 0.1
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 78
+  turns: 93
   turns/games: 0.97
 '11803441':
   blocks: 24
@@ -5780,9 +5780,9 @@
   turns: 63
   turns/games: 0.79
 '11807838':
-  blocks: 16
+  blocks: 20
   blocks/games: 4.0
-  blocks/turns: 0.42
+  blocks/turns: 0.41
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -5790,25 +5790,25 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Sunday roast III
   passing: 5
-  passing/games: 1.25
+  passing/games: 1.0
   position: Vampire
   rushing: 15
-  rushing/games: 3.75
+  rushing/games: 3.0
   skills: [Regeneration, Hypnotic Gaze, Blood Lust, +MA, +MA, Dodge, Block, Side Step]
   spp: 1
-  spp/games: 0.25
-  spp/turns: 0.03
+  spp/games: 0.2
+  spp/turns: 0.02
   team: White Isle cuisine
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 38
-  turns/games: 0.59
+  turns: 49
+  turns/games: 0.61
 '11807843':
   blocks: 20
   blocks/games: 4.0
@@ -6050,17 +6050,17 @@
   turns: 20
   turns/games: 0.42
 '11821500':
-  blocks: 11
-  blocks/games: 2.2
+  blocks: 13
+  blocks/games: 2.17
   blocks/turns: 0.15
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Premier Division
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Prince William
@@ -6068,17 +6068,17 @@
   passing/games: 0.0
   position: Runner
   rushing: 13
-  rushing/games: 2.6
+  rushing/games: 2.17
   skills: [Sure Hands, Thick Skull, Dodge, Block, Leader]
   spp: 3
-  spp/games: 0.6
-  spp/turns: 0.04
+  spp/games: 0.5
+  spp/turns: 0.03
   team: Royal Osborne
   team id: '773859'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 72
-  turns/games: 0.9
+  touchdowns/games: 0.17
+  turns: 88
+  turns/games: 0.92
 '11821582':
   blocks: 10
   blocks/games: 2.0
@@ -6141,16 +6141,16 @@
   turns/games: 0.53
 '11835183':
   blocks: 8
-  blocks/games: 2.0
+  blocks/games: 1.6
   blocks/turns: 0.15
   casualties: 1
   casualties/blocks: 0.12
-  casualties/games: 0.25
+  casualties/games: 0.2
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 1
   name: Flea
@@ -6158,29 +6158,29 @@
   passing/games: 0.0
   position: Renegade Human Lineman
   rushing: 4
-  rushing/games: 1.0
+  rushing/games: 0.8
   skills: [+MA]
   spp: 10
-  spp/games: 2.5
+  spp/games: 2.0
   spp/turns: 0.19
   team: All About That Bass
   team id: '879524'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 53
-  turns/games: 0.83
+  touchdowns/games: 0.2
+  turns: 54
+  turns/games: 0.68
 '11835185':
-  blocks: 36
+  blocks: 45
   blocks/games: 9.0
   blocks/turns: 0.57
-  casualties: 2
-  casualties/blocks: 0.06
-  casualties/games: 0.5
+  casualties: 3
+  casualties/blocks: 0.07
+  casualties/games: 0.6
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Jaco Pastorius
@@ -6188,21 +6188,21 @@
   passing/games: 0.0
   position: Renegade Human Lineman
   rushing: 10
-  rushing/games: 2.5
+  rushing/games: 2.0
   skills: [Block, Claw]
-  spp: 7
-  spp/games: 1.75
+  spp: 9
+  spp/games: 1.8
   spp/turns: 0.11
   team: All About That Bass
   team id: '879524'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 63
-  turns/games: 0.98
+  touchdowns/games: 0.2
+  turns: 79
+  turns/games: 0.99
 '11835186':
-  blocks: 7
-  blocks/games: 2.33
-  blocks/turns: 0.21
+  blocks: 11
+  blocks/games: 2.75
+  blocks/turns: 0.28
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -6210,7 +6210,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: John Paul Jones
@@ -6227,8 +6227,8 @@
   team id: '879524'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 33
-  turns/games: 0.69
+  turns: 39
+  turns/games: 0.61
 '11835190':
   blocks: 10
   blocks/games: 2.5
@@ -6260,47 +6260,47 @@
   turns: 60
   turns/games: 0.94
 '11835191':
-  blocks: 6
-  blocks/games: 1.5
+  blocks: 8
+  blocks/games: 1.6
   blocks/turns: 0.1
   casualties: 1
-  casualties/blocks: 0.17
-  casualties/games: 0.25
+  casualties/blocks: 0.12
+  casualties/games: 0.2
   completions: 2
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Tal Wilkenfeld
   passing: 3
-  passing/games: 0.75
+  passing/games: 0.6
   position: Renegade Dark Elf Lineman
-  rushing: 61
-  rushing/games: 15.25
+  rushing: 71
+  rushing/games: 14.2
   skills: [Animosity, Dodge, +MA, Sure Hands]
   spp: 10
-  spp/games: 2.5
-  spp/turns: 0.16
+  spp/games: 2.0
+  spp/turns: 0.13
   team: All About That Bass
   team id: '879524'
   touchdowns: 2
-  touchdowns/games: 0.5
-  turns: 63
-  turns/games: 0.98
+  touchdowns/games: 0.4
+  turns: 79
+  turns/games: 0.99
 '11835202':
-  blocks: 17
-  blocks/games: 4.25
-  blocks/turns: 0.28
-  casualties: 1
-  casualties/blocks: 0.06
-  casualties/games: 0.25
+  blocks: 26
+  blocks/games: 5.2
+  blocks/turns: 0.34
+  casualties: 2
+  casualties/blocks: 0.08
+  casualties/games: 0.4
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Phil Lynott
@@ -6310,27 +6310,27 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Loner, Bone-head, Mighty Blow, Thick Skull, Throw Team-Mate, Guard, Grab]
-  spp: 2
-  spp/games: 0.5
-  spp/turns: 0.03
+  spp: 4
+  spp/games: 0.8
+  spp/turns: 0.05
   team: All About That Bass
   team id: '879524'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 61
+  turns: 76
   turns/games: 0.95
 '11840110':
   blocks: 22
-  blocks/games: 4.4
-  blocks/turns: 0.31
+  blocks/games: 3.67
+  blocks/turns: 0.29
   casualties: 5
   casualties/blocks: 0.23
-  casualties/games: 1.0
+  casualties/games: 0.83
   completions: 0
   division: Morien Regional
-  fouls: 3
-  fouls/games: 0.6
-  games: 5
+  fouls: 4
+  fouls/games: 0.67
+  games: 6
   interceptions: 0
   mvps: 0
   name: Matthews
@@ -6341,14 +6341,14 @@
   rushing/games: 0.0
   skills: [Block, Guard, Dirty Player]
   spp: 10
-  spp/games: 2.0
-  spp/turns: 0.14
+  spp/games: 1.67
+  spp/turns: 0.13
   team: Wollassonnns Wingers
   team id: '879831'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 70
-  turns/games: 0.88
+  turns: 77
+  turns/games: 0.8
 '11840112':
   blocks: 8
   blocks/games: 1.6
@@ -6380,9 +6380,9 @@
   turns: 41
   turns/games: 0.51
 '11840113':
-  blocks: 7
-  blocks/games: 2.33
-  blocks/turns: 0.27
+  blocks: 9
+  blocks/games: 2.25
+  blocks/turns: 0.32
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -6390,7 +6390,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Levitre
@@ -6407,8 +6407,8 @@
   team id: '879831'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 26
-  turns/games: 0.54
+  turns: 28
+  turns/games: 0.44
 '11840116':
   blocks: 9
   blocks/games: 1.8
@@ -6470,17 +6470,17 @@
   turns: 15
   turns/games: 0.94
 '11840121':
-  blocks: 22
-  blocks/games: 4.4
-  blocks/turns: 0.35
-  casualties: 3
-  casualties/blocks: 0.14
-  casualties/games: 0.6
+  blocks: 27
+  blocks/games: 4.5
+  blocks/turns: 0.34
+  casualties: 4
+  casualties/blocks: 0.15
+  casualties/games: 0.67
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Jones
@@ -6488,17 +6488,17 @@
   passing/games: 0.0
   position: Norse Berserker
   rushing: 4
-  rushing/games: 0.8
+  rushing/games: 0.67
   skills: [Block, Frenzy, Jump Up, Mighty Blow, Dauntless, Guard]
-  spp: 11
-  spp/games: 2.2
-  spp/turns: 0.17
+  spp: 13
+  spp/games: 2.17
+  spp/turns: 0.16
   team: Wollassonnns Wingers
   team id: '879831'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 63
-  turns/games: 0.79
+  turns: 80
+  turns/games: 0.83
 '11866483':
   blocks: 3
   blocks/games: 3.0
@@ -7041,9 +7041,9 @@
   turns: 19
   turns/games: 0.4
 '11898438':
-  blocks: 11
-  blocks/games: 2.75
-  blocks/turns: 0.24
+  blocks: 14
+  blocks/games: 2.8
+  blocks/turns: 0.23
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -7051,37 +7051,37 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Riley II
   passing: 0
   passing/games: 0.0
   position: Norse Berserker
-  rushing: 27
-  rushing/games: 6.75
+  rushing: 41
+  rushing/games: 8.2
   skills: [Block, Frenzy, Jump Up, Mighty Blow, Dodge, +AV]
-  spp: 6
-  spp/games: 1.5
-  spp/turns: 0.13
+  spp: 9
+  spp/games: 1.8
+  spp/turns: 0.15
   team: Wollassonnns Wingers
   team id: '879831'
-  touchdowns: 2
-  touchdowns/games: 0.5
-  turns: 45
-  turns/games: 0.7
+  touchdowns: 3
+  touchdowns/games: 0.6
+  turns: 62
+  turns/games: 0.78
 '11898581':
-  blocks: 28
-  blocks/games: 7.0
-  blocks/turns: 0.44
+  blocks: 36
+  blocks/games: 7.2
+  blocks/turns: 0.46
   casualties: 3
-  casualties/blocks: 0.11
-  casualties/games: 0.75
+  casualties/blocks: 0.08
+  casualties/games: 0.6
   completions: 0
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: PeePee T
@@ -7092,14 +7092,14 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard, Mighty Blow, Stand Firm]
   spp: 6
-  spp/games: 1.5
-  spp/turns: 0.1
+  spp/games: 1.2
+  spp/turns: 0.08
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 63
-  turns/games: 0.98
+  turns: 79
+  turns/games: 0.99
 '11898802':
   blocks: 6
   blocks/games: 1.2
@@ -7131,17 +7131,17 @@
   turns: 38
   turns/games: 0.47
 '11903539':
-  blocks: 19
-  blocks/games: 4.75
+  blocks: 25
+  blocks/games: 5.0
   blocks/turns: 0.4
-  casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.25
+  casualties: 3
+  casualties/blocks: 0.12
+  casualties/games: 0.6
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Rick Barrio Dill
@@ -7149,17 +7149,17 @@
   passing/games: 0.0
   position: Renegade Human Lineman
   rushing: 12
-  rushing/games: 3.0
+  rushing/games: 2.4
   skills: [Block, Dodge]
-  spp: 5
-  spp/games: 1.25
-  spp/turns: 0.11
+  spp: 9
+  spp/games: 1.8
+  spp/turns: 0.14
   team: All About That Bass
   team id: '879524'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 47
-  turns/games: 0.73
+  touchdowns/games: 0.2
+  turns: 63
+  turns/games: 0.79
 '11903641':
   blocks: 16
   blocks/games: 3.2
@@ -7252,19 +7252,19 @@
   turns: 73
   turns/games: 0.91
 '11910448':
-  blocks: 28
-  blocks/games: 5.6
+  blocks: 31
+  blocks/games: 5.17
   blocks/turns: 0.38
-  casualties: 1
-  casualties/blocks: 0.04
-  casualties/games: 0.2
+  casualties: 2
+  casualties/blocks: 0.06
+  casualties/games: 0.33
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Coronella austriaca
   passing: 0
   passing/games: 0.0
@@ -7272,27 +7272,27 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Break Tackle]
-  spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp: 9
+  spp/games: 1.5
+  spp/turns: 0.11
   team: Dumnonia Stall Monitors
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 73
-  turns/games: 0.91
+  turns: 82
+  turns/games: 0.85
 '11910449':
-  blocks: 17
-  blocks/games: 3.4
-  blocks/turns: 0.26
+  blocks: 22
+  blocks/games: 3.67
+  blocks/turns: 0.27
   casualties: 1
-  casualties/blocks: 0.06
-  casualties/games: 0.2
+  casualties/blocks: 0.05
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Anguis fragilis
@@ -7303,26 +7303,26 @@
   rushing/games: 0.0
   skills: [Block, Guard, Break Tackle]
   spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp/games: 0.33
+  spp/turns: 0.02
   team: Dumnonia Stall Monitors
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 0.82
+  turns: 82
+  turns/games: 0.85
 '11910450':
-  blocks: 32
-  blocks/games: 8.0
-  blocks/turns: 0.63
-  casualties: 3
+  blocks: 44
+  blocks/games: 8.8
+  blocks/turns: 0.67
+  casualties: 4
   casualties/blocks: 0.09
-  casualties/games: 0.75
+  casualties/games: 0.8
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Zootoca vivipara
@@ -7332,27 +7332,27 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Mighty Blow, Tackle, Guard]
-  spp: 6
-  spp/games: 1.5
+  spp: 8
+  spp/games: 1.6
   spp/turns: 0.12
   team: Dumnonia Stall Monitors
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 51
-  turns/games: 0.8
+  turns: 66
+  turns/games: 0.82
 '11910451':
-  blocks: 23
-  blocks/games: 4.6
-  blocks/turns: 0.31
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  blocks: 25
+  blocks/games: 4.17
+  blocks/turns: 0.29
+  casualties: 1
+  casualties/blocks: 0.04
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Lacerta agilis
@@ -7362,15 +7362,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Guard]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 2
+  spp/games: 0.33
+  spp/turns: 0.02
   team: Dumnonia Stall Monitors
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 74
-  turns/games: 0.93
+  turns: 86
+  turns/games: 0.9
 '11910456':
   blocks: 0
   blocks/games: 0.0
@@ -7382,37 +7382,37 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Lepidochelys kempii
   passing: 0
   passing/games: 0.0
   position: Skink Runner
-  rushing: 80
-  rushing/games: 20.0
+  rushing: 107
+  rushing/games: 21.4
   skills: [Dodge, Stunty, +AG, Sure Feet, Block, +AG, Sure Hands]
-  spp: 6
-  spp/games: 1.5
-  spp/turns: 0.13
+  spp: 9
+  spp/games: 1.8
+  spp/turns: 0.15
   team: Dumnonia Stall Monitors
   team id: '884214'
-  touchdowns: 2
-  touchdowns/games: 0.5
-  turns: 46
-  turns/games: 0.72
+  touchdowns: 3
+  touchdowns/games: 0.6
+  turns: 60
+  turns/games: 0.75
 '11912214':
-  blocks: 55
-  blocks/games: 11.0
-  blocks/turns: 0.77
+  blocks: 69
+  blocks/games: 11.5
+  blocks/turns: 0.79
   casualties: 6
-  casualties/blocks: 0.11
-  casualties/games: 1.2
+  casualties/blocks: 0.09
+  casualties/games: 1.0
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Fluffy
@@ -7423,14 +7423,14 @@
   rushing/games: 0.0
   skills: [Claw, Frenzy, Regeneration, Block, Dodge, Mighty Blow, Side Step]
   spp: 17
-  spp/games: 3.4
-  spp/turns: 0.24
+  spp/games: 2.83
+  spp/turns: 0.2
   team: Keep WIL and Claw
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 71
-  turns/games: 0.89
+  turns: 87
+  turns/games: 0.91
 '11912215':
   blocks: 23
   blocks/games: 4.6
@@ -7462,17 +7462,17 @@
   turns: 71
   turns/games: 0.89
 '11912216':
-  blocks: 35
-  blocks/games: 7.0
+  blocks: 39
+  blocks/games: 6.5
   blocks/turns: 0.44
   casualties: 3
-  casualties/blocks: 0.09
-  casualties/games: 0.6
+  casualties/blocks: 0.08
+  casualties/games: 0.5
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Roadhog
@@ -7483,26 +7483,26 @@
   rushing/games: 0.0
   skills: [Regeneration, Stand Firm, Thick Skull, Block, Guard, Mighty Blow]
   spp: 11
-  spp/games: 2.2
-  spp/turns: 0.14
+  spp/games: 1.83
+  spp/turns: 0.12
   team: Keep WIL and Claw
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 80
-  turns/games: 1.0
+  turns: 88
+  turns/games: 0.92
 '11912217':
-  blocks: 34
-  blocks/games: 6.8
-  blocks/turns: 0.45
+  blocks: 42
+  blocks/games: 7.0
+  blocks/turns: 0.46
   casualties: 2
-  casualties/blocks: 0.06
-  casualties/games: 0.4
+  casualties/blocks: 0.05
+  casualties/games: 0.33
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Speedbump
@@ -7513,26 +7513,26 @@
   rushing/games: 0.0
   skills: [Regeneration, Stand Firm, Thick Skull, Block, Guard, Mighty Blow, Grab]
   spp: 9
-  spp/games: 1.8
-  spp/turns: 0.12
+  spp/games: 1.5
+  spp/turns: 0.1
   team: Keep WIL and Claw
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 76
-  turns/games: 0.95
+  turns: 92
+  turns/games: 0.96
 '11912218':
-  blocks: 20
-  blocks/games: 4.0
-  blocks/turns: 0.25
+  blocks: 22
+  blocks/games: 3.67
+  blocks/turns: 0.24
   casualties: 1
   casualties/blocks: 0.05
-  casualties/games: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Badger
@@ -7540,29 +7540,29 @@
   passing/games: 0.0
   position: Wight Blitzer
   rushing: 4
-  rushing/games: 0.8
+  rushing/games: 0.67
   skills: [Block, Regeneration, Tackle, Guard, Mighty Blow]
   spp: 10
-  spp/games: 2.0
-  spp/turns: 0.13
+  spp/games: 1.67
+  spp/turns: 0.11
   team: Keep WIL and Claw
   team id: '884335'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 79
-  turns/games: 0.99
+  touchdowns/games: 0.17
+  turns: 91
+  turns/games: 0.95
 '11912219':
-  blocks: 21
-  blocks/games: 4.2
-  blocks/turns: 0.28
-  casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.2
+  blocks: 28
+  blocks/games: 4.67
+  blocks/turns: 0.31
+  casualties: 2
+  casualties/blocks: 0.07
+  casualties/games: 0.33
   completions: 0
   division: Lion Conference
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Wombat
@@ -7572,15 +7572,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Regeneration, Mighty Blow, Tackle, Guard]
-  spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp: 4
+  spp/games: 0.67
+  spp/turns: 0.04
   team: Keep WIL and Claw
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 75
-  turns/games: 0.94
+  turns: 91
+  turns/games: 0.95
 '11912220':
   blocks: 1
   blocks/games: 1.0
@@ -7613,8 +7613,8 @@
   turns/games: 0.5
 '11912221':
   blocks: 12
-  blocks/games: 3.0
-  blocks/turns: 0.27
+  blocks/games: 2.4
+  blocks/turns: 0.23
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -7622,7 +7622,7 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Ben
@@ -7639,20 +7639,20 @@
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 44
-  turns/games: 0.69
+  turns: 52
+  turns/games: 0.65
 '11912222':
   blocks: 8
-  blocks/games: 1.6
-  blocks/turns: 0.17
+  blocks/games: 1.33
+  blocks/turns: 0.16
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Lion Conference
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Frank
@@ -7669,8 +7669,8 @@
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 47
-  turns/games: 0.59
+  turns: 49
+  turns/games: 0.51
 '11912223':
   blocks: 0
   blocks/games: 0.0
@@ -7702,8 +7702,8 @@
   turns: 1
   turns/games: 0.06
 '11912224':
-  blocks: 4
-  blocks/games: 1.0
+  blocks: 6
+  blocks/games: 1.2
   blocks/turns: 0.24
   casualties: 0
   casualties/blocks: 0.0
@@ -7712,7 +7712,7 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Kitten
@@ -7729,50 +7729,50 @@
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 17
-  turns/games: 0.27
+  turns: 25
+  turns/games: 0.31
 '11912813':
-  blocks: 3
-  blocks/games: 0.75
-  blocks/turns: 0.05
+  blocks: 5
+  blocks/games: 1.0
+  blocks/turns: 0.07
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
-  completions: 0
+  completions: 1
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Jonathan Graves
-  passing: 0
-  passing/games: 0.0
+  passing: 2
+  passing/games: 0.4
   position: Ghoul Runner
-  rushing: 60
-  rushing/games: 15.0
+  rushing: 85
+  rushing/games: 17.0
   skills: [Dodge, Sure Hands, +AG, Block]
-  spp: 9
-  spp/games: 2.25
-  spp/turns: 0.16
+  spp: 13
+  spp/games: 2.6
+  spp/turns: 0.18
   team: Dead Player Recreation Society
   team id: '884379'
-  touchdowns: 3
-  touchdowns/games: 0.75
-  turns: 56
-  turns/games: 0.88
+  touchdowns: 4
+  touchdowns/games: 0.8
+  turns: 71
+  turns/games: 0.89
 '11912814':
-  blocks: 22
-  blocks/games: 5.5
-  blocks/turns: 0.39
+  blocks: 32
+  blocks/games: 6.4
+  blocks/turns: 0.44
   casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.25
+  casualties/blocks: 0.03
+  casualties/games: 0.2
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Meatball
@@ -7783,43 +7783,43 @@
   rushing/games: 0.0
   skills: [Regeneration, Stand Firm, Thick Skull, Block, Guard]
   spp: 7
-  spp/games: 1.75
-  spp/turns: 0.12
+  spp/games: 1.4
+  spp/turns: 0.1
   team: Dead Player Recreation Society
   team id: '884379'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 57
-  turns/games: 0.89
+  turns: 73
+  turns/games: 0.91
 '11912815':
-  blocks: 24
-  blocks/games: 6.0
-  blocks/turns: 0.38
-  casualties: 1
-  casualties/blocks: 0.04
-  casualties/games: 0.25
+  blocks: 31
+  blocks/games: 6.2
+  blocks/turns: 0.39
+  casualties: 2
+  casualties/blocks: 0.06
+  casualties/games: 0.4
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Meatloaf
   passing: -1
-  passing/games: -0.25
+  passing/games: -0.2
   position: Flesh Golem
   rushing: 5
-  rushing/games: 1.25
+  rushing/games: 1.0
   skills: [Regeneration, Stand Firm, Thick Skull, Block, Dodge, Guard]
-  spp: 2
-  spp/games: 0.5
-  spp/turns: 0.03
+  spp: 4
+  spp/games: 0.8
+  spp/turns: 0.05
   team: Dead Player Recreation Society
   team id: '884379'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 64
+  turns: 80
   turns/games: 1.0
 '11912818':
   blocks: 0
@@ -7853,8 +7853,8 @@
   turns/games: 0.69
 '11912821':
   blocks: 2
-  blocks/games: 0.5
-  blocks/turns: 0.06
+  blocks/games: 0.4
+  blocks/turns: 0.04
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -7862,7 +7862,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Bob
@@ -7879,11 +7879,11 @@
   team id: '884379'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 36
-  turns/games: 0.56
+  turns: 49
+  turns/games: 0.61
 '11912823':
-  blocks: 6
-  blocks/games: 1.5
+  blocks: 7
+  blocks/games: 1.4
   blocks/turns: 0.11
   casualties: 0
   casualties/blocks: 0.0
@@ -7891,8 +7891,8 @@
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Tom
@@ -7909,8 +7909,8 @@
   team id: '884379'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 53
-  turns/games: 0.83
+  turns: 66
+  turns/games: 0.82
 '11917093':
   blocks: 12
   blocks/games: 3.0
@@ -7977,12 +7977,12 @@
   blocks/turns: 0.0
   casualties: 1
   casualties/blocks: 0.0
-  casualties/games: 0.33
+  casualties/games: 0.25
   completions: 0
   division: Albany Regional
-  fouls: 5
-  fouls/games: 1.67
-  games: 3
+  fouls: 6
+  fouls/games: 1.5
+  games: 4
   interceptions: 0
   mvps: 1
   name: Mannytowba
@@ -7993,14 +7993,14 @@
   rushing/games: 0.0
   skills: [Dirty Player]
   spp: 7
-  spp/games: 2.33
+  spp/games: 1.75
   spp/turns: 0.27
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
   turns: 26
-  turns/games: 0.54
+  turns/games: 0.41
 '11920529':
   blocks: 28
   blocks/games: 5.6
@@ -8032,17 +8032,17 @@
   turns: 72
   turns/games: 0.9
 '11920747':
-  blocks: 13
-  blocks/games: 3.25
+  blocks: 17
+  blocks/games: 3.4
   blocks/turns: 0.25
-  casualties: 1
-  casualties/blocks: 0.08
-  casualties/games: 0.25
+  casualties: 2
+  casualties/blocks: 0.12
+  casualties/games: 0.4
   completions: 0
   division: Premier Division
   fouls: 2
-  fouls/games: 0.5
-  games: 4
+  fouls/games: 0.4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Will Doajob
@@ -8052,15 +8052,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard, Diving Tackle]
-  spp: 7
-  spp/games: 1.75
+  spp: 9
+  spp/games: 1.8
   spp/turns: 0.13
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 53
-  turns/games: 0.83
+  turns: 68
+  turns/games: 0.85
 '11920826':
   blocks: 13
   blocks/games: 4.33
@@ -8093,8 +8093,8 @@
   turns/games: 0.71
 '11925779':
   blocks: 3
-  blocks/games: 0.6
-  blocks/turns: 0.1
+  blocks/games: 0.5
+  blocks/turns: 0.08
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -8102,7 +8102,7 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Dioluchn
@@ -8119,8 +8119,8 @@
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 30
-  turns/games: 0.38
+  turns: 39
+  turns/games: 0.41
 '11930409':
   blocks: 20
   blocks/games: 4.0
@@ -8243,16 +8243,16 @@
   turns/games: 0.3
 '11948829':
   blocks: 5
-  blocks/games: 1.25
-  blocks/turns: 0.14
+  blocks/games: 1.0
+  blocks/turns: 0.1
   casualties: 1
   casualties/blocks: 0.2
-  casualties/games: 0.25
+  casualties/games: 0.2
   completions: 0
   division: Lion Conference
-  fouls: 4
+  fouls: 5
   fouls/games: 1.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Qoutliss
@@ -8263,48 +8263,48 @@
   rushing/games: 0.0
   skills: [Dirty Player]
   spp: 2
-  spp/games: 0.5
-  spp/turns: 0.06
+  spp/games: 0.4
+  spp/turns: 0.04
   team: Clan Mac Feegle
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 35
-  turns/games: 0.55
+  turns: 48
+  turns/games: 0.6
 '11949825':
-  blocks: 9
-  blocks/games: 2.25
+  blocks: 11
+  blocks/games: 2.2
   blocks/turns: 0.15
   casualties: 1
-  casualties/blocks: 0.11
-  casualties/games: 0.25
-  completions: 0
+  casualties/blocks: 0.09
+  casualties/games: 0.2
+  completions: 1
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Panting Pain
-  passing: 0
-  passing/games: 0.0
+  passing: 2
+  passing/games: 0.4
   position: Werewolf
-  rushing: 15
-  rushing/games: 3.75
+  rushing: 26
+  rushing/games: 5.2
   skills: [Claw, Frenzy, Regeneration, Block, Dodge, +AG]
-  spp: 5
-  spp/games: 1.25
-  spp/turns: 0.08
+  spp: 9
+  spp/games: 1.8
+  spp/turns: 0.12
   team: Dead Player Recreation Society
   team id: '884379'
-  touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 60
-  turns/games: 0.94
+  touchdowns: 2
+  touchdowns/games: 0.4
+  turns: 73
+  turns/games: 0.91
 '11952896':
-  blocks: 0
-  blocks/games: 0.0
-  blocks/turns: 0.0
+  blocks: 3
+  blocks/games: 0.5
+  blocks/turns: 0.04
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -8312,25 +8312,25 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Pork
-  passing: 2
-  passing/games: 0.4
+  passing: 3
+  passing/games: 0.5
   position: Ghoul Runner
-  rushing: 105
+  rushing: 126
   rushing/games: 21.0
   skills: [Dodge, Block, Sure Hands, Side Step]
-  spp: 12
-  spp/games: 2.4
-  spp/turns: 0.18
+  spp: 15
+  spp/games: 2.5
+  spp/turns: 0.19
   team: Keep WIL and Claw
   team id: '884335'
-  touchdowns: 4
-  touchdowns/games: 0.8
-  turns: 65
-  turns/games: 0.81
+  touchdowns: 5
+  touchdowns/games: 0.83
+  turns: 81
+  turns/games: 0.84
 '11953203':
   blocks: 0
   blocks/games: 0.0
@@ -8341,8 +8341,8 @@
   completions: 0
   division: Premier Division
   fouls: 2
-  fouls/games: 0.4
-  games: 5
+  fouls/games: 0.33
+  games: 6
   interceptions: 0
   mvps: 0
   name: ' Trachemys scripta elegans'
@@ -8350,17 +8350,17 @@
   passing/games: 0.0
   position: Skink Runner
   rushing: 13
-  rushing/games: 2.6
+  rushing/games: 2.17
   skills: [Dodge, Stunty, Diving Tackle]
   spp: 6
-  spp/games: 1.2
-  spp/turns: 0.16
+  spp/games: 1.0
+  spp/turns: 0.14
   team: Dumnonia Stall Monitors
   team id: '884214'
   touchdowns: 2
-  touchdowns/games: 0.4
-  turns: 38
-  turns/games: 0.47
+  touchdowns/games: 0.33
+  turns: 44
+  turns/games: 0.46
 '11955884':
   blocks: 20
   blocks/games: 4.0
@@ -8452,17 +8452,17 @@
   turns: 21
   turns/games: 0.66
 '11964494':
-  blocks: 3
-  blocks/games: 0.75
-  blocks/turns: 0.18
+  blocks: 4
+  blocks/games: 0.8
+  blocks/turns: 0.15
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Premier Division
-  fouls: 2
-  fouls/games: 0.5
-  games: 4
+  fouls: 3
+  fouls/games: 0.6
+  games: 5
   interceptions: 0
   mvps: 0
   name: Steak and kidney pudding IV
@@ -8479,8 +8479,8 @@
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 17
-  turns/games: 0.27
+  turns: 26
+  turns/games: 0.33
 '11965247':
   blocks: 1
   blocks/games: 0.2
@@ -8812,9 +8812,9 @@
   turns: 58
   turns/games: 0.72
 '11972940':
-  blocks: 2
-  blocks/games: 0.4
-  blocks/turns: 0.04
+  blocks: 3
+  blocks/games: 0.5
+  blocks/turns: 0.05
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -8822,15 +8822,15 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: ' Chelonia mydas'
   passing: 3
-  passing/games: 0.6
+  passing/games: 0.5
   position: Skink Runner
   rushing: 9
-  rushing/games: 1.8
+  rushing/games: 1.5
   skills: [Dodge, Stunty]
   spp: 0
   spp/games: 0.0
@@ -8839,8 +8839,8 @@
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 49
-  turns/games: 0.61
+  turns: 64
+  turns/games: 0.67
 '11973922':
   blocks: 14
   blocks/games: 2.8
@@ -8873,17 +8873,17 @@
   turns: 63
   turns/games: 0.79
 '11976581':
-  blocks: 25
-  blocks/games: 5.0
-  blocks/turns: 0.32
+  blocks: 32
+  blocks/games: 5.33
+  blocks/turns: 0.34
   casualties: 1
-  casualties/blocks: 0.04
-  casualties/games: 0.2
+  casualties/blocks: 0.03
+  casualties/games: 0.17
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: '''Sidney'''
@@ -8895,26 +8895,26 @@
   skills: [Loner, Always Hungry, Mighty Blow, Really Stupid, Regeneration, Throw Team-Mate,
     +ST, Guard]
   spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp/games: 0.33
+  spp/turns: 0.02
   team: Creeping Spiders
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 78
-  turns/games: 0.97
+  turns: 94
+  turns/games: 0.98
 '11976587':
-  blocks: 13
-  blocks/games: 3.25
-  blocks/turns: 0.72
-  casualties: 1
-  casualties/blocks: 0.08
-  casualties/games: 0.25
+  blocks: 14
+  blocks/games: 2.8
+  blocks/turns: 0.67
+  casualties: 2
+  casualties/blocks: 0.14
+  casualties/games: 0.4
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Grimm Bigbooger
@@ -8924,15 +8924,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [null, No Hands, Secret Weapon, Stunty, Mighty Blow]
-  spp: 2
-  spp/games: 0.5
-  spp/turns: 0.11
+  spp: 4
+  spp/games: 0.8
+  spp/turns: 0.19
   team: Creeping Spiders
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 18
-  turns/games: 0.28
+  turns: 21
+  turns/games: 0.26
 '11976609':
   blocks: 5
   blocks/games: 1.25
@@ -9054,8 +9054,8 @@
   turns: 7
   turns/games: 0.44
 '11976617':
-  blocks: 3
-  blocks/games: 0.6
+  blocks: 4
+  blocks/games: 0.67
   blocks/turns: 0.07
   casualties: 0
   casualties/blocks: 0.0
@@ -9063,68 +9063,68 @@
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Runnt Snotmuva
   passing: 0
   passing/games: 0.0
   position: Goblin
-  rushing: 43
-  rushing/games: 8.6
+  rushing: 72
+  rushing/games: 12.0
   skills: [Dodge, Right Stuff, Stunty, Sure Feet, +AG]
-  spp: 6
-  spp/games: 1.2
-  spp/turns: 0.13
+  spp: 12
+  spp/games: 2.0
+  spp/turns: 0.21
   team: Creeping Spiders
   team id: '888450'
-  touchdowns: 2
-  touchdowns/games: 0.4
-  turns: 46
-  turns/games: 0.57
+  touchdowns: 4
+  touchdowns/games: 0.67
+  turns: 58
+  turns/games: 0.6
 '11976619':
-  blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.12
+  blocks: 7
+  blocks/games: 1.17
+  blocks/turns: 0.11
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
   fouls: 3
-  fouls/games: 0.6
-  games: 5
+  fouls/games: 0.5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Grunt Dropagut
   passing: 1
-  passing/games: 0.2
+  passing/games: 0.17
   position: Goblin
   rushing: 16
-  rushing/games: 3.2
+  rushing/games: 2.67
   skills: [Dodge, Right Stuff, Stunty, Side Step]
   spp: 3
-  spp/games: 0.6
-  spp/turns: 0.06
+  spp/games: 0.5
+  spp/turns: 0.05
   team: Creeping Spiders
   team id: '888450'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 49
-  turns/games: 0.61
+  touchdowns/games: 0.17
+  turns: 61
+  turns/games: 0.64
 '11978951':
-  blocks: 2
-  blocks/games: 0.4
-  blocks/turns: 0.04
+  blocks: 3
+  blocks/games: 0.5
+  blocks/turns: 0.05
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Lion Conference
-  fouls: 27
-  fouls/games: 5.4
-  games: 5
+  fouls: 32
+  fouls/games: 5.33
+  games: 6
   interceptions: 0
   mvps: 0
   name: Dargh the Gorgeous
@@ -9141,7 +9141,7 @@
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 47
+  turns: 57
   turns/games: 0.59
 '11980369':
   blocks: 1
@@ -9175,7 +9175,7 @@
   turns/games: 0.25
 '11980965':
   blocks: 1
-  blocks/games: 0.2
+  blocks/games: 0.17
   blocks/turns: 0.03
   casualties: 0
   casualties/blocks: 0.0
@@ -9183,16 +9183,16 @@
   completions: 0
   division: Morien Regional
   fouls: 4
-  fouls/games: 0.8
-  games: 5
+  fouls/games: 0.67
+  games: 6
   interceptions: 0
   mvps: 0
   name: Mankk Biggabooga
   passing: 0
   passing/games: 0.0
   position: Goblin
-  rushing: 0
-  rushing/games: 0.0
+  rushing: 1
+  rushing/games: 0.17
   skills: [Dodge, Right Stuff, Stunty, Side Step]
   spp: 0
   spp/games: 0.0
@@ -9201,12 +9201,12 @@
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 29
-  turns/games: 0.36
+  turns: 40
+  turns/games: 0.42
 '11983372':
-  blocks: 12
-  blocks/games: 4.0
-  blocks/turns: 0.5
+  blocks: 14
+  blocks/games: 3.5
+  blocks/turns: 0.41
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -9214,25 +9214,25 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 1
   name: Steve Harris
   passing: 1
-  passing/games: 0.33
+  passing/games: 0.25
   position: Renegade Human Lineman
-  rushing: 7
-  rushing/games: 2.33
+  rushing: 17
+  rushing/games: 4.25
   skills: [Block, +MA]
   spp: 5
-  spp/games: 1.67
-  spp/turns: 0.21
+  spp/games: 1.25
+  spp/turns: 0.15
   team: All About That Bass
   team id: '879524'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 24
-  turns/games: 0.5
+  turns: 34
+  turns/games: 0.53
 '11985019':
   blocks: 12
   blocks/games: 2.4
@@ -9265,34 +9265,34 @@
   turns/games: 0.82
 '11986863':
   blocks: 10
-  blocks/games: 2.0
-  blocks/turns: 0.19
+  blocks/games: 1.67
+  blocks/turns: 0.18
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
-  completions: 2
+  completions: 3
   division: Morien Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Ryan
-  passing: 6
-  passing/games: 1.2
+  passing: 10
+  passing/games: 1.67
   position: Norse Thrower
-  rushing: 64
-  rushing/games: 12.8
+  rushing: 73
+  rushing/games: 12.17
   skills: [Block, Pass, Sure Hands, Accurate]
-  spp: 5
+  spp: 6
   spp/games: 1.0
-  spp/turns: 0.1
+  spp/turns: 0.11
   team: Wollassonnns Wingers
   team id: '879831'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 52
-  turns/games: 0.65
+  touchdowns/games: 0.17
+  turns: 57
+  turns/games: 0.59
 '11987391':
   blocks: 20
   blocks/games: 5.0
@@ -9354,17 +9354,17 @@
   turns: 66
   turns/games: 0.82
 '11990079':
-  blocks: 10
-  blocks/games: 2.0
-  blocks/turns: 0.2
+  blocks: 11
+  blocks/games: 1.83
+  blocks/turns: 0.21
   casualties: 1
-  casualties/blocks: 0.1
-  casualties/games: 0.2
+  casualties/blocks: 0.09
+  casualties/games: 0.17
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Jarrett II
@@ -9375,14 +9375,14 @@
   rushing/games: 0.0
   skills: [Block]
   spp: 2
-  spp/games: 0.4
+  spp/games: 0.33
   spp/turns: 0.04
   team: Wollassonnns Wingers
   team id: '879831'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 51
-  turns/games: 0.64
+  turns: 52
+  turns/games: 0.54
 '11990306':
   blocks: 37
   blocks/games: 7.4
@@ -9414,17 +9414,17 @@
   turns: 79
   turns/games: 0.99
 '11990368':
-  blocks: 24
-  blocks/games: 6.0
-  blocks/turns: 0.41
+  blocks: 25
+  blocks/games: 5.0
+  blocks/turns: 0.4
   casualties: 2
   casualties/blocks: 0.08
-  casualties/games: 0.5
+  casualties/games: 0.4
   completions: 0
   division: Morien Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 4
+  fouls: 1
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Marcus Miller
@@ -9432,21 +9432,21 @@
   passing/games: 0.0
   position: Renegade Human Lineman
   rushing: 3
-  rushing/games: 0.75
+  rushing/games: 0.6
   skills: [Block, Claw]
   spp: 7
-  spp/games: 1.75
-  spp/turns: 0.12
+  spp/games: 1.4
+  spp/turns: 0.11
   team: All About That Bass
   team id: '879524'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 58
-  turns/games: 0.91
+  touchdowns/games: 0.2
+  turns: 63
+  turns/games: 0.79
 '11990373':
-  blocks: 25
-  blocks/games: 6.25
-  blocks/turns: 0.44
+  blocks: 34
+  blocks/games: 6.8
+  blocks/turns: 0.47
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -9454,7 +9454,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Garry Tallent
@@ -9471,8 +9471,8 @@
   team id: '879524'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 57
-  turns/games: 0.89
+  turns: 72
+  turns/games: 0.9
 '11992178':
   blocks: 21
   blocks/games: 4.2
@@ -9534,17 +9534,17 @@
   turns: 15
   turns/games: 0.47
 '11994103':
-  blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.09
+  blocks: 10
+  blocks/games: 1.67
+  blocks/turns: 0.12
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Premier Division
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 1
   name: Caretta caretta
@@ -9552,17 +9552,17 @@
   passing/games: 0.0
   position: Skink Runner
   rushing: 3
-  rushing/games: 0.6
+  rushing/games: 0.5
   skills: [Dodge, Stunty, Block, Side Step]
   spp: 8
-  spp/games: 1.6
-  spp/turns: 0.12
+  spp/games: 1.33
+  spp/turns: 0.1
   team: Dumnonia Stall Monitors
   team id: '884214'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 64
-  turns/games: 0.8
+  touchdowns/games: 0.17
+  turns: 80
+  turns/games: 0.83
 '11994123':
   blocks: 8
   blocks/games: 2.0
@@ -9834,9 +9834,9 @@
   turns: 50
   turns/games: 0.78
 '12011897':
-  blocks: 5
-  blocks/games: 2.5
-  blocks/turns: 0.21
+  blocks: 7
+  blocks/games: 2.33
+  blocks/turns: 0.22
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -9844,15 +9844,15 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: Will Blitzforcash
   passing: 0
   passing/games: 0.0
   position: Blitzer
-  rushing: 0
-  rushing/games: 0.0
+  rushing: 2
+  rushing/games: 0.67
   skills: [Block, Thick Skull]
   spp: 0
   spp/games: 0.0
@@ -9861,8 +9861,8 @@
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 24
-  turns/games: 0.75
+  turns: 32
+  turns/games: 0.67
 '12012301':
   blocks: 0
   blocks/games: 0.0
@@ -9924,17 +9924,17 @@
   turns: 35
   turns/games: 0.44
 '12012464':
-  blocks: 18
-  blocks/games: 4.5
-  blocks/turns: 0.39
+  blocks: 22
+  blocks/games: 4.4
+  blocks/turns: 0.35
   casualties: 2
-  casualties/blocks: 0.11
-  casualties/games: 0.5
+  casualties/blocks: 0.09
+  casualties/games: 0.4
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Brakh
@@ -9942,17 +9942,17 @@
   passing/games: 0.0
   position: Wight Blitzer
   rushing: 8
-  rushing/games: 2.0
+  rushing/games: 1.6
   skills: [Block, Regeneration, Tackle, +MA]
   spp: 4
-  spp/games: 1.0
-  spp/turns: 0.09
+  spp/games: 0.8
+  spp/turns: 0.06
   team: Dead Player Recreation Society
   team id: '884379'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 46
-  turns/games: 0.72
+  turns: 62
+  turns/games: 0.78
 '12012581':
   blocks: 25
   blocks/games: 5.0
@@ -9984,17 +9984,17 @@
   turns: 63
   turns/games: 0.79
 '12013082':
-  blocks: 28
-  blocks/games: 5.6
-  blocks/turns: 0.41
+  blocks: 33
+  blocks/games: 5.5
+  blocks/turns: 0.39
   casualties: 2
-  casualties/blocks: 0.07
-  casualties/games: 0.4
+  casualties/blocks: 0.06
+  casualties/games: 0.33
   completions: 0
   division: Morien Regional
   fouls: 2
-  fouls/games: 0.4
-  games: 5
+  fouls/games: 0.33
+  games: 6
   interceptions: 0
   mvps: 2
   name: McKinley II
@@ -10002,17 +10002,17 @@
   passing/games: 0.0
   position: Ulfwerenar
   rushing: 16
-  rushing/games: 3.2
+  rushing/games: 2.67
   skills: [Frenzy, Block, Mighty Blow]
   spp: 17
-  spp/games: 3.4
-  spp/turns: 0.25
+  spp/games: 2.83
+  spp/turns: 0.2
   team: Wollassonnns Wingers
   team id: '879831'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 68
-  turns/games: 0.85
+  touchdowns/games: 0.17
+  turns: 85
+  turns/games: 0.89
 '12015250':
   blocks: 20
   blocks/games: 4.0
@@ -10104,8 +10104,8 @@
   turns: 44
   turns/games: 0.92
 '12017057':
-  blocks: 40
-  blocks/games: 8.0
+  blocks: 51
+  blocks/games: 8.5
   blocks/turns: 0.61
   casualties: 0
   casualties/blocks: 0.0
@@ -10114,7 +10114,7 @@
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Thorald Oswaldsson
@@ -10131,12 +10131,42 @@
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 66
-  turns/games: 0.82
+  turns: 83
+  turns/games: 0.86
 '12017061':
-  blocks: 12
-  blocks/games: 2.4
-  blocks/turns: 0.18
+  blocks: 22
+  blocks/games: 3.67
+  blocks/turns: 0.27
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Albany Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 6
+  interceptions: 0
+  mvps: 0
+  name: Ubbein Ofeigsson
+  passing: 0
+  passing/games: 0.0
+  position: Norse Runner
+  rushing: 25
+  rushing/games: 4.17
+  skills: [Block, Dauntless, Dodge, Side Step]
+  spp: 3
+  spp/games: 0.5
+  spp/turns: 0.04
+  team: Miofjoror Maulers
+  team id: '890910'
+  touchdowns: 1
+  touchdowns/games: 0.17
+  turns: 83
+  turns/games: 0.86
+'12017062':
+  blocks: 11
+  blocks/games: 2.2
+  blocks/turns: 0.2
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -10145,36 +10175,6 @@
   fouls: 0
   fouls/games: 0.0
   games: 5
-  interceptions: 0
-  mvps: 0
-  name: Ubbein Ofeigsson
-  passing: 0
-  passing/games: 0.0
-  position: Norse Runner
-  rushing: 25
-  rushing/games: 5.0
-  skills: [Block, Dauntless, Dodge, Side Step]
-  spp: 3
-  spp/games: 0.6
-  spp/turns: 0.05
-  team: Miofjoror Maulers
-  team id: '890910'
-  touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 66
-  turns/games: 0.82
-'12017062':
-  blocks: 6
-  blocks/games: 1.5
-  blocks/turns: 0.15
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
-  completions: 0
-  division: Albany Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 4
   interceptions: 0
   mvps: 0
   name: Alf Asmundsson
@@ -10191,8 +10191,8 @@
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 41
-  turns/games: 0.64
+  turns: 55
+  turns/games: 0.69
 '12017068':
   blocks: 15
   blocks/games: 3.0
@@ -10224,17 +10224,17 @@
   turns: 44
   turns/games: 0.55
 '12017070':
-  blocks: 22
-  blocks/games: 4.4
-  blocks/turns: 0.37
+  blocks: 23
+  blocks/games: 3.83
+  blocks/turns: 0.38
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Albany Regional
   fouls: 2
-  fouls/games: 0.4
-  games: 5
+  fouls/games: 0.33
+  games: 6
   interceptions: 0
   mvps: 0
   name: Iri Sigemundsson
@@ -10251,20 +10251,20 @@
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 60
-  turns/games: 0.75
+  turns: 61
+  turns/games: 0.64
 '12017073':
-  blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.16
+  blocks: 8
+  blocks/games: 1.33
+  blocks/turns: 0.19
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Albany Regional
   fouls: 3
-  fouls/games: 0.6
-  games: 5
+  fouls/games: 0.5
+  games: 6
   interceptions: 0
   mvps: 0
   name: "Gest H\xE4mingsson"
@@ -10272,17 +10272,17 @@
   passing/games: 0.0
   position: Norse Lineman
   rushing: 3
-  rushing/games: 0.6
+  rushing/games: 0.5
   skills: [Block, Kick]
   spp: 3
-  spp/games: 0.6
-  spp/turns: 0.08
+  spp/games: 0.5
+  spp/turns: 0.07
   team: Miofjoror Maulers
   team id: '890910'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 37
-  turns/games: 0.46
+  touchdowns/games: 0.17
+  turns: 43
+  turns/games: 0.45
 '12017082':
   blocks: 2
   blocks/games: 0.67
@@ -10404,17 +10404,17 @@
   turns: 57
   turns/games: 0.89
 '12024022':
-  blocks: 22
-  blocks/games: 4.4
-  blocks/turns: 0.32
-  casualties: 2
-  casualties/blocks: 0.09
-  casualties/games: 0.4
+  blocks: 29
+  blocks/games: 4.83
+  blocks/turns: 0.35
+  casualties: 3
+  casualties/blocks: 0.1
+  casualties/games: 0.5
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 1
   name: Krooskon Troll
@@ -10425,45 +10425,45 @@
   rushing/games: 0.0
   skills: [Loner, Always Hungry, Mighty Blow, Really Stupid, Regeneration, Throw Team-Mate,
     Guard, Break Tackle]
-  spp: 9
-  spp/games: 1.8
+  spp: 11
+  spp/games: 1.83
   spp/turns: 0.13
   team: Creeping Spiders
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 68
-  turns/games: 0.85
+  turns: 84
+  turns/games: 0.88
 '12028254':
   blocks: 20
-  blocks/games: 5.0
-  blocks/turns: 0.3
+  blocks/games: 4.0
+  blocks/turns: 0.26
   casualties: 1
   casualties/blocks: 0.05
-  casualties/games: 0.25
+  casualties/games: 0.2
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Ulrik Hargrimsfind
-  passing: 0
-  passing/games: 0.0
+  passing: 1
+  passing/games: 0.2
   position: Runner
-  rushing: 23
-  rushing/games: 5.75
+  rushing: 35
+  rushing/games: 7.0
   skills: [Sure Hands, Thick Skull, Block, Tackle]
   spp: 5
-  spp/games: 1.25
-  spp/turns: 0.08
+  spp/games: 1.0
+  spp/turns: 0.07
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 66
-  turns/games: 1.03
+  touchdowns/games: 0.2
+  turns: 76
+  turns/games: 0.95
 '12029778':
   blocks: 1
   blocks/games: 0.5
@@ -10495,17 +10495,17 @@
   turns: 17
   turns/games: 0.53
 '12032254':
-  blocks: 10
-  blocks/games: 2.5
-  blocks/turns: 0.33
+  blocks: 19
+  blocks/games: 3.8
+  blocks/turns: 0.42
   casualties: 1
-  casualties/blocks: 0.1
-  casualties/games: 0.25
+  casualties/blocks: 0.05
+  casualties/games: 0.2
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Tunkas
@@ -10516,17 +10516,17 @@
   rushing/games: 0.0
   skills: [Block]
   spp: 2
-  spp/games: 0.5
-  spp/turns: 0.07
+  spp/games: 0.4
+  spp/turns: 0.04
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 30
-  turns/games: 0.47
+  turns: 45
+  turns/games: 0.56
 '12033189':
   blocks: 1
-  blocks/games: 0.25
+  blocks/games: 0.2
   blocks/turns: 0.03
   casualties: 0
   casualties/blocks: 0.0
@@ -10535,7 +10535,7 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Stones
@@ -10552,8 +10552,8 @@
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 30
-  turns/games: 0.47
+  turns: 36
+  turns/games: 0.45
 '12033191':
   blocks: 20
   blocks/games: 4.0
@@ -10616,8 +10616,8 @@
   turns/games: 0.67
 '12034853':
   blocks: 7
-  blocks/games: 1.75
-  blocks/turns: 0.18
+  blocks/games: 1.4
+  blocks/turns: 0.16
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -10625,7 +10625,7 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Asquich
@@ -10633,17 +10633,17 @@
   passing/games: 0.0
   position: Lineman
   rushing: -1
-  rushing/games: -0.25
+  rushing/games: -0.2
   skills: [Wrestle]
   spp: 5
-  spp/games: 1.25
-  spp/turns: 0.13
+  spp/games: 1.0
+  spp/turns: 0.12
   team: Clan Mac Feegle
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 39
-  turns/games: 0.61
+  turns: 43
+  turns/games: 0.54
 '12034888':
   blocks: 1
   blocks/games: 0.33
@@ -10735,19 +10735,19 @@
   turns: 41
   turns/games: 0.64
 '12041021':
-  blocks: 7
-  blocks/games: 1.75
-  blocks/turns: 0.22
+  blocks: 8
+  blocks/games: 1.6
+  blocks/turns: 0.23
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
-  fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls: 2
+  fouls/games: 0.4
+  games: 5
   interceptions: 0
-  mvps: 1
+  mvps: 2
   name: Danny McCormack
   passing: 0
   passing/games: 0.0
@@ -10755,15 +10755,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: []
-  spp: 5
-  spp/games: 1.25
-  spp/turns: 0.16
+  spp: 10
+  spp/games: 2.0
+  spp/turns: 0.29
   team: All About That Bass
   team id: '879524'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 32
-  turns/games: 0.5
+  turns: 35
+  turns/games: 0.44
 '12045969':
   blocks: 4
   blocks/games: 1.0
@@ -11275,8 +11275,8 @@
   turns: 24
   turns/games: 0.38
 '12047845':
-  blocks: 8
-  blocks/games: 2.0
+  blocks: 11
+  blocks/games: 2.2
   blocks/turns: 0.15
   casualties: 0
   casualties/blocks: 0.0
@@ -11285,25 +11285,25 @@
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Fat hats for Monkey Men
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Bull Centaur Blitzer
-  rushing: 75
-  rushing/games: 18.75
+  rushing: 93
+  rushing/games: 18.6
   skills: [Sprint, Sure Feet, Thick Skull, Block, Dodge, Sure Hands]
-  spp: 9
-  spp/games: 2.25
-  spp/turns: 0.16
+  spp: 17
+  spp/games: 3.4
+  spp/turns: 0.24
   team: Glorious Canuckistan Moose
   team id: '791766'
-  touchdowns: 3
-  touchdowns/games: 0.75
-  turns: 55
-  turns/games: 0.86
+  touchdowns: 4
+  touchdowns/games: 0.8
+  turns: 71
+  turns/games: 0.89
 '12049529':
   blocks: 0
   blocks/games: 0.0
@@ -11395,7 +11395,7 @@
   turns: 4
   turns/games: 0.25
 '12051685':
-  blocks: 5
+  blocks: 6
   blocks/games: 1.0
   blocks/turns: 0.13
   casualties: 0
@@ -11403,9 +11403,9 @@
   casualties/games: 0.0
   completions: 0
   division: Lion Conference
-  fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls: 2
+  fouls/games: 0.33
+  games: 6
   interceptions: 0
   mvps: 0
   name: Freeman
@@ -11422,38 +11422,38 @@
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 38
-  turns/games: 0.47
+  turns: 46
+  turns/games: 0.48
 '12052856':
-  blocks: 22
-  blocks/games: 4.4
-  blocks/turns: 0.32
+  blocks: 34
+  blocks/games: 5.67
+  blocks/turns: 0.41
   casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.2
+  casualties/blocks: 0.03
+  casualties/games: 0.17
   completions: 1
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Cenote
   passing: 3
-  passing/games: 0.6
+  passing/games: 0.5
   position: Saurus Blocker
   rushing: 8
-  rushing/games: 1.6
+  rushing/games: 1.33
   skills: [+ST]
   spp: 11
-  spp/games: 2.2
-  spp/turns: 0.16
+  spp/games: 1.83
+  spp/turns: 0.13
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 68
-  turns/games: 0.85
+  touchdowns/games: 0.17
+  turns: 83
+  turns/games: 0.86
 '12052883':
   blocks: 5
   blocks/games: 1.25
@@ -11575,17 +11575,17 @@
   turns: 57
   turns/games: 0.71
 '12055334':
-  blocks: 25
-  blocks/games: 6.25
-  blocks/turns: 0.44
+  blocks: 35
+  blocks/games: 7.0
+  blocks/turns: 0.49
   casualties: 3
-  casualties/blocks: 0.12
-  casualties/games: 0.75
+  casualties/blocks: 0.09
+  casualties/games: 0.6
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Johan Kluif
@@ -11593,16 +11593,16 @@
   passing/games: 0.0
   position: Werewolf
   rushing: 22
-  rushing/games: 5.5
+  rushing/games: 4.4
   skills: [Claw, Frenzy, Regeneration, Block, Mighty Blow]
   spp: 14
-  spp/games: 3.5
-  spp/turns: 0.25
+  spp/games: 2.8
+  spp/turns: 0.2
   team: Dead Player Recreation Society
   team id: '884379'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 57
+  touchdowns/games: 0.2
+  turns: 71
   turns/games: 0.89
 '12056505':
   blocks: 16
@@ -11636,7 +11636,7 @@
   turns/games: 0.9
 '12056506':
   blocks: 2
-  blocks/games: 0.4
+  blocks/games: 0.33
   blocks/turns: 0.04
   casualties: 0
   casualties/blocks: 0.0
@@ -11644,26 +11644,26 @@
   completions: 1
   division: Albany Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: "Grjotgard Holmst\xE6insson"
   passing: 2
-  passing/games: 0.4
+  passing/games: 0.33
   position: Norse Lineman
-  rushing: 86
-  rushing/games: 17.2
+  rushing: 91
+  rushing/games: 15.17
   skills: [Block, Sure Hands, Fend]
   spp: 13
-  spp/games: 2.6
-  spp/turns: 0.25
+  spp/games: 2.17
+  spp/turns: 0.23
   team: Miofjoror Maulers
   team id: '890910'
   touchdowns: 4
-  touchdowns/games: 0.8
-  turns: 52
-  turns/games: 0.65
+  touchdowns/games: 0.67
+  turns: 57
+  turns/games: 0.59
 '12056797':
   blocks: 17
   blocks/games: 3.4
@@ -11846,7 +11846,7 @@
   turns/games: 0.31
 '12065183':
   blocks: 4
-  blocks/games: 0.8
+  blocks/games: 0.67
   blocks/turns: 0.08
   casualties: 0
   casualties/blocks: 0.0
@@ -11854,8 +11854,8 @@
   completions: 0
   division: Premier Division
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Bannock V
@@ -11872,8 +11872,8 @@
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 51
-  turns/games: 0.64
+  turns: 53
+  turns/games: 0.55
 '12065263':
   blocks: 11
   blocks/games: 2.75
@@ -11905,35 +11905,35 @@
   turns: 42
   turns/games: 0.66
 '12066026':
-  blocks: 5
-  blocks/games: 1.0
-  blocks/turns: 0.08
+  blocks: 9
+  blocks/games: 1.5
+  blocks/turns: 0.11
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
-  completions: 0
+  completions: 1
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Will Fly
-  passing: 1
-  passing/games: 0.2
+  passing: 3
+  passing/games: 0.5
   position: Runner
   rushing: 56
-  rushing/games: 11.2
+  rushing/games: 9.33
   skills: [Sure Hands, Thick Skull, Block, Leader]
-  spp: 9
-  spp/games: 1.8
-  spp/turns: 0.14
+  spp: 10
+  spp/games: 1.67
+  spp/turns: 0.13
   team: WIL to Win
   team id: '750788'
   touchdowns: 3
-  touchdowns/games: 0.6
-  turns: 65
-  turns/games: 0.81
+  touchdowns/games: 0.5
+  turns: 79
+  turns/games: 0.82
 '12072757':
   blocks: 3
   blocks/games: 0.6
@@ -12085,9 +12085,9 @@
   turns: 49
   turns/games: 0.77
 '12093991':
-  blocks: 13
-  blocks/games: 3.25
-  blocks/turns: 0.22
+  blocks: 20
+  blocks/games: 4.0
+  blocks/turns: 0.27
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12095,29 +12095,29 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 2
   name: We Don't Need Experts
   passing: 0
   passing/games: 0.0
   position: Vampire
-  rushing: 79
-  rushing/games: 19.75
+  rushing: 105
+  rushing/games: 21.0
   skills: [Regeneration, Hypnotic Gaze, Blood Lust, +MA, Dodge, Block]
-  spp: 17
-  spp/games: 4.25
-  spp/turns: 0.29
+  spp: 23
+  spp/games: 4.6
+  spp/turns: 0.31
   team: WIL Of The People
   team id: '895661'
-  touchdowns: 2
-  touchdowns/games: 0.5
-  turns: 58
-  turns/games: 0.91
+  touchdowns: 4
+  touchdowns/games: 0.8
+  turns: 74
+  turns/games: 0.93
 '12093992':
-  blocks: 19
-  blocks/games: 4.75
-  blocks/turns: 0.32
+  blocks: 32
+  blocks/games: 6.4
+  blocks/turns: 0.43
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12125,7 +12125,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Save The NHS
@@ -12133,17 +12133,17 @@
   passing/games: 0.0
   position: Vampire
   rushing: 11
-  rushing/games: 2.75
+  rushing/games: 2.2
   skills: [Regeneration, Hypnotic Gaze, Blood Lust, Dodge, Block]
   spp: 8
-  spp/games: 2.0
-  spp/turns: 0.14
+  spp/games: 1.6
+  spp/turns: 0.11
   team: WIL Of The People
   team id: '895661'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 59
-  turns/games: 0.92
+  touchdowns/games: 0.2
+  turns: 75
+  turns/games: 0.94
 '12093994':
   blocks: 17
   blocks/games: 8.5
@@ -12175,47 +12175,47 @@
   turns: 25
   turns/games: 0.78
 '12094006':
-  blocks: 7
-  blocks/games: 2.33
-  blocks/turns: 0.18
+  blocks: 11
+  blocks/games: 2.75
+  blocks/turns: 0.2
   casualties: 1
-  casualties/blocks: 0.14
-  casualties/games: 0.33
-  completions: 0
-  division: Great Albion Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 3
-  interceptions: 0
-  mvps: 0
-  name: Who Needs Jobs?
-  passing: -1
-  passing/games: -0.33
-  position: Thrall
-  rushing: 7
-  rushing/games: 2.33
-  skills: [Mighty Blow]
-  spp: 2
-  spp/games: 0.67
-  spp/turns: 0.05
-  team: WIL Of The People
-  team id: '895661'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 39
-  turns/games: 0.81
-'12094008':
-  blocks: 6
-  blocks/games: 1.5
-  blocks/turns: 0.15
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  casualties/blocks: 0.09
+  casualties/games: 0.25
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
   games: 4
+  interceptions: 0
+  mvps: 0
+  name: Who Needs Jobs?
+  passing: -1
+  passing/games: -0.25
+  position: Thrall
+  rushing: 7
+  rushing/games: 1.75
+  skills: [Mighty Blow]
+  spp: 2
+  spp/games: 0.5
+  spp/turns: 0.04
+  team: WIL Of The People
+  team id: '895661'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 55
+  turns/games: 0.86
+'12094008':
+  blocks: 6
+  blocks/games: 1.2
+  blocks/turns: 0.12
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Great Albion Regional
+  fouls: 1
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: WIL Independance!
@@ -12232,12 +12232,12 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 40
-  turns/games: 0.62
+  turns: 51
+  turns/games: 0.64
 '12094094':
-  blocks: 2
-  blocks/games: 0.67
-  blocks/turns: 0.09
+  blocks: 4
+  blocks/games: 1.0
+  blocks/turns: 0.1
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12245,7 +12245,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Down With Prez
@@ -12262,12 +12262,12 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 23
-  turns/games: 0.48
+  turns: 39
+  turns/games: 0.61
 '12094096':
-  blocks: 3
-  blocks/games: 1.0
-  blocks/turns: 0.09
+  blocks: 6
+  blocks/games: 1.5
+  blocks/turns: 0.12
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12275,7 +12275,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Who Needs Progress?
@@ -12292,12 +12292,12 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 34
-  turns/games: 0.71
+  turns: 50
+  turns/games: 0.78
 '12094097':
   blocks: 3
-  blocks/games: 0.75
-  blocks/turns: 0.07
+  blocks/games: 0.6
+  blocks/turns: 0.06
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12305,7 +12305,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Who Wants Peace?
@@ -12322,8 +12322,8 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 40
-  turns/games: 0.62
+  turns: 48
+  turns/games: 0.6
 '12094400':
   blocks: 26
   blocks/games: 6.5
@@ -12565,17 +12565,17 @@
   turns: 60
   turns/games: 0.94
 '12095053':
-  blocks: 37
-  blocks/games: 7.4
-  blocks/turns: 0.55
+  blocks: 41
+  blocks/games: 6.83
+  blocks/turns: 0.49
   casualties: 2
   casualties/blocks: 0.05
-  casualties/games: 0.4
+  casualties/games: 0.33
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 2
   name: Paper Factory
@@ -12587,26 +12587,26 @@
   skills: [Mighty Blow, Stand Firm, Strong Arm, Take Root, Thick Skull, Throw Team-Mate,
     Timmm-ber!, Block, Guard, Jump Up]
   spp: 14
-  spp/games: 2.8
-  spp/turns: 0.21
+  spp/games: 2.33
+  spp/turns: 0.17
   team: Chunky Goodness
   team id: '895727'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 67
-  turns/games: 0.84
+  turns: 83
+  turns/games: 0.86
 '12095056':
-  blocks: 25
-  blocks/games: 6.25
-  blocks/turns: 0.51
+  blocks: 30
+  blocks/games: 6.0
+  blocks/turns: 0.46
   casualties: 4
-  casualties/blocks: 0.16
-  casualties/games: 1.0
+  casualties/blocks: 0.13
+  casualties/games: 0.8
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Nuts and Bolts
@@ -12618,18 +12618,18 @@
   skills: [Mighty Blow, Stand Firm, Strong Arm, Take Root, Thick Skull, Throw Team-Mate,
     Timmm-ber!, Guard, Break Tackle]
   spp: 13
-  spp/games: 3.25
-  spp/turns: 0.27
+  spp/games: 2.6
+  spp/turns: 0.2
   team: Chunky Goodness
   team id: '895727'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 49
-  turns/games: 0.77
+  turns: 65
+  turns/games: 0.81
 '12095057':
-  blocks: 5
-  blocks/games: 1.25
-  blocks/turns: 0.14
+  blocks: 6
+  blocks/games: 1.2
+  blocks/turns: 0.13
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12637,67 +12637,67 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Charlie
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Halfling Hopeful
   rushing: 8
-  rushing/games: 2.0
+  rushing/games: 1.6
   skills: [Dodge, Right Stuff, Stunty, Sure Feet]
   spp: 8
-  spp/games: 2.0
-  spp/turns: 0.22
+  spp/games: 1.6
+  spp/turns: 0.18
   team: Chunky Goodness
   team id: '895727'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 37
-  turns/games: 0.58
+  touchdowns/games: 0.2
+  turns: 45
+  turns/games: 0.56
 '12095058':
-  blocks: 2
-  blocks/games: 0.4
+  blocks: 3
+  blocks/games: 0.5
   blocks/turns: 0.06
-  casualties: 1
-  casualties/blocks: 0.5
-  casualties/games: 0.2
+  casualties: 2
+  casualties/blocks: 0.67
+  casualties/games: 0.33
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Freddy
   passing: 0
   passing/games: 0.0
   position: Halfling Hopeful
-  rushing: 5
-  rushing/games: 1.0
+  rushing: 19
+  rushing/games: 3.17
   skills: [Dodge, Right Stuff, Stunty, +MA]
-  spp: 7
-  spp/games: 1.4
-  spp/turns: 0.23
+  spp: 12
+  spp/games: 2.0
+  spp/turns: 0.26
   team: Chunky Goodness
   team id: '895727'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 31
-  turns/games: 0.39
+  touchdowns: 1
+  touchdowns/games: 0.17
+  turns: 47
+  turns/games: 0.49
 '12095060':
   blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.15
+  blocks/games: 1.0
+  blocks/turns: 0.11
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Mallorie
@@ -12705,7 +12705,7 @@
   passing/games: 0.0
   position: Halfling Hopeful
   rushing: 4
-  rushing/games: 0.8
+  rushing/games: 0.67
   skills: [Dodge, Right Stuff, Stunty]
   spp: 0
   spp/games: 0.0
@@ -12714,8 +12714,8 @@
   team id: '895727'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 40
-  turns/games: 0.5
+  turns: 56
+  turns/games: 0.58
 '12095063':
   blocks: 3
   blocks/games: 1.0
@@ -12747,9 +12747,9 @@
   turns: 26
   turns/games: 0.54
 '12095066':
-  blocks: 2
-  blocks/games: 0.5
-  blocks/turns: 0.09
+  blocks: 6
+  blocks/games: 1.2
+  blocks/turns: 0.15
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12757,25 +12757,25 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Davy
   passing: 0
   passing/games: 0.0
   position: Halfling Hopeful
-  rushing: 0
-  rushing/games: 0.0
+  rushing: 21
+  rushing/games: 4.2
   skills: [Dodge, Right Stuff, Stunty]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 3
+  spp/games: 0.6
+  spp/turns: 0.08
   team: Chunky Goodness
   team id: '895727'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 23
-  turns/games: 0.36
+  touchdowns: 1
+  touchdowns/games: 0.2
+  turns: 39
+  turns/games: 0.49
 '12095067':
   blocks: 3
   blocks/games: 1.0
@@ -12807,9 +12807,9 @@
   turns: 21
   turns/games: 0.44
 '12095074':
-  blocks: 26
-  blocks/games: 6.5
-  blocks/turns: 0.43
+  blocks: 35
+  blocks/games: 7.0
+  blocks/turns: 0.46
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -12817,7 +12817,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Dorrin Yadrisson
@@ -12825,29 +12825,29 @@
   passing/games: 0.0
   position: Blitzer
   rushing: 6
-  rushing/games: 1.5
+  rushing/games: 1.2
   skills: [Block, Thick Skull, Mighty Blow]
   spp: 3
-  spp/games: 0.75
-  spp/turns: 0.05
+  spp/games: 0.6
+  spp/turns: 0.04
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 60
-  turns/games: 0.94
+  touchdowns/games: 0.2
+  turns: 76
+  turns/games: 0.95
 '12098286':
-  blocks: 36
-  blocks/games: 7.2
-  blocks/turns: 0.55
+  blocks: 42
+  blocks/games: 7.0
+  blocks/turns: 0.53
   casualties: 2
-  casualties/blocks: 0.06
-  casualties/games: 0.4
+  casualties/blocks: 0.05
+  casualties/games: 0.33
   completions: 0
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: "Halfdan Sn\xE6-Ulfsson"
@@ -12858,14 +12858,14 @@
   rushing/games: 0.0
   skills: [Frenzy, Block, Dodge]
   spp: 9
-  spp/games: 1.8
-  spp/turns: 0.14
+  spp/games: 1.5
+  spp/turns: 0.11
   team: Miofjoror Maulers
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 65
-  turns/games: 0.81
+  turns: 79
+  turns/games: 0.82
 '12099761':
   blocks: 32
   blocks/games: 6.4
@@ -13167,9 +13167,9 @@
   turns: 54
   turns/games: 0.84
 '12102465':
-  blocks: 21
-  blocks/games: 4.2
-  blocks/turns: 0.29
+  blocks: 23
+  blocks/games: 3.83
+  blocks/turns: 0.26
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -13177,7 +13177,7 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Dermochelys coricea
@@ -13185,17 +13185,17 @@
   passing/games: 0.0
   position: Saurus Blocker
   rushing: 1
-  rushing/games: 0.2
+  rushing/games: 0.17
   skills: []
   spp: 5
-  spp/games: 1.0
-  spp/turns: 0.07
+  spp/games: 0.83
+  spp/turns: 0.06
   team: Dumnonia Stall Monitors
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 72
-  turns/games: 0.9
+  turns: 87
+  turns/games: 0.91
 '12103393':
   blocks: 6
   blocks/games: 1.2
@@ -13258,8 +13258,8 @@
   turns/games: 0.65
 '12103637':
   blocks: 5
-  blocks/games: 1.0
-  blocks/turns: 0.1
+  blocks/games: 0.83
+  blocks/turns: 0.09
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -13267,9 +13267,9 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Petie
   passing: 0
   passing/games: 0.0
@@ -13277,15 +13277,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Dodge, Right Stuff, Stunty]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 5
+  spp/games: 0.83
+  spp/turns: 0.09
   team: Chunky Goodness
   team id: '895727'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 48
-  turns/games: 0.6
+  turns: 57
+  turns/games: 0.59
 '12103639':
   blocks: 5
   blocks/games: 1.0
@@ -13317,9 +13317,9 @@
   turns: 29
   turns/games: 0.36
 '12103640':
-  blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.13
+  blocks: 7
+  blocks/games: 1.17
+  blocks/turns: 0.15
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -13327,7 +13327,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Mortie
@@ -13335,7 +13335,7 @@
   passing/games: 0.0
   position: Halfling Hopeful
   rushing: 9
-  rushing/games: 1.8
+  rushing/games: 1.5
   skills: [Dodge, Right Stuff, Stunty]
   spp: 0
   spp/games: 0.0
@@ -13344,50 +13344,50 @@
   team id: '895727'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 45
-  turns/games: 0.56
+  turns: 47
+  turns/games: 0.49
 '12103641':
-  blocks: 30
+  blocks: 36
   blocks/games: 6.0
-  blocks/turns: 0.54
-  casualties: 3
-  casualties/blocks: 0.1
-  casualties/games: 0.6
+  blocks/turns: 0.53
+  casualties: 4
+  casualties/blocks: 0.11
+  casualties/games: 0.67
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Tiny
   passing: -1
-  passing/games: -0.2
+  passing/games: -0.17
   position: Halfling Hopeful
   rushing: 7
-  rushing/games: 1.4
+  rushing/games: 1.17
   skills: [Dodge, Right Stuff, Stunty, Block]
-  spp: 9
-  spp/games: 1.8
+  spp: 11
+  spp/games: 1.83
   spp/turns: 0.16
   team: Chunky Goodness
   team id: '895727'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 56
-  turns/games: 0.7
+  touchdowns/games: 0.17
+  turns: 68
+  turns/games: 0.71
 '12103643':
-  blocks: 3
-  blocks/games: 0.6
-  blocks/turns: 0.07
+  blocks: 5
+  blocks/games: 0.83
+  blocks/turns: 0.09
   casualties: 1
-  casualties/blocks: 0.33
-  casualties/games: 0.2
+  casualties/blocks: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Morien Regional
-  fouls: 12
-  fouls/games: 2.4
-  games: 5
+  fouls: 18
+  fouls/games: 3.0
+  games: 6
   interceptions: 0
   mvps: 0
   name: Nellie
@@ -13395,17 +13395,17 @@
   passing/games: 0.0
   position: Halfling Hopeful
   rushing: 2
-  rushing/games: 0.4
+  rushing/games: 0.33
   skills: [Dodge, Right Stuff, Stunty, Dirty Player]
   spp: 5
-  spp/games: 1.0
-  spp/turns: 0.12
+  spp/games: 0.83
+  spp/turns: 0.09
   team: Chunky Goodness
   team id: '895727'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 40
-  turns/games: 0.5
+  touchdowns/games: 0.17
+  turns: 55
+  turns/games: 0.57
 '12103680':
   blocks: 37
   blocks/games: 7.4
@@ -13738,7 +13738,7 @@
   turns/games: 0.91
 '12117259':
   blocks: 2
-  blocks/games: 0.4
+  blocks/games: 0.33
   blocks/turns: 0.03
   casualties: 0
   casualties/blocks: 0.0
@@ -13747,25 +13747,25 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Vecil'th Maoil Cholium
   passing: 0
   passing/games: 0.0
   position: Gutter Runner
-  rushing: 80
-  rushing/games: 16.0
+  rushing: 101
+  rushing/games: 16.83
   skills: [Dodge, Weeping Dagger, +MA, Block, Side Step]
-  spp: 15
-  spp/games: 3.0
-  spp/turns: 0.26
+  spp: 21
+  spp/games: 3.5
+  spp/turns: 0.29
   team: Clan Mac Feegle
   team id: '258047'
-  touchdowns: 5
-  touchdowns/games: 1.0
-  turns: 58
-  turns/games: 0.72
+  touchdowns: 7
+  touchdowns/games: 1.17
+  turns: 72
+  turns/games: 0.75
 '12117261':
   blocks: 5
   blocks/games: 1.0
@@ -13797,17 +13797,17 @@
   turns: 31
   turns/games: 0.39
 '12122552':
-  blocks: 14
-  blocks/games: 3.5
+  blocks: 17
+  blocks/games: 3.4
   blocks/turns: 0.31
   casualties: 1
-  casualties/blocks: 0.07
-  casualties/games: 0.25
+  casualties/blocks: 0.06
+  casualties/games: 0.2
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Kettri Flakkisson
@@ -13818,26 +13818,26 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard]
   spp: 7
-  spp/games: 1.75
-  spp/turns: 0.16
+  spp/games: 1.4
+  spp/turns: 0.13
   team: Ochness Monster Hunters
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 45
-  turns/games: 0.7
+  turns: 54
+  turns/games: 0.68
 '12123726':
-  blocks: 24
-  blocks/games: 4.8
-  blocks/turns: 0.31
+  blocks: 28
+  blocks/games: 4.67
+  blocks/turns: 0.3
   casualties: 1
   casualties/blocks: 0.04
-  casualties/games: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Chicxulub
@@ -13848,13 +13848,13 @@
   rushing/games: 0.0
   skills: [Loner, Bone-head, Mighty Blow, Prehensile Tail, Thick Skull, Guard]
   spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp/games: 0.33
+  spp/turns: 0.02
   team: Yucatan Impact
   team id: '877463'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 78
+  turns: 93
   turns/games: 0.97
 '12123814':
   blocks: 9
@@ -13947,9 +13947,9 @@
   turns: 28
   turns/games: 0.88
 '12125221':
-  blocks: 12
-  blocks/games: 2.4
-  blocks/turns: 0.19
+  blocks: 16
+  blocks/games: 2.67
+  blocks/turns: 0.21
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -13957,7 +13957,7 @@
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: "On\xE4m Kormaksson"
@@ -13968,14 +13968,14 @@
   rushing/games: 0.0
   skills: [Block, Guard]
   spp: 5
-  spp/games: 1.0
-  spp/turns: 0.08
+  spp/games: 0.83
+  spp/turns: 0.07
   team: Miofjoror Maulers
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 63
-  turns/games: 0.79
+  turns: 75
+  turns/games: 0.78
 '12126538':
   blocks: 21
   blocks/games: 3.5
@@ -14038,8 +14038,8 @@
   turns/games: 0.44
 '12126581':
   blocks: 1
-  blocks/games: 0.25
-  blocks/turns: 0.04
+  blocks/games: 0.2
+  blocks/turns: 0.03
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -14047,7 +14047,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Happy
@@ -14064,8 +14064,8 @@
   team id: '895727'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 24
-  turns/games: 0.38
+  turns: 32
+  turns/games: 0.4
 '12127160':
   blocks: 16
   blocks/games: 4.0
@@ -14097,17 +14097,17 @@
   turns: 58
   turns/games: 0.91
 '12127580':
-  blocks: 26
-  blocks/games: 5.2
+  blocks: 31
+  blocks/games: 5.17
   blocks/turns: 0.43
-  casualties: 3
-  casualties/blocks: 0.12
-  casualties/games: 0.6
+  casualties: 4
+  casualties/blocks: 0.13
+  casualties/games: 0.67
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Quinn
@@ -14117,15 +14117,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Loner, Claw, Disturbing Presence, Frenzy, Wild Animal, Mighty Blow]
-  spp: 6
-  spp/games: 1.2
-  spp/turns: 0.1
+  spp: 8
+  spp/games: 1.33
+  spp/turns: 0.11
   team: Wollassonnns Wingers
   team id: '879831'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 61
-  turns/games: 0.76
+  turns: 72
+  turns/games: 0.75
 '12127679':
   blocks: 21
   blocks/games: 4.2
@@ -14277,17 +14277,17 @@
   turns: 72
   turns/games: 0.9
 '12137351':
-  blocks: 15
-  blocks/games: 3.75
+  blocks: 20
+  blocks/games: 4.0
   blocks/turns: 0.33
-  casualties: 1
-  casualties/blocks: 0.07
-  casualties/games: 0.25
+  casualties: 3
+  casualties/blocks: 0.15
+  casualties/games: 0.6
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Bion Dean
@@ -14295,29 +14295,29 @@
   passing/games: 0.0
   position: Blitzer
   rushing: 16
-  rushing/games: 4.0
+  rushing/games: 3.2
   skills: [Block, Dodge]
-  spp: 16
+  spp: 20
   spp/games: 4.0
-  spp/turns: 0.36
+  spp/turns: 0.33
   team: Free Hill Coolers
   team id: '898402'
   touchdowns: 3
-  touchdowns/games: 0.75
-  turns: 45
-  turns/games: 0.7
+  touchdowns/games: 0.6
+  turns: 61
+  turns/games: 0.76
 '12137352':
-  blocks: 3
-  blocks/games: 0.75
-  blocks/turns: 0.09
+  blocks: 10
+  blocks/games: 2.0
+  blocks/turns: 0.21
   casualties: 1
-  casualties/blocks: 0.33
-  casualties/games: 0.25
+  casualties/blocks: 0.1
+  casualties/games: 0.2
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 1
   name: Cicc
@@ -14328,14 +14328,14 @@
   rushing/games: 0.0
   skills: []
   spp: 7
-  spp/games: 1.75
-  spp/turns: 0.22
+  spp/games: 1.4
+  spp/turns: 0.15
   team: Free Hill Coolers
   team id: '898402'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 32
-  turns/games: 0.5
+  turns: 47
+  turns/games: 0.59
 '12137353':
   blocks: 13
   blocks/games: 3.25
@@ -14368,8 +14368,8 @@
   turns/games: 0.98
 '12137354':
   blocks: 6
-  blocks/games: 1.5
-  blocks/turns: 0.12
+  blocks/games: 1.2
+  blocks/turns: 0.1
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -14377,25 +14377,25 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Han
   passing: 3
-  passing/games: 0.75
+  passing/games: 0.6
   position: Lineman
   rushing: 6
-  rushing/games: 1.5
+  rushing/games: 1.2
   skills: [Guard]
   spp: 1
-  spp/games: 0.25
+  spp/games: 0.2
   spp/turns: 0.02
   team: Free Hill Coolers
   team id: '898402'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 52
-  turns/games: 0.81
+  turns: 59
+  turns/games: 0.74
 '12137355':
   blocks: 0
   blocks/games: 0.0
@@ -14427,9 +14427,9 @@
   turns: 0
   turns/games: 0.0
 '12137357':
-  blocks: 11
-  blocks/games: 2.75
-  blocks/turns: 0.2
+  blocks: 16
+  blocks/games: 3.2
+  blocks/turns: 0.23
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -14437,9 +14437,9 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Toh
   passing: 0
   passing/games: 0.0
@@ -14447,49 +14447,49 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 5
+  spp/games: 1.0
+  spp/turns: 0.07
   team: Free Hill Coolers
   team id: '898402'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 55
-  turns/games: 0.86
+  turns: 71
+  turns/games: 0.89
 '12137358':
-  blocks: 7
-  blocks/games: 2.33
-  blocks/turns: 0.15
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
-  completions: 0
+  blocks: 16
+  blocks/games: 4.0
+  blocks/turns: 0.25
+  casualties: 1
+  casualties/blocks: 0.06
+  casualties/games: 0.25
+  completions: 1
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Nin
   passing: 0
   passing/games: 0.0
   position: Lineman
-  rushing: 0
-  rushing/games: 0.0
+  rushing: 19
+  rushing/games: 4.75
   skills: [Block]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 6
+  spp/games: 1.5
+  spp/turns: 0.1
   team: Free Hill Coolers
   team id: '898402'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 47
+  touchdowns: 1
+  touchdowns/games: 0.25
+  turns: 63
   turns/games: 0.98
 '12137359':
-  blocks: 5
-  blocks/games: 1.25
-  blocks/turns: 0.12
+  blocks: 9
+  blocks/games: 1.8
+  blocks/turns: 0.16
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -14497,28 +14497,28 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Cool
   passing: 6
-  passing/games: 1.5
+  passing/games: 1.2
   position: Lineman
   rushing: 2
-  rushing/games: 0.5
+  rushing/games: 0.4
   skills: []
   spp: 2
-  spp/games: 0.5
-  spp/turns: 0.05
+  spp/games: 0.4
+  spp/turns: 0.03
   team: Free Hill Coolers
   team id: '898402'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 42
-  turns/games: 0.66
+  turns: 58
+  turns/games: 0.72
 '12137360':
   blocks: 2
-  blocks/games: 0.67
+  blocks/games: 0.5
   blocks/turns: 0.11
   casualties: 0
   casualties/blocks: 0.0
@@ -14526,8 +14526,8 @@
   completions: 0
   division: Morien Regional
   fouls: 2
-  fouls/games: 0.67
-  games: 3
+  fouls/games: 0.5
+  games: 4
   interceptions: 0
   mvps: 0
   name: Lin
@@ -14535,7 +14535,7 @@
   passing/games: 0.0
   position: Lineman
   rushing: 2
-  rushing/games: 0.67
+  rushing/games: 0.5
   skills: []
   spp: 0
   spp/games: 0.0
@@ -14545,10 +14545,10 @@
   touchdowns: 0
   touchdowns/games: 0.0
   turns: 18
-  turns/games: 0.38
+  turns/games: 0.28
 '12137362':
-  blocks: 22
-  blocks/games: 5.5
+  blocks: 26
+  blocks/games: 5.2
   blocks/turns: 0.38
   casualties: 0
   casualties/blocks: 0.0
@@ -14556,26 +14556,26 @@
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 1
   name: Mee
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Lineman
   rushing: 6
-  rushing/games: 1.5
+  rushing/games: 1.2
   skills: [Block]
   spp: 5
-  spp/games: 1.25
-  spp/turns: 0.09
+  spp/games: 1.0
+  spp/turns: 0.07
   team: Free Hill Coolers
   team id: '898402'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 58
-  turns/games: 0.91
+  turns: 69
+  turns/games: 0.86
 '12137446':
   blocks: 2
   blocks/games: 0.67
@@ -14698,16 +14698,16 @@
   turns/games: 0.45
 '12141479':
   blocks: 15
-  blocks/games: 3.0
-  blocks/turns: 0.26
+  blocks/games: 2.5
+  blocks/turns: 0.22
   casualties: 1
   casualties/blocks: 0.07
-  casualties/games: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Pugg Snifabutt
@@ -14715,17 +14715,17 @@
   passing/games: 0.0
   position: Goblin
   rushing: 32
-  rushing/games: 6.4
+  rushing/games: 5.33
   skills: [Dodge, Right Stuff, Stunty, Block, +MA]
   spp: 13
-  spp/games: 2.6
-  spp/turns: 0.22
+  spp/games: 2.17
+  spp/turns: 0.19
   team: Creeping Spiders
   team id: '888450'
   touchdowns: 2
-  touchdowns/games: 0.4
-  turns: 58
-  turns/games: 0.72
+  touchdowns/games: 0.33
+  turns: 67
+  turns/games: 0.7
 '12142064':
   blocks: 11
   blocks/games: 2.75
@@ -14757,17 +14757,17 @@
   turns: 41
   turns/games: 0.64
 '12142357':
-  blocks: 15
-  blocks/games: 3.0
-  blocks/turns: 0.29
+  blocks: 17
+  blocks/games: 2.83
+  blocks/turns: 0.25
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Albany Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: "Sigest\xE6l Oddleifsson"
@@ -14784,8 +14784,8 @@
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 52
-  turns/games: 0.65
+  turns: 67
+  turns/games: 0.7
 '12142358':
   blocks: 12
   blocks/games: 3.0
@@ -15267,17 +15267,17 @@
   turns: 8
   turns/games: 0.5
 '12144815':
-  blocks: 3
-  blocks/games: 0.6
-  blocks/turns: 0.08
+  blocks: 6
+  blocks/games: 1.0
+  blocks/turns: 0.12
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
   fouls: 3
-  fouls/games: 0.6
-  games: 5
+  fouls/games: 0.5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Guff'd Klunkdroppa
@@ -15294,20 +15294,20 @@
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 37
-  turns/games: 0.46
+  turns: 50
+  turns/games: 0.52
 '12145067':
-  blocks: 7
-  blocks/games: 1.75
+  blocks: 10
+  blocks/games: 2.0
   blocks/turns: 0.23
   casualties: 1
-  casualties/blocks: 0.14
-  casualties/games: 0.25
+  casualties/blocks: 0.1
+  casualties/games: 0.2
   completions: 0
   division: Lion Conference
-  fouls: 4
+  fouls: 5
   fouls/games: 1.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: you rode in on
@@ -15318,18 +15318,18 @@
   rushing/games: 0.0
   skills: [Regeneration]
   spp: 2
-  spp/games: 0.5
-  spp/turns: 0.06
+  spp/games: 0.4
+  spp/turns: 0.05
   team: Keep WIL and Claw
   team id: '884335'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 31
-  turns/games: 0.48
+  turns: 43
+  turns/games: 0.54
 '12145075':
-  blocks: 19
-  blocks/games: 4.75
-  blocks/turns: 0.35
+  blocks: 23
+  blocks/games: 4.6
+  blocks/turns: 0.32
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -15337,7 +15337,7 @@
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Smokey McGoo
@@ -15348,14 +15348,14 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull, Guard]
   spp: 6
-  spp/games: 1.5
-  spp/turns: 0.11
+  spp/games: 1.2
+  spp/turns: 0.08
   team: Glorious Canuckistan Moose
   team id: '791766'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 55
-  turns/games: 0.86
+  turns: 71
+  turns/games: 0.89
 '12148219':
   blocks: 5
   blocks/games: 1.0
@@ -16049,16 +16049,16 @@
   turns/games: 0.71
 '12151202':
   blocks: 3
-  blocks/games: 0.75
+  blocks/games: 0.6
   blocks/turns: 0.06
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 4
+  fouls: 1
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Global warming is fake!
@@ -16075,8 +16075,8 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 47
-  turns/games: 0.73
+  turns: 49
+  turns/games: 0.61
 '12152641':
   blocks: 42
   blocks/games: 8.4
@@ -16109,16 +16109,16 @@
   turns/games: 0.88
 '12152837':
   blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.13
+  blocks/games: 1.0
+  blocks/turns: 0.11
   casualties: 1
   casualties/blocks: 0.17
-  casualties/games: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
-  fouls: 0
-  fouls/games: 0.0
-  games: 5
+  fouls: 1
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Spotted Dick VII
@@ -16129,14 +16129,14 @@
   rushing/games: 0.0
   skills: []
   spp: 2
-  spp/games: 0.4
+  spp/games: 0.33
   spp/turns: 0.04
   team: White Isle cuisine
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 46
-  turns/games: 0.57
+  turns: 54
+  turns/games: 0.56
 '12153593':
   blocks: 32
   blocks/games: 6.4
@@ -16438,17 +16438,17 @@
   turns: 29
   turns/games: 0.45
 '12157207':
-  blocks: 14
-  blocks/games: 3.5
-  blocks/turns: 0.47
+  blocks: 25
+  blocks/games: 5.0
+  blocks/turns: 0.54
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Ulrik Grunnisson
@@ -16465,8 +16465,8 @@
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 30
-  turns/games: 0.47
+  turns: 46
+  turns/games: 0.57
 '12157209':
   blocks: 13
   blocks/games: 6.5
@@ -16528,17 +16528,17 @@
   turns: 30
   turns/games: 0.47
 '12158254':
-  blocks: 41
-  blocks/games: 8.2
-  blocks/turns: 0.58
+  blocks: 54
+  blocks/games: 9.0
+  blocks/turns: 0.62
   casualties: 2
-  casualties/blocks: 0.05
-  casualties/games: 0.4
+  casualties/blocks: 0.04
+  casualties/games: 0.33
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: The Doc
@@ -16546,29 +16546,29 @@
   passing/games: 0.0
   position: Chosen Blocker
   rushing: 4
-  rushing/games: 0.8
+  rushing/games: 0.67
   skills: [Block, Mighty Blow]
   spp: 9
-  spp/games: 1.8
-  spp/turns: 0.13
+  spp/games: 1.5
+  spp/turns: 0.1
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 71
-  turns/games: 0.89
+  turns: 87
+  turns/games: 0.91
 '12158255':
-  blocks: 41
-  blocks/games: 8.2
+  blocks: 50
+  blocks/games: 8.33
   blocks/turns: 0.53
-  casualties: 3
-  casualties/blocks: 0.07
-  casualties/games: 0.6
+  casualties: 4
+  casualties/blocks: 0.08
+  casualties/games: 0.67
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: The Nurse
@@ -16578,27 +16578,27 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Dodge]
-  spp: 11
-  spp/games: 2.2
+  spp: 13
+  spp/games: 2.17
   spp/turns: 0.14
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 78
-  turns/games: 0.97
+  turns: 94
+  turns/games: 0.98
 '12158257':
-  blocks: 21
-  blocks/games: 4.2
-  blocks/turns: 0.3
+  blocks: 29
+  blocks/games: 4.83
+  blocks/turns: 0.34
   casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.2
+  casualties/blocks: 0.03
+  casualties/games: 0.17
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 2
   name: The Technician
@@ -16606,17 +16606,17 @@
   passing/games: 0.0
   position: Chosen Blocker
   rushing: 7
-  rushing/games: 1.4
+  rushing/games: 1.17
   skills: [Block, Guard]
   spp: 15
-  spp/games: 3.0
-  spp/turns: 0.22
+  spp/games: 2.5
+  spp/turns: 0.18
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 69
-  turns/games: 0.86
+  touchdowns/games: 0.17
+  turns: 85
+  turns/games: 0.89
 '12158258':
   blocks: 4
   blocks/games: 2.0
@@ -16678,49 +16678,49 @@
   turns: 59
   turns/games: 0.74
 '12158261':
-  blocks: 11
-  blocks/games: 2.75
+  blocks: 14
+  blocks/games: 2.8
   blocks/turns: 0.18
   casualties: 1
-  casualties/blocks: 0.09
-  casualties/games: 0.25
+  casualties/blocks: 0.07
+  casualties/games: 0.2
   completions: 1
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: V. Ein
   passing: 5
-  passing/games: 1.25
+  passing/games: 1.0
   position: Beastman Runner
-  rushing: 60
-  rushing/games: 15.0
+  rushing: 82
+  rushing/games: 16.4
   skills: [Horns, Dodge, Side Step]
   spp: 11
-  spp/games: 2.75
-  spp/turns: 0.18
+  spp/games: 2.2
+  spp/turns: 0.14
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 61
-  turns/games: 0.95
+  touchdowns/games: 0.2
+  turns: 77
+  turns/games: 0.96
 '12158262':
-  blocks: 5
+  blocks: 6
   blocks/games: 1.0
-  blocks/turns: 0.12
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  blocks/turns: 0.1
+  casualties: 1
+  casualties/blocks: 0.17
+  casualties/games: 0.17
   completions: 0
   division: Great Albion Regional
   fouls: 2
-  fouls/games: 0.4
-  games: 5
+  fouls/games: 0.33
+  games: 6
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Anne Imia
   passing: 0
   passing/games: 0.0
@@ -16728,27 +16728,27 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Horns]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 7
+  spp/games: 1.17
+  spp/turns: 0.12
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 42
-  turns/games: 0.53
+  turns: 58
+  turns/games: 0.6
 '12158263':
-  blocks: 40
+  blocks: 48
   blocks/games: 8.0
-  blocks/turns: 0.62
+  blocks/turns: 0.59
   casualties: 1
-  casualties/blocks: 0.03
-  casualties/games: 0.2
+  casualties/blocks: 0.02
+  casualties/games: 0.17
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: P. Lasma
@@ -16756,29 +16756,29 @@
   passing/games: 0.0
   position: Beastman Runner
   rushing: 2
-  rushing/games: 0.4
+  rushing/games: 0.33
   skills: [Horns, Block, Claw]
   spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp/games: 0.33
+  spp/turns: 0.02
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 65
-  turns/games: 0.81
+  turns: 81
+  turns/games: 0.84
 '12158264':
-  blocks: 18
-  blocks/games: 3.6
+  blocks: 20
+  blocks/games: 3.33
   blocks/turns: 0.25
   casualties: 1
-  casualties/blocks: 0.06
-  casualties/games: 0.2
+  casualties/blocks: 0.05
+  casualties/games: 0.17
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Billy Rubin
@@ -16789,14 +16789,14 @@
   rushing/games: 0.0
   skills: [Horns, Block]
   spp: 2
-  spp/games: 0.4
+  spp/games: 0.33
   spp/turns: 0.03
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 71
-  turns/games: 0.89
+  turns: 79
+  turns/games: 0.82
 '12160220':
   blocks: 1
   blocks/games: 0.25
@@ -16828,19 +16828,19 @@
   turns: 50
   turns/games: 0.78
 '12161775':
-  blocks: 8
-  blocks/games: 2.67
-  blocks/turns: 0.28
+  blocks: 9
+  blocks/games: 2.25
+  blocks/turns: 0.24
   casualties: 1
-  casualties/blocks: 0.12
-  casualties/games: 0.33
+  casualties/blocks: 0.11
+  casualties/games: 0.25
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Stoney James
   passing: 0
   passing/games: 0.0
@@ -16848,15 +16848,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: []
-  spp: 2
-  spp/games: 0.67
-  spp/turns: 0.07
+  spp: 7
+  spp/games: 1.75
+  spp/turns: 0.18
   team: Good WIL Hunting
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 29
-  turns/games: 0.6
+  turns: 38
+  turns/games: 0.59
 '12161809':
   blocks: 14
   blocks/games: 2.8
@@ -16889,8 +16889,8 @@
   turns/games: 0.91
 '12161820':
   blocks: 1
-  blocks/games: 0.25
-  blocks/turns: 0.04
+  blocks/games: 0.2
+  blocks/turns: 0.03
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -16898,7 +16898,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Derek
@@ -16915,8 +16915,8 @@
   team id: '884379'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 25
-  turns/games: 0.39
+  turns: 37
+  turns/games: 0.46
 '12164515':
   blocks: 6
   blocks/games: 1.5
@@ -16948,17 +16948,17 @@
   turns: 50
   turns/games: 0.78
 '12168000':
-  blocks: 10
+  blocks: 12
   blocks/games: 2.0
-  blocks/turns: 0.19
+  blocks/turns: 0.2
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Albany Regional
   fouls: 4
-  fouls/games: 0.8
-  games: 5
+  fouls/games: 0.67
+  games: 6
   interceptions: 0
   mvps: 0
   name: "\xC6skil Iarlabankisson"
@@ -16966,7 +16966,7 @@
   passing/games: 0.0
   position: Norse Lineman
   rushing: 4
-  rushing/games: 0.8
+  rushing/games: 0.67
   skills: [Block]
   spp: 0
   spp/games: 0.0
@@ -16975,8 +16975,8 @@
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 53
-  turns/games: 0.66
+  turns: 61
+  turns/games: 0.64
 '12168006':
   blocks: 5
   blocks/games: 1.25
@@ -17098,9 +17098,9 @@
   turns: 15
   turns/games: 0.94
 '12169177':
-  blocks: 9
-  blocks/games: 2.25
-  blocks/turns: 0.29
+  blocks: 12
+  blocks/games: 2.4
+  blocks/turns: 0.26
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -17108,7 +17108,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: ' Brian Coldbone'
@@ -17125,10 +17125,40 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 31
-  turns/games: 0.48
+  turns: 47
+  turns/games: 0.59
 '12169178':
-  blocks: 4
+  blocks: 7
+  blocks/games: 1.4
+  blocks/turns: 0.11
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Great Albion Regional
+  fouls: 3
+  fouls/games: 0.6
+  games: 5
+  interceptions: 0
+  mvps: 1
+  name: ' Aaron Clearsnake'
+  passing: 0
+  passing/games: 0.0
+  position: Thrall
+  rushing: 0
+  rushing/games: 0.0
+  skills: []
+  spp: 5
+  spp/games: 1.0
+  spp/turns: 0.08
+  team: WIL Of The People
+  team id: '895661'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 66
+  turns/games: 0.82
+'12170013':
+  blocks: 5
   blocks/games: 1.0
   blocks/turns: 0.08
   casualties: 0
@@ -17137,38 +17167,8 @@
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
-  interceptions: 0
-  mvps: 0
-  name: ' Aaron Clearsnake'
-  passing: 0
-  passing/games: 0.0
-  position: Thrall
-  rushing: 0
-  rushing/games: 0.0
-  skills: []
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
-  team: WIL Of The People
-  team id: '895661'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 52
-  turns/games: 0.81
-'12170013':
-  blocks: 4
-  blocks/games: 1.0
-  blocks/turns: 0.08
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
-  completions: 0
-  division: Great Albion Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Derek II
@@ -17185,8 +17185,8 @@
   team id: '884379'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 48
-  turns/games: 0.75
+  turns: 64
+  turns/games: 0.8
 '12171394':
   blocks: 37
   blocks/games: 7.4
@@ -17578,8 +17578,8 @@
   turns: 67
   turns/games: 0.84
 '12181375':
-  blocks: 6
-  blocks/games: 1.2
+  blocks: 8
+  blocks/games: 1.33
   blocks/turns: 0.18
   casualties: 0
   casualties/blocks: 0.0
@@ -17587,8 +17587,8 @@
   completions: 0
   division: Lion Conference
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Flugryth
@@ -17605,8 +17605,8 @@
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 33
-  turns/games: 0.41
+  turns: 44
+  turns/games: 0.46
 '12182608':
   blocks: 0
   blocks/games: 0.0
@@ -17669,16 +17669,16 @@
   turns/games: 0.36
 '12183238':
   blocks: 1
-  blocks/games: 0.33
-  blocks/turns: 0.08
+  blocks/games: 0.25
+  blocks/turns: 0.05
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.33
-  games: 3
+  fouls/games: 0.25
+  games: 4
   interceptions: 0
   mvps: 0
   name: Stinton Brown
@@ -17695,10 +17695,10 @@
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 12
-  turns/games: 0.25
+  turns: 20
+  turns/games: 0.31
 '12183241':
-  blocks: 3
+  blocks: 4
   blocks/games: 1.0
   blocks/turns: 0.1
   casualties: 0
@@ -17707,8 +17707,8 @@
   completions: 0
   division: Morien Regional
   fouls: 2
-  fouls/games: 0.67
-  games: 3
+  fouls/games: 0.5
+  games: 4
   interceptions: 0
   mvps: 0
   name: Pete Nopants
@@ -17725,8 +17725,8 @@
   team id: '833566'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 29
-  turns/games: 0.6
+  turns: 41
+  turns/games: 0.64
 '12183242':
   blocks: 5
   blocks/games: 1.0
@@ -17788,9 +17788,9 @@
   turns: 4
   turns/games: 0.25
 '12183362':
-  blocks: 34
-  blocks/games: 6.8
-  blocks/turns: 0.45
+  blocks: 44
+  blocks/games: 7.33
+  blocks/turns: 0.48
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -17798,7 +17798,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: The Phelbotomist II
@@ -17806,7 +17806,7 @@
   passing/games: 0.0
   position: Chosen Blocker
   rushing: 16
-  rushing/games: 3.2
+  rushing/games: 2.67
   skills: [Block]
   spp: 0
   spp/games: 0.0
@@ -17815,8 +17815,8 @@
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 76
-  turns/games: 0.95
+  turns: 92
+  turns/games: 0.96
 '12183369':
   blocks: 1
   blocks/games: 0.5
@@ -17878,35 +17878,35 @@
   turns: 27
   turns/games: 0.42
 '12187689':
-  blocks: 18
-  blocks/games: 4.5
+  blocks: 23
+  blocks/games: 4.6
   blocks/turns: 0.32
   casualties: 1
-  casualties/blocks: 0.06
-  casualties/games: 0.25
+  casualties/blocks: 0.04
+  casualties/games: 0.2
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Brun Net
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Blitzer
-  rushing: 19
-  rushing/games: 4.75
+  rushing: 25
+  rushing/games: 5.0
   skills: [Block, Dodge]
-  spp: 7
-  spp/games: 1.75
-  spp/turns: 0.12
+  spp: 10
+  spp/games: 2.0
+  spp/turns: 0.14
   team: Free Hill Coolers
   team id: '898402'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 56
-  turns/games: 0.88
+  touchdowns: 1
+  touchdowns/games: 0.2
+  turns: 72
+  turns/games: 0.9
 '12187916':
   blocks: 3
   blocks/games: 3.0
@@ -17968,9 +17968,9 @@
   turns: 38
   turns/games: 0.47
 '12189597':
-  blocks: 7
-  blocks/games: 1.4
-  blocks/turns: 0.11
+  blocks: 8
+  blocks/games: 1.33
+  blocks/turns: 0.1
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -17978,7 +17978,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Boyngi Boyngg
@@ -17986,17 +17986,17 @@
   passing/games: 0.0
   position: Pogoer
   rushing: 23
-  rushing/games: 4.6
+  rushing/games: 3.83
   skills: [Dodge, Stunty, Very Long Legs, Leap, Block]
   spp: 6
-  spp/games: 1.2
-  spp/turns: 0.1
+  spp/games: 1.0
+  spp/turns: 0.08
   team: Creeping Spiders
   team id: '888450'
   touchdowns: 2
-  touchdowns/games: 0.4
-  turns: 61
-  turns/games: 0.76
+  touchdowns/games: 0.33
+  turns: 77
+  turns/games: 0.8
 '12190232':
   blocks: 2
   blocks/games: 0.67
@@ -18059,16 +18059,16 @@
   turns/games: 0.7
 '12191731':
   blocks: 13
-  blocks/games: 2.6
-  blocks/turns: 0.21
+  blocks/games: 2.17
+  blocks/turns: 0.19
   casualties: 1
   casualties/blocks: 0.08
-  casualties/games: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: R. Terry
@@ -18079,14 +18079,14 @@
   rushing/games: 0.0
   skills: [Horns]
   spp: 2
-  spp/games: 0.4
+  spp/games: 0.33
   spp/turns: 0.03
   team: '[WIL] Blood Drive'
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 62
-  turns/games: 0.78
+  turns: 67
+  turns/games: 0.7
 '12192319':
   blocks: 2
   blocks/games: 0.5
@@ -18118,17 +18118,17 @@
   turns: 20
   turns/games: 0.31
 '12193212':
-  blocks: 4
-  blocks/games: 0.8
-  blocks/turns: 0.09
+  blocks: 5
+  blocks/games: 0.83
+  blocks/turns: 0.08
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: Juan Dice
@@ -18136,7 +18136,7 @@
   passing/games: 0.0
   position: Beastman Runner
   rushing: 6
-  rushing/games: 1.2
+  rushing/games: 1.0
   skills: [Horns]
   spp: 0
   spp/games: 0.0
@@ -18145,8 +18145,8 @@
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 47
-  turns/games: 0.59
+  turns: 63
+  turns/games: 0.66
 '12194232':
   blocks: 3
   blocks/games: 0.5
@@ -18328,17 +18328,17 @@
   turns: 26
   turns/games: 0.41
 '12196479':
-  blocks: 24
-  blocks/games: 6.0
-  blocks/turns: 0.4
+  blocks: 28
+  blocks/games: 5.6
+  blocks/turns: 0.37
   casualties: 1
   casualties/blocks: 0.04
-  casualties/games: 0.25
+  casualties/games: 0.2
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Lady Madonna
@@ -18349,18 +18349,18 @@
   rushing/games: 0.0
   skills: [Block, Dodge, +AG]
   spp: 7
-  spp/games: 1.75
-  spp/turns: 0.12
+  spp/games: 1.4
+  spp/turns: 0.09
   team: '[WIL] All the Single Ladies'
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 60
-  turns/games: 0.94
+  turns: 76
+  turns/games: 0.95
 '12196480':
-  blocks: 15
-  blocks/games: 3.75
-  blocks/turns: 0.28
+  blocks: 17
+  blocks/games: 3.4
+  blocks/turns: 0.27
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -18368,7 +18368,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Lady Marmalade
@@ -18376,7 +18376,7 @@
   passing/games: 0.0
   position: Koka Kalim Blitzer
   rushing: 7
-  rushing/games: 1.75
+  rushing/games: 1.4
   skills: [Block, Dodge]
   spp: 0
   spp/games: 0.0
@@ -18385,22 +18385,22 @@
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 53
-  turns/games: 0.83
+  turns: 62
+  turns/games: 0.78
 '12196481':
-  blocks: 8
-  blocks/games: 2.67
-  blocks/turns: 0.36
+  blocks: 11
+  blocks/games: 2.75
+  blocks/turns: 0.31
   casualties: 1
-  casualties/blocks: 0.12
-  casualties/games: 0.33
+  casualties/blocks: 0.09
+  casualties/games: 0.25
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
-  mvps: 0
+  mvps: 1
   name: Lady Gaga
   passing: 0
   passing/games: 0.0
@@ -18408,15 +18408,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Dodge]
-  spp: 2
-  spp/games: 0.67
-  spp/turns: 0.09
+  spp: 7
+  spp/games: 1.75
+  spp/turns: 0.2
   team: '[WIL] All the Single Ladies'
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 22
-  turns/games: 0.46
+  turns: 35
+  turns/games: 0.55
 '12196482':
   blocks: 9
   blocks/games: 4.5
@@ -18449,16 +18449,16 @@
   turns/games: 0.81
 '12196483':
   blocks: 3
-  blocks/games: 0.75
-  blocks/turns: 0.12
+  blocks/games: 0.6
+  blocks/turns: 0.1
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Lady Bird
@@ -18466,7 +18466,7 @@
   passing/games: 0.0
   position: Tribal Linewoman
   rushing: 4
-  rushing/games: 1.0
+  rushing/games: 0.8
   skills: [Dodge]
   spp: 0
   spp/games: 0.0
@@ -18475,72 +18475,72 @@
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 26
-  turns/games: 0.41
+  turns: 29
+  turns/games: 0.36
 '12196484':
-  blocks: 7
-  blocks/games: 1.75
-  blocks/turns: 0.13
+  blocks: 10
+  blocks/games: 2.0
+  blocks/turns: 0.15
   casualties: 1
-  casualties/blocks: 0.14
-  casualties/games: 0.25
+  casualties/blocks: 0.1
+  casualties/games: 0.2
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Lady Bug
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Tribal Linewoman
   rushing: 8
-  rushing/games: 2.0
+  rushing/games: 1.6
   skills: [Dodge, Kick]
   spp: 10
-  spp/games: 2.5
-  spp/turns: 0.19
+  spp/games: 2.0
+  spp/turns: 0.15
   team: '[WIL] All the Single Ladies'
   team id: '902277'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 53
-  turns/games: 0.83
+  touchdowns/games: 0.2
+  turns: 68
+  turns/games: 0.85
 '12196485':
-  blocks: 6
-  blocks/games: 1.5
-  blocks/turns: 0.11
+  blocks: 7
+  blocks/games: 1.4
+  blocks/turns: 0.1
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
-  completions: 0
+  completions: 1
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Lady in Red
-  passing: -1
-  passing/games: -0.25
+  passing: 6
+  passing/games: 1.2
   position: Tribal Linewoman
-  rushing: 21
-  rushing/games: 5.25
+  rushing: 25
+  rushing/games: 5.0
   skills: [Dodge, Sure Hands]
-  spp: 8
-  spp/games: 2.0
-  spp/turns: 0.14
+  spp: 9
+  spp/games: 1.8
+  spp/turns: 0.12
   team: '[WIL] All the Single Ladies'
   team id: '902277'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 56
-  turns/games: 0.88
+  touchdowns/games: 0.2
+  turns: 72
+  turns/games: 0.9
 '12196486':
-  blocks: 11
-  blocks/games: 2.75
-  blocks/turns: 0.23
+  blocks: 12
+  blocks/games: 2.4
+  blocks/turns: 0.24
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -18548,7 +18548,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Three times a Lady
@@ -18565,12 +18565,12 @@
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 47
-  turns/games: 0.73
+  turns: 49
+  turns/games: 0.61
 '12196488':
   blocks: 3
-  blocks/games: 1.0
-  blocks/turns: 0.09
+  blocks/games: 0.75
+  blocks/turns: 0.07
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -18578,7 +18578,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 0
   name: Dude looks like a Lady
@@ -18595,12 +18595,12 @@
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 33
-  turns/games: 0.69
+  turns: 42
+  turns/games: 0.66
 '12196489':
-  blocks: 6
-  blocks/games: 1.5
-  blocks/turns: 0.15
+  blocks: 8
+  blocks/games: 1.6
+  blocks/turns: 0.16
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -18608,15 +18608,15 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Lady is a Tramp
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Tribal Linewoman
   rushing: 4
-  rushing/games: 1.0
+  rushing/games: 0.8
   skills: [Dodge]
   spp: 0
   spp/games: 0.0
@@ -18625,28 +18625,28 @@
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 39
+  turns: 49
   turns/games: 0.61
 '12196494':
   blocks: 3
-  blocks/games: 0.75
-  blocks/turns: 0.06
+  blocks/games: 0.6
+  blocks/turns: 0.05
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
   fouls: 1
-  fouls/games: 0.25
-  games: 4
+  fouls/games: 0.2
+  games: 5
   interceptions: 0
   mvps: 0
   name: Lady Godiva
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Piranha Warrior Catcher
   rushing: 19
-  rushing/games: 4.75
+  rushing/games: 3.8
   skills: [Dodge, Catch]
   spp: 0
   spp/games: 0.0
@@ -18655,12 +18655,12 @@
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 47
-  turns/games: 0.73
+  turns: 62
+  turns/games: 0.78
 '12196495':
-  blocks: 4
-  blocks/games: 1.0
-  blocks/turns: 0.08
+  blocks: 7
+  blocks/games: 1.4
+  blocks/turns: 0.12
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -18668,29 +18668,29 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 1
   name: Foxy Lady
   passing: -2
-  passing/games: -0.5
+  passing/games: -0.4
   position: Piranha Warrior Catcher
-  rushing: 12
+  rushing: 15
   rushing/games: 3.0
   skills: [Dodge, Catch, Block]
   spp: 6
-  spp/games: 1.5
-  spp/turns: 0.12
+  spp/games: 1.2
+  spp/turns: 0.1
   team: '[WIL] All the Single Ladies'
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 49
-  turns/games: 0.77
+  turns: 58
+  turns/games: 0.72
 '12196496':
   blocks: 8
-  blocks/games: 2.0
-  blocks/turns: 0.15
+  blocks/games: 1.6
+  blocks/turns: 0.11
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -18698,7 +18698,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Luck be a Lady
@@ -18715,20 +18715,20 @@
   team id: '902277'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 55
-  turns/games: 0.86
+  turns: 71
+  turns/games: 0.89
 '12196956':
   blocks: 6
-  blocks/games: 1.2
-  blocks/turns: 0.15
+  blocks/games: 1.0
+  blocks/turns: 0.13
   casualties: 1
   casualties/blocks: 0.17
-  casualties/games: 0.2
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 1
   name: Will Havtowin
@@ -18739,18 +18739,18 @@
   rushing/games: 0.0
   skills: [Block, Tackle, Thick Skull]
   spp: 7
-  spp/games: 1.4
-  spp/turns: 0.17
+  spp/games: 1.17
+  spp/turns: 0.15
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 41
-  turns/games: 0.51
+  turns: 46
+  turns/games: 0.48
 '12196957':
-  blocks: 8
-  blocks/games: 2.0
-  blocks/turns: 0.35
+  blocks: 15
+  blocks/games: 3.0
+  blocks/turns: 0.38
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -18758,7 +18758,7 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Will Wanttwosixes
@@ -18775,8 +18775,8 @@
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 23
-  turns/games: 0.36
+  turns: 39
+  turns/games: 0.49
 '12197069':
   blocks: 7
   blocks/games: 1.17
@@ -19169,8 +19169,8 @@
   turns/games: 0.75
 '12217270':
   blocks: 3
-  blocks/games: 0.6
-  blocks/turns: 0.1
+  blocks/games: 0.5
+  blocks/turns: 0.09
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -19178,7 +19178,7 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Finnan Haddie II
@@ -19195,38 +19195,38 @@
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 30
-  turns/games: 0.38
+  turns: 32
+  turns/games: 0.33
 '12217727':
-  blocks: 9
-  blocks/games: 1.8
-  blocks/turns: 0.18
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  blocks: 13
+  blocks/games: 2.17
+  blocks/turns: 0.2
+  casualties: 1
+  casualties/blocks: 0.08
+  casualties/games: 0.17
   completions: 4
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 2
   name: Beef Wellington IV
   passing: -1
-  passing/games: -0.2
+  passing/games: -0.17
   position: Vampire
   rushing: 6
-  rushing/games: 1.2
+  rushing/games: 1.0
   skills: [Regeneration, Hypnotic Gaze, Blood Lust, +MA, Dodge]
-  spp: 17
-  spp/games: 3.4
-  spp/turns: 0.34
+  spp: 19
+  spp/games: 3.17
+  spp/turns: 0.29
   team: White Isle cuisine
   team id: '839378'
   touchdowns: 1
-  touchdowns/games: 0.2
-  turns: 50
-  turns/games: 0.62
+  touchdowns/games: 0.17
+  turns: 66
+  turns/games: 0.69
 '12221063':
   blocks: 8
   blocks/games: 2.0
@@ -19438,17 +19438,17 @@
   turns: 57
   turns/games: 0.71
 '12229639':
-  blocks: 8
-  blocks/games: 1.6
-  blocks/turns: 0.19
+  blocks: 13
+  blocks/games: 2.17
+  blocks/turns: 0.22
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Premier Division
   fouls: 1
-  fouls/games: 0.2
-  games: 5
+  fouls/games: 0.17
+  games: 6
   interceptions: 0
   mvps: 0
   name: King Henry III
@@ -19465,22 +19465,22 @@
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 42
-  turns/games: 0.53
+  turns: 58
+  turns/games: 0.6
 '12229640':
-  blocks: 22
-  blocks/games: 4.4
-  blocks/turns: 0.33
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  blocks: 27
+  blocks/games: 4.5
+  blocks/turns: 0.35
+  casualties: 1
+  casualties/blocks: 0.04
+  casualties/games: 0.17
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
-  mvps: 2
+  mvps: 3
   name: King Edward VII
   passing: 0
   passing/games: 0.0
@@ -19488,15 +19488,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Thick Skull, Mighty Blow]
-  spp: 10
-  spp/games: 2.0
-  spp/turns: 0.15
+  spp: 17
+  spp/games: 2.83
+  spp/turns: 0.22
   team: Royal Osborne
   team id: '773859'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 67
-  turns/games: 0.84
+  turns: 78
+  turns/games: 0.81
 '12232131':
   blocks: 11
   blocks/games: 2.2
@@ -19558,17 +19558,17 @@
   turns: 23
   turns/games: 0.48
 '12235396':
-  blocks: 22
-  blocks/games: 5.5
-  blocks/turns: 0.42
+  blocks: 30
+  blocks/games: 6.0
+  blocks/turns: 0.43
   casualties: 2
-  casualties/blocks: 0.09
-  casualties/games: 0.5
+  casualties/blocks: 0.07
+  casualties/games: 0.4
   completions: 0
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
   mvps: 2
   name: Beasley II
@@ -19576,17 +19576,17 @@
   passing/games: 0.0
   position: Ulfwerenar
   rushing: 4
-  rushing/games: 1.0
+  rushing/games: 0.8
   skills: [Frenzy, Block, Mighty Blow]
   spp: 17
-  spp/games: 4.25
-  spp/turns: 0.32
+  spp/games: 3.4
+  spp/turns: 0.24
   team: Wollassonnns Wingers
   team id: '879831'
   touchdowns: 1
-  touchdowns/games: 0.25
-  turns: 53
-  turns/games: 0.83
+  touchdowns/games: 0.2
+  turns: 70
+  turns/games: 0.88
 '12235397':
   blocks: 4
   blocks/games: 4.0
@@ -19648,25 +19648,25 @@
   turns: 30
   turns/games: 0.62
 '12235769':
-  blocks: 0
-  blocks/games: 0.0
-  blocks/turns: 0.0
+  blocks: 2
+  blocks/games: 0.4
+  blocks/turns: 0.05
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
   fouls: 2
-  fouls/games: 0.5
-  games: 4
+  fouls/games: 0.4
+  games: 5
   interceptions: 0
   mvps: 0
   name: Krusti Skiddz
   passing: 1
-  passing/games: 0.25
+  passing/games: 0.2
   position: Goblin
   rushing: 7
-  rushing/games: 1.75
+  rushing/games: 1.4
   skills: [Dodge, Right Stuff, Stunty]
   spp: 0
   spp/games: 0.0
@@ -19675,8 +19675,8 @@
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 24
-  turns/games: 0.38
+  turns: 37
+  turns/games: 0.46
 '12238975':
   blocks: 6
   blocks/games: 1.5
@@ -20008,17 +20008,17 @@
   turns: 26
   turns/games: 0.54
 '12241965':
-  blocks: 3
-  blocks/games: 1.5
-  blocks/turns: 0.23
+  blocks: 4
+  blocks/games: 1.33
+  blocks/turns: 0.25
   casualties: 1
-  casualties/blocks: 0.33
-  casualties/games: 0.5
+  casualties/blocks: 0.25
+  casualties/games: 0.33
   completions: 0
   division: Albany Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 1
   name: "Sigest\xE6l Svartlingrsson"
@@ -20029,18 +20029,18 @@
   rushing/games: 0.0
   skills: [Block, Frenzy, Jump Up, Mighty Blow]
   spp: 7
-  spp/games: 3.5
-  spp/turns: 0.54
+  spp/games: 2.33
+  spp/turns: 0.44
   team: Miofjoror Maulers
   team id: '890910'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 13
-  turns/games: 0.41
+  turns: 16
+  turns/games: 0.33
 '12246132':
-  blocks: 7
-  blocks/games: 1.75
-  blocks/turns: 0.14
+  blocks: 10
+  blocks/games: 2.0
+  blocks/turns: 0.15
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -20048,25 +20048,25 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
-  mvps: 1
+  mvps: 2
   name: Full English breakfast II
   passing: 3
-  passing/games: 0.75
+  passing/games: 0.6
   position: Vampire
   rushing: 2
-  rushing/games: 0.5
+  rushing/games: 0.4
   skills: [Regeneration, Hypnotic Gaze, Blood Lust, Dodge]
-  spp: 7
-  spp/games: 1.75
-  spp/turns: 0.14
+  spp: 12
+  spp/games: 2.4
+  spp/turns: 0.18
   team: White Isle cuisine
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 50
-  turns/games: 0.78
+  turns: 66
+  turns/games: 0.82
 '12246237':
   blocks: 1
   blocks/games: 1.0
@@ -20158,19 +20158,19 @@
   turns: 15
   turns/games: 0.94
 '12247365':
-  blocks: 14
-  blocks/games: 3.5
+  blocks: 15
+  blocks/games: 3.0
   blocks/turns: 0.29
   casualties: 3
-  casualties/blocks: 0.21
-  casualties/games: 0.75
+  casualties/blocks: 0.2
+  casualties/games: 0.6
   completions: 0
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 4
+  games: 5
   interceptions: 0
-  mvps: 1
+  mvps: 2
   name: Will Slayall
   passing: 0
   passing/games: 0.0
@@ -20178,15 +20178,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, Dauntless, Frenzy, Thick Skull, Tackle]
-  spp: 11
-  spp/games: 2.75
-  spp/turns: 0.22
+  spp: 16
+  spp/games: 3.2
+  spp/turns: 0.31
   team: WIL to Win
   team id: '750788'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 49
-  turns/games: 0.77
+  turns: 52
+  turns/games: 0.65
 '12247368':
   blocks: 1
   blocks/games: 0.25
@@ -20368,77 +20368,77 @@
   turns: 15
   turns/games: 0.94
 '12248774':
-  blocks: 8
-  blocks/games: 4.0
-  blocks/turns: 0.25
+  blocks: 9
+  blocks/games: 3.0
+  blocks/turns: 0.19
   casualties: 1
-  casualties/blocks: 0.12
-  casualties/games: 0.5
-  completions: 0
+  casualties/blocks: 0.11
+  casualties/games: 0.33
+  completions: 1
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
-  mvps: 1
+  mvps: 2
   name: Trex jr
   passing: 0
   passing/games: 0.0
   position: Wight Blitzer
-  rushing: 0
-  rushing/games: 0.0
+  rushing: 6
+  rushing/games: 2.0
   skills: [Block, Regeneration, +AG]
-  spp: 7
-  spp/games: 3.5
-  spp/turns: 0.22
+  spp: 16
+  spp/games: 5.33
+  spp/turns: 0.33
   team: Dead Player Recreation Society
   team id: '884379'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 32
+  touchdowns: 1
+  touchdowns/games: 0.33
+  turns: 48
   turns/games: 1.0
 '12249713':
-  blocks: 0
-  blocks/games: 0.0
-  blocks/turns: 0.0
+  blocks: 1
+  blocks/games: 0.25
+  blocks/turns: 0.02
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 1
   division: Lion Conference
-  fouls: 0
-  fouls/games: 0.0
-  games: 3
+  fouls: 1
+  fouls/games: 0.25
+  games: 4
   interceptions: 0
-  mvps: 1
+  mvps: 2
   name: Qrithx Maoil Cholium
   passing: -3
-  passing/games: -1.0
+  passing/games: -0.75
   position: Gutter Runner
-  rushing: 21
-  rushing/games: 7.0
+  rushing: 34
+  rushing/games: 8.5
   skills: [Dodge, Weeping Dagger, Wrestle]
-  spp: 6
-  spp/games: 2.0
-  spp/turns: 0.15
+  spp: 14
+  spp/games: 3.5
+  spp/turns: 0.26
   team: Clan Mac Feegle
   team id: '258047'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 39
-  turns/games: 0.81
+  touchdowns: 1
+  touchdowns/games: 0.25
+  turns: 54
+  turns/games: 0.84
 '12251289':
-  blocks: 2
-  blocks/games: 1.0
-  blocks/turns: 0.14
+  blocks: 8
+  blocks/games: 2.67
+  blocks/turns: 0.27
   casualties: 1
-  casualties/blocks: 0.5
-  casualties/games: 0.5
+  casualties/blocks: 0.12
+  casualties/games: 0.33
   completions: 0
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: The Earth Is Flat
@@ -20449,14 +20449,14 @@
   rushing/games: 0.0
   skills: [Regeneration, Hypnotic Gaze, Blood Lust]
   spp: 2
-  spp/games: 1.0
-  spp/turns: 0.14
+  spp/games: 0.67
+  spp/turns: 0.07
   team: WIL Of The People
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 14
-  turns/games: 0.44
+  turns: 30
+  turns/games: 0.62
 '12251297':
   blocks: 0
   blocks/games: 0.0
@@ -20698,17 +20698,17 @@
   turns: 16
   turns/games: 1.0
 '12254809':
-  blocks: 5
-  blocks/games: 1.67
-  blocks/turns: 0.19
+  blocks: 11
+  blocks/games: 2.75
+  blocks/turns: 0.26
   casualties: 1
-  casualties/blocks: 0.2
-  casualties/games: 0.33
+  casualties/blocks: 0.09
+  casualties/games: 0.25
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 3
+  games: 4
   interceptions: 0
   mvps: 1
   name: Chops
@@ -20716,17 +20716,17 @@
   passing/games: 0.0
   position: Ghoul Runner
   rushing: 16
-  rushing/games: 5.33
+  rushing/games: 4.0
   skills: [Dodge, Wrestle]
   spp: 10
-  spp/games: 3.33
-  spp/turns: 0.37
+  spp/games: 2.5
+  spp/turns: 0.23
   team: Keep WIL and Claw
   team id: '884335'
   touchdowns: 1
-  touchdowns/games: 0.33
-  turns: 27
-  turns/games: 0.56
+  touchdowns/games: 0.25
+  turns: 43
+  turns/games: 0.67
 '12255180':
   blocks: 5
   blocks/games: 1.67
@@ -21059,7 +21059,7 @@
   turns/games: 0.48
 '12261966':
   blocks: 1
-  blocks/games: 1.0
+  blocks/games: 0.5
   blocks/turns: 0.06
   casualties: 0
   casualties/blocks: 0.0
@@ -21068,7 +21068,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 1
+  games: 2
   interceptions: 0
   mvps: 0
   name: Imigration
@@ -21085,20 +21085,20 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 16
-  turns/games: 1.0
+  turns: 17
+  turns/games: 0.53
 '12261967':
-  blocks: 3
-  blocks/games: 3.0
-  blocks/turns: 0.23
+  blocks: 4
+  blocks/games: 2.0
+  blocks/turns: 0.19
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 1
+  fouls: 2
+  fouls/games: 1.0
+  games: 2
   interceptions: 0
   mvps: 0
   name: Benefit Cheats
@@ -21115,8 +21115,8 @@
   team id: '895661'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 13
-  turns/games: 0.81
+  turns: 21
+  turns/games: 0.66
 '12262127':
   blocks: 3
   blocks/games: 1.0
@@ -21179,24 +21179,24 @@
   turns/games: 0.69
 '12262909':
   blocks: 1
-  blocks/games: 0.33
-  blocks/turns: 0.05
+  blocks/games: 0.25
+  blocks/turns: 0.04
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Premier Division
-  fouls: 0
-  fouls/games: 0.0
-  games: 3
+  fouls: 1
+  fouls/games: 0.25
+  games: 4
   interceptions: 0
   mvps: 0
   name: Tatws Popty V
   passing: -1
-  passing/games: -0.33
+  passing/games: -0.25
   position: Thrall
   rushing: 2
-  rushing/games: 0.67
+  rushing/games: 0.5
   skills: []
   spp: 0
   spp/games: 0.0
@@ -21205,8 +21205,8 @@
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 19
-  turns/games: 0.4
+  turns: 24
+  turns/games: 0.38
 '12262912':
   blocks: 1
   blocks/games: 0.33
@@ -21268,17 +21268,17 @@
   turns: 0
   turns/games: 0.0
 '12265813':
-  blocks: 8
-  blocks/games: 4.0
+  blocks: 10
+  blocks/games: 3.33
   blocks/turns: 0.24
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Great Albion Regional
-  fouls: 0
-  fouls/games: 0.0
-  games: 2
+  fouls: 2
+  fouls/games: 0.67
+  games: 3
   interceptions: 0
   mvps: 0
   name: Skalf Lokisson
@@ -21295,8 +21295,8 @@
   team id: '841874'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 34
-  turns/games: 1.06
+  turns: 42
+  turns/games: 0.88
 '12265814':
   blocks: 12
   blocks/games: 4.0
@@ -21388,19 +21388,19 @@
   turns: 50
   turns/games: 0.78
 '12267170':
-  blocks: 7
-  blocks/games: 3.5
-  blocks/turns: 0.64
+  blocks: 9
+  blocks/games: 3.0
+  blocks/turns: 0.69
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
   fouls: 1
-  fouls/games: 0.5
-  games: 2
+  fouls/games: 0.33
+  games: 3
   interceptions: 0
-  mvps: 1
+  mvps: 2
   name: Choppa Chuppz
   passing: 0
   passing/games: 0.0
@@ -21408,15 +21408,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Chainsaw, Secret Weapon, Stunty]
-  spp: 5
-  spp/games: 2.5
-  spp/turns: 0.45
+  spp: 10
+  spp/games: 3.33
+  spp/turns: 0.77
   team: Creeping Spiders
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 11
-  turns/games: 0.34
+  turns: 13
+  turns/games: 0.27
 '12267974':
   blocks: 1
   blocks/games: 0.5
@@ -21478,17 +21478,17 @@
   turns: 16
   turns/games: 1.0
 '12270338':
-  blocks: 1
-  blocks/games: 0.5
-  blocks/turns: 0.07
+  blocks: 3
+  blocks/games: 1.0
+  blocks/turns: 0.11
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: Morien Regional
-  fouls: 1
-  fouls/games: 0.5
-  games: 2
+  fouls: 2
+  fouls/games: 0.67
+  games: 3
   interceptions: 0
   mvps: 0
   name: Parrp Rippaguff
@@ -21505,8 +21505,8 @@
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 15
-  turns/games: 0.47
+  turns: 28
+  turns/games: 0.58
 '12270784':
   blocks: 1
   blocks/games: 0.5
@@ -21538,9 +21538,9 @@
   turns: 16
   turns/games: 0.5
 '12271531':
-  blocks: 3
-  blocks/games: 1.5
-  blocks/turns: 0.3
+  blocks: 5
+  blocks/games: 1.67
+  blocks/turns: 0.19
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -21548,7 +21548,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: Pikka Bowgi
@@ -21565,8 +21565,8 @@
   team id: '888450'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 10
-  turns/games: 0.31
+  turns: 26
+  turns/games: 0.54
 '12271928':
   blocks: 0
   blocks/games: 0.0
@@ -21778,9 +21778,9 @@
   turns: 16
   turns/games: 0.5
 '12272857':
-  blocks: 8
-  blocks/games: 4.0
-  blocks/turns: 0.25
+  blocks: 13
+  blocks/games: 4.33
+  blocks/turns: 0.3
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -21788,7 +21788,7 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: No trix natrix
@@ -21805,8 +21805,8 @@
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 32
-  turns/games: 1.0
+  turns: 43
+  turns/games: 0.9
 '12272880':
   blocks: 4
   blocks/games: 1.33
@@ -22138,9 +22138,9 @@
   turns: 12
   turns/games: 0.75
 '12273120':
-  blocks: 4
-  blocks/games: 2.0
-  blocks/turns: 0.17
+  blocks: 9
+  blocks/games: 3.0
+  blocks/turns: 0.22
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -22148,29 +22148,29 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: Coleman
   passing: 0
   passing/games: 0.0
   position: Norse Runner
-  rushing: 0
-  rushing/games: 0.0
+  rushing: 10
+  rushing/games: 3.33
   skills: [Block, Dauntless]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 3
+  spp/games: 1.0
+  spp/turns: 0.07
   team: Wollassonnns Wingers
   team id: '879831'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 24
-  turns/games: 0.75
+  touchdowns: 1
+  touchdowns/games: 0.33
+  turns: 41
+  turns/games: 0.85
 '12273126':
-  blocks: 6
-  blocks/games: 3.0
-  blocks/turns: 0.25
+  blocks: 7
+  blocks/games: 2.33
+  blocks/turns: 0.27
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -22178,7 +22178,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: Senat
@@ -22195,8 +22195,8 @@
   team id: '879831'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 24
-  turns/games: 0.75
+  turns: 26
+  turns/games: 0.54
 '12273609':
   blocks: 0
   blocks/games: 0.0
@@ -22228,39 +22228,39 @@
   turns: 5
   turns/games: 0.31
 '12275332':
-  blocks: 4
-  blocks/games: 2.0
-  blocks/turns: 0.22
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
+  blocks: 7
+  blocks/games: 2.33
+  blocks/turns: 0.24
+  casualties: 1
+  casualties/blocks: 0.14
+  casualties/games: 0.33
   completions: 1
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 2
   name: Tony Gizby
   passing: 3
-  passing/games: 1.5
+  passing/games: 1.0
   position: Blitzer
   rushing: 24
-  rushing/games: 12.0
+  rushing/games: 8.0
   skills: [Block, Mighty Blow]
-  spp: 14
-  spp/games: 7.0
-  spp/turns: 0.78
+  spp: 16
+  spp/games: 5.33
+  spp/turns: 0.55
   team: Good WIL Hunting
   team id: '833566'
   touchdowns: 1
-  touchdowns/games: 0.5
-  turns: 18
-  turns/games: 0.56
+  touchdowns/games: 0.33
+  turns: 29
+  turns/games: 0.6
 '12275365':
   blocks: 2
-  blocks/games: 1.0
-  blocks/turns: 0.1
+  blocks/games: 0.67
+  blocks/turns: 0.06
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -22268,7 +22268,7 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 2
+  games: 3
   interceptions: 0
   mvps: 0
   name: Kr'styn
@@ -22285,8 +22285,8 @@
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 20
-  turns/games: 0.62
+  turns: 33
+  turns/games: 0.69
 '12275426':
   blocks: 0
   blocks/games: 0.0
@@ -22298,7 +22298,7 @@
   division: Great Albion Regional
   fouls: 0
   fouls/games: 0.0
-  games: 1
+  games: 2
   interceptions: 0
   mvps: 0
   name: Ned Els II
@@ -22315,7 +22315,7 @@
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 9
+  turns: 18
   turns/games: 0.56
 '12275427':
   blocks: 0
@@ -22358,25 +22358,25 @@
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 1
+  games: 2
   interceptions: 0
   mvps: 1
   name: Ythilos Maoil Cholium
-  passing: 0
-  passing/games: 0.0
+  passing: -1
+  passing/games: -0.5
   position: Gutter Runner
-  rushing: 0
-  rushing/games: 0.0
+  rushing: 15
+  rushing/games: 7.5
   skills: [Dodge, Weeping Dagger]
   spp: 5
-  spp/games: 5.0
-  spp/turns: 0.56
+  spp/games: 2.5
+  spp/turns: 0.24
   team: Clan Mac Feegle
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 9
-  turns/games: 0.56
+  turns: 21
+  turns/games: 0.66
 '12276911':
   blocks: 7
   blocks/games: 7.0
@@ -22649,8 +22649,8 @@
   turns/games: 0.31
 '12279141':
   blocks: 1
-  blocks/games: 1.0
-  blocks/turns: 0.06
+  blocks/games: 0.5
+  blocks/turns: 0.05
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -22658,7 +22658,7 @@
   division: Premier Division
   fouls: 0
   fouls/games: 0.0
-  games: 1
+  games: 2
   interceptions: 0
   mvps: 0
   name: Thoracis palatinus
@@ -22675,8 +22675,8 @@
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 16
-  turns/games: 1.0
+  turns: 19
+  turns/games: 0.59
 '12279795':
   blocks: 1
   blocks/games: 1.0
@@ -22709,8 +22709,8 @@
   turns/games: 0.44
 '12279796':
   blocks: 1
-  blocks/games: 1.0
-  blocks/turns: 0.08
+  blocks/games: 0.5
+  blocks/turns: 0.05
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
@@ -22718,7 +22718,7 @@
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 1
+  games: 2
   interceptions: 0
   mvps: 0
   name: Eddie
@@ -22735,8 +22735,8 @@
   team id: '895727'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 13
-  turns/games: 0.81
+  turns: 21
+  turns/games: 0.66
 '12280184':
   blocks: 0
   blocks/games: 0.0
@@ -22977,6 +22977,156 @@
   touchdowns/games: 0.0
   turns: 9
   turns/games: 0.56
+'12285398':
+  blocks: 3
+  blocks/games: 3.0
+  blocks/turns: 0.33
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 1
+  division: Premier Division
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Scotch pie II
+  passing: 0
+  passing/games: 0.0
+  position: Vampire
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Regeneration, Hypnotic Gaze, Blood Lust]
+  spp: 1
+  spp/games: 1.0
+  spp/turns: 0.11
+  team: White Isle cuisine
+  team id: '839378'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 9
+  turns/games: 0.56
+'12285401':
+  blocks: 0
+  blocks/games: 0.0
+  blocks/turns: 0.0
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Premier Division
+  fouls: 1
+  fouls/games: 1.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Cock a leekie soup VI
+  passing: 0
+  passing/games: 0.0
+  position: Thrall
+  rushing: 0
+  rushing/games: 0.0
+  skills: []
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: White Isle cuisine
+  team id: '839378'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 1
+  turns/games: 0.06
+'12285402':
+  blocks: 1
+  blocks/games: 1.0
+  blocks/turns: 1.0
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Premier Division
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Glamorgan sausage III
+  passing: 0
+  passing/games: 0.0
+  position: Thrall
+  rushing: 0
+  rushing/games: 0.0
+  skills: []
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: White Isle cuisine
+  team id: '839378'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 1
+  turns/games: 0.06
+'12285551':
+  blocks: 1
+  blocks/games: 1.0
+  blocks/turns: 0.06
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Albany Regional
+  fouls: 1
+  fouls/games: 1.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Sheshkatchewon
+  passing: 0
+  passing/games: 0.0
+  position: Hobgoblin Runner
+  rushing: 0
+  rushing/games: 0.0
+  skills: []
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: Glorious Canuckistan Moose
+  team id: '791766'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 16
+  turns/games: 1.0
+'12285553':
+  blocks: 0
+  blocks/games: 0.0
+  blocks/turns: 0.0
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Albany Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Cube-ic
+  passing: 0
+  passing/games: 0.0
+  position: Hobgoblin Runner
+  rushing: 0
+  rushing/games: 0.0
+  skills: []
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: Glorious Canuckistan Moose
+  team id: '791766'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 8
+  turns/games: 0.5
 '12285561':
   blocks: 3
   blocks/games: 3.0
@@ -23038,35 +23188,35 @@
   turns: 3
   turns/games: 0.19
 '12288026':
-  blocks: 0
-  blocks/games: 0.0
-  blocks/turns: 0.0
-  casualties: 0
-  casualties/blocks: 0.0
-  casualties/games: 0.0
-  completions: 0
+  blocks: 2
+  blocks/games: 1.0
+  blocks/turns: 0.08
+  casualties: 1
+  casualties/blocks: 0.5
+  casualties/games: 0.5
+  completions: 1
   division: Morien Regional
   fouls: 0
   fouls/games: 0.0
-  games: 1
+  games: 2
   interceptions: 0
   mvps: 0
   name: Luck-In
-  passing: 3
+  passing: 6
   passing/games: 3.0
   position: Catcher
-  rushing: 19
-  rushing/games: 19.0
+  rushing: 46
+  rushing/games: 23.0
   skills: [Catch]
-  spp: 0
-  spp/games: 0.0
-  spp/turns: 0.0
+  spp: 6
+  spp/games: 3.0
+  spp/turns: 0.23
   team: Free Hill Coolers
   team id: '898402'
-  touchdowns: 0
-  touchdowns/games: 0.0
-  turns: 10
-  turns/games: 0.62
+  touchdowns: 1
+  touchdowns/games: 0.5
+  turns: 26
+  turns/games: 0.81
 '12288214':
   blocks: 6
   blocks/games: 6.0
@@ -23127,6 +23277,156 @@
   touchdowns/games: 0.0
   turns: 15
   turns/games: 0.94
+'12288755':
+  blocks: 3
+  blocks/games: 3.0
+  blocks/turns: 0.25
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Albany Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 1
+  name: Steinar Thorgestsson
+  passing: 0
+  passing/games: 0.0
+  position: Norse Runner
+  rushing: 14
+  rushing/games: 14.0
+  skills: [Block, Dauntless]
+  spp: 5
+  spp/games: 5.0
+  spp/turns: 0.42
+  team: Miofjoror Maulers
+  team id: '890910'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 12
+  turns/games: 0.75
+'12288756':
+  blocks: 0
+  blocks/games: 0.0
+  blocks/turns: 0.0
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Albany Regional
+  fouls: 1
+  fouls/games: 1.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: "Slode \xC6varsson"
+  passing: 0
+  passing/games: 0.0
+  position: Norse Lineman
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Block]
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: Miofjoror Maulers
+  team id: '890910'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 1
+  turns/games: 0.06
+'12289391':
+  blocks: 0
+  blocks/games: 0.0
+  blocks/turns: 0.0
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Morien Regional
+  fouls: 1
+  fouls/games: 1.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Fusco
+  passing: 0
+  passing/games: 0.0
+  position: Norse Lineman
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Block]
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: Wollassonnns Wingers
+  team id: '879831'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 17
+  turns/games: 1.06
+'12289398':
+  blocks: 1
+  blocks/games: 1.0
+  blocks/turns: 0.17
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Morien Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 1
+  name: McClain
+  passing: 0
+  passing/games: 0.0
+  position: Norse Lineman
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Block]
+  spp: 5
+  spp/games: 5.0
+  spp/turns: 0.83
+  team: Wollassonnns Wingers
+  team id: '879831'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 6
+  turns/games: 0.38
+'12289767':
+  blocks: 5
+  blocks/games: 5.0
+  blocks/turns: 0.5
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Lion Conference
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 1
+  name: Pooch II
+  passing: 0
+  passing/games: 0.0
+  position: Werewolf
+  rushing: 8
+  rushing/games: 8.0
+  skills: [Claw, Frenzy, Regeneration, Block]
+  spp: 8
+  spp/games: 8.0
+  spp/turns: 0.8
+  team: Keep WIL and Claw
+  team id: '884335'
+  touchdowns: 1
+  touchdowns/games: 1.0
+  turns: 10
+  turns/games: 0.62
 '12290122':
   blocks: 2
   blocks/games: 2.0
@@ -23217,6 +23517,186 @@
   touchdowns/games: 0.0
   turns: 15
   turns/games: 0.94
+'12294377':
+  blocks: 2
+  blocks/games: 2.0
+  blocks/turns: 0.2
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Great Albion Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Auntie Serum III
+  passing: 0
+  passing/games: 0.0
+  position: Beastman Runner
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Horns]
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: '[WIL] Blood Drive'
+  team id: '899844'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 10
+  turns/games: 0.62
+'12294801':
+  blocks: 2
+  blocks/games: 2.0
+  blocks/turns: 0.2
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Morien Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Rippa Longfarrt
+  passing: 0
+  passing/games: 0.0
+  position: Goblin
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Dodge, Right Stuff, Stunty]
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: Creeping Spiders
+  team id: '888450'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 10
+  turns/games: 0.62
+'12296075':
+  blocks: 1
+  blocks/games: 1.0
+  blocks/turns: 0.12
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Morien Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: ' Richard Weaksnake'
+  passing: 0
+  passing/games: 0.0
+  position: Lineman
+  rushing: 0
+  rushing/games: 0.0
+  skills: []
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: Free Hill Coolers
+  team id: '898402'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 8
+  turns/games: 0.5
+'12298980':
+  blocks: 3
+  blocks/games: 3.0
+  blocks/turns: 0.43
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Great Albion Regional
+  fouls: 1
+  fouls/games: 1.0
+  games: 1
+  interceptions: 0
+  mvps: 1
+  name: Loki Ulriksson
+  passing: 0
+  passing/games: 0.0
+  position: Troll Slayer
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Block, Dauntless, Frenzy, Thick Skull]
+  spp: 5
+  spp/games: 5.0
+  spp/turns: 0.71
+  team: Ochness Monster Hunters
+  team id: '841874'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 7
+  turns/games: 0.44
+'12298981':
+  blocks: 0
+  blocks/games: 0.0
+  blocks/turns: 0.0
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Great Albion Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Kopoma
+  passing: 0
+  passing/games: 0.0
+  position: Skink Runner
+  rushing: 5
+  rushing/games: 5.0
+  skills: [Dodge, Stunty, Diving Tackle]
+  spp: 6
+  spp/games: 6.0
+  spp/turns: 0.4
+  team: Yucatan Impact
+  team id: '877463'
+  touchdowns: 2
+  touchdowns/games: 2.0
+  turns: 15
+  turns/games: 0.94
+'12298983':
+  blocks: 0
+  blocks/games: 0.0
+  blocks/turns: 0.0
+  casualties: 0
+  casualties/blocks: 0.0
+  casualties/games: 0.0
+  completions: 0
+  division: Great Albion Regional
+  fouls: 0
+  fouls/games: 0.0
+  games: 1
+  interceptions: 0
+  mvps: 0
+  name: Tibolon
+  passing: 0
+  passing/games: 0.0
+  position: Skink Runner
+  rushing: 0
+  rushing/games: 0.0
+  skills: [Dodge, Stunty]
+  spp: 0
+  spp/games: 0.0
+  spp/turns: 0.0
+  team: Yucatan Impact
+  team id: '877463'
+  touchdowns: 0
+  touchdowns/games: 0.0
+  turns: 2
+  turns/games: 0.12
 '4267028':
   blocks: 14
   blocks/games: 3.5
@@ -23789,17 +24269,17 @@
   turns: 81
   turns/games: 1.01
 '9893752':
-  blocks: 22
-  blocks/games: 4.4
-  blocks/turns: 0.38
-  casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.2
+  blocks: 25
+  blocks/games: 4.17
+  blocks/turns: 0.35
+  casualties: 2
+  casualties/blocks: 0.08
+  casualties/games: 0.33
   completions: 0
   division: Lion Conference
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Zlythan Torcadailll
@@ -23809,15 +24289,15 @@
   rushing: 0
   rushing/games: 0.0
   skills: [Block, +AG, Guard, Tackle, Mighty Blow]
-  spp: 2
-  spp/games: 0.4
-  spp/turns: 0.03
+  spp: 4
+  spp/games: 0.67
+  spp/turns: 0.06
   team: Clan Mac Feegle
   team id: '258047'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 58
-  turns/games: 0.72
+  turns: 72
+  turns/games: 0.75
 '9983239':
   blocks: 35
   blocks/games: 8.75
@@ -23939,17 +24419,17 @@ Boomer Eziasson:
   turns: 10
   turns/games: 0.31
 Count Luthor Von Drakenborg:
-  blocks: 42
-  blocks/games: 7.0
-  blocks/turns: 0.49
+  blocks: 52
+  blocks/games: 7.43
+  blocks/turns: 0.52
   casualties: 1
   casualties/blocks: 0.02
-  casualties/games: 0.17
+  casualties/games: 0.14
   completions: 0
   division: ''
   fouls: 0
   fouls/games: 0.0
-  games: 6
+  games: 7
   interceptions: 0
   mvps: 0
   name: Count Luthor Von Drakenborg
@@ -23957,16 +24437,16 @@ Count Luthor Von Drakenborg:
   passing/games: 0.0
   position: Count Luthor Von Drakenborg
   rushing: 6
-  rushing/games: 1.0
+  rushing/games: 0.86
   skills: [Loner, Block, Hypnotic Gaze, Regeneration, Side Step]
   spp: 2
-  spp/games: 0.33
+  spp/games: 0.29
   spp/turns: 0.02
   team: Star Player
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 85
+  turns: 100
   turns/games: 0.89
 Crazy Igor:
   blocks: 5
@@ -24209,17 +24689,17 @@ Hack Enslash:
   turns: 25
   turns/games: 0.39
 Helmut Wulf:
-  blocks: 6
-  blocks/games: 1.5
-  blocks/turns: 0.33
+  blocks: 8
+  blocks/games: 1.33
+  blocks/turns: 0.35
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: ''
-  fouls: 7
-  fouls/games: 1.75
-  games: 4
+  fouls: 9
+  fouls/games: 1.5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Helmut Wulf
@@ -24236,8 +24716,8 @@ Helmut Wulf:
   team id: '898783'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 18
-  turns/games: 0.28
+  turns: 23
+  turns/games: 0.24
 Horkon Heartripper:
   blocks: 10
   blocks/games: 10.0
@@ -24329,17 +24809,17 @@ Lord Borak the Despoiler:
   turns: 15
   turns/games: 0.94
 Max Spleenripper:
-  blocks: 17
-  blocks/games: 1.89
-  blocks/turns: 0.34
+  blocks: 18
+  blocks/games: 1.8
+  blocks/turns: 0.35
   casualties: 1
   casualties/blocks: 0.06
-  casualties/games: 0.11
+  casualties/games: 0.1
   completions: 0
   division: ''
-  fouls: 5
-  fouls/games: 0.56
-  games: 9
+  fouls: 6
+  fouls/games: 0.6
+  games: 10
   interceptions: 0
   mvps: 0
   name: Max Spleenripper
@@ -24350,14 +24830,14 @@ Max Spleenripper:
   rushing/games: 0.0
   skills: [Loner, Chainsaw, Secret Weapon]
   spp: 2
-  spp/games: 0.22
+  spp/games: 0.2
   spp/turns: 0.04
   team: Star Player
   team id: '899844'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 50
-  turns/games: 0.35
+  turns: 52
+  turns/games: 0.33
 Merc Lineman 1 ():
   blocks: 1
   blocks/games: 1.0
@@ -24449,34 +24929,34 @@ Merc Saurus Blocker 1 (Block):
   turns: 9
   turns/games: 0.56
 Morg \'n\' Thorg:
-  blocks: 63
-  blocks/games: 12.6
-  blocks/turns: 0.78
+  blocks: 73
+  blocks/games: 12.17
+  blocks/turns: 0.75
   casualties: 5
-  casualties/blocks: 0.08
-  casualties/games: 1.0
+  casualties/blocks: 0.07
+  casualties/games: 0.83
   completions: 0
   division: ''
   fouls: 0
   fouls/games: 0.0
-  games: 5
+  games: 6
   interceptions: 0
   mvps: 0
   name: Morg \'n\' Thorg
   passing: 1
-  passing/games: 0.2
+  passing/games: 0.17
   position: Morg 'n' Thorg
   rushing: 12
-  rushing/games: 2.4
+  rushing/games: 2.0
   skills: [Loner, Block, Mighty Blow, Thick Skull, Throw Team-Mate]
   spp: 10
-  spp/games: 2.0
-  spp/turns: 0.12
+  spp/games: 1.67
+  spp/turns: 0.1
   team: Star Player
   team id: '839378'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 81
+  turns: 97
   turns/games: 1.01
 Nobbla Blackwart:
   blocks: 2
@@ -24690,17 +25170,17 @@ Skitter Stab-Stab:
   turns: 23
   turns/games: 0.72
 Slibli:
-  blocks: 19
-  blocks/games: 3.17
-  blocks/turns: 0.35
+  blocks: 30
+  blocks/games: 3.75
+  blocks/turns: 0.38
   casualties: 1
-  casualties/blocks: 0.05
-  casualties/games: 0.17
+  casualties/blocks: 0.03
+  casualties/games: 0.12
   completions: 0
   division: ''
   fouls: 0
   fouls/games: 0.0
-  games: 6
+  games: 8
   interceptions: 0
   mvps: 0
   name: Slibli
@@ -24711,14 +25191,14 @@ Slibli:
   rushing/games: 0.0
   skills: [Loner, Block, Grab, Guard, Stand Firm]
   spp: 2
-  spp/games: 0.33
-  spp/turns: 0.04
+  spp/games: 0.25
+  spp/turns: 0.03
   team: Star Player
   team id: '884214'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 54
-  turns/games: 0.56
+  turns: 80
+  turns/games: 0.62
 Soaren Hightower:
   blocks: 0
   blocks/games: 0.0
@@ -24750,17 +25230,17 @@ Soaren Hightower:
   turns: 12
   turns/games: 0.75
 Ugroth Bolgrot:
-  blocks: 5
-  blocks/games: 2.5
-  blocks/turns: 0.42
+  blocks: 11
+  blocks/games: 3.67
+  blocks/turns: 0.5
   casualties: 0
   casualties/blocks: 0.0
   casualties/games: 0.0
   completions: 0
   division: ''
   fouls: 1
-  fouls/games: 0.5
-  games: 2
+  fouls/games: 0.33
+  games: 3
   interceptions: 0
   mvps: 0
   name: Ugroth Bolgrot
@@ -24777,8 +25257,8 @@ Ugroth Bolgrot:
   team id: '879524'
   touchdowns: 0
   touchdowns/games: 0.0
-  turns: 12
-  turns/games: 0.38
+  turns: 22
+  turns/games: 0.46
 Wilhelm Chaney:
   blocks: 46
   blocks/games: 6.57
