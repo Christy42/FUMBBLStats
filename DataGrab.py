@@ -48,8 +48,8 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
 def team_name(team_id):
     team = requests.get("https://fumbbl.com/xml:team?id={}".format(str(team_id)))
     root = Et.fromstring(team.text)
-    team_name = root.find("name").text
-    return team_name
+    name = root.find("name").text
+    return name
 
 
 # matches_in_division(3449, 44811, "")
@@ -144,11 +144,35 @@ def race_check(team_folder):
     with open(team_folder, "w") as file:
         yaml.safe_dump(teams, file)
 
-# get_match(3986223)
-# get_name(4697130)
+
+def kill_list_grab(kill_list_sheet, team_folder):
+    with open(kill_list_sheet, "r") as file:
+        kills = yaml.safe_load(file)
+    if kills == {}:
+        with open(team_folder, "r") as file:
+            teams = yaml.safe_load(file)
+        kills = {team: [] for team in teams}
+    dead_players = {}
+    for team in kills:
+        team_xml = requests.get("https://fumbbl.com/xml:team?id={}&past=1".format(team))
+        root = Et.fromstring(team_xml.text)
+
+        players = root.find("player")
+        print(team)
+        for player in root:
+            if player.attrib.get("status", "") == "Dead":
+                dead_players.update({team: player.attrib["id"]})
+            # print(players.find["injuryList"])
+    # TODO: Grab data for each tournie.
+    # Just grab all of the text
+    # TODO: Find out where each player drops.
+    # Maybe some sort of list of players used in each round? But need the opposition teams as well
+
+
+kill_list_grab("player_list//kills.yaml", "player_list//Team.yaml")
+
 # reset_file("player_list/Player.yaml")
 # reset_file("player_list/Team.yaml")
-# cycle_matches("match_list/WILSeason48.yaml", "player_list/Player.yaml", "player_list/Team.yaml")
 # get_name(11103735)
 # cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml",
 #                 rerun_folder="match_list/run_file.yaml")
