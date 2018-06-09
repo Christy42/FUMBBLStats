@@ -172,7 +172,7 @@ def generate_full_tables():
 
 [url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/98322.jpg[/img][/url]
 
-[table automargin][tr][td colspan=2 bg=lightblue][block=center][b]Hall of Fame: [i]Current as of round 5 of Season 48[/i][/b][/block][/td][/tr]\
+[table automargin][tr][td colspan=2 bg=lightblue][block=center][b]Hall of Fame: [i]Current as of round 6 of Season 48[/i][/b][/block][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4683]On Fire this Season[/url][/td][td rowspan=6 valign=middle]Current top and all-time legendary players in the [url=FUMBBL.php?page=group&op=view&group=3449]White Isle League[/url].  British or based in Britain?  Want to compete in your own nation's league?  Go to our [url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761]recruitment thread[/url] or the [url=FUMBBL.php?page=group&op=view&group=6340]WIL Fringe[/url], and get involved in [i]your[/i] local, friendly league.[/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=3699]Hall of Fame[/url][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4360]League Champions[/url][/td][/tr]\
