@@ -33,6 +33,7 @@ def generate_stats(player_file, stats_file, team=False, region=False):
 
 
 # TODO: Tidy this function up a lot, doing far too much.
+# TODO: Make a get segmented dataframe section and a sort section?
 def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
                  n=3, team=False, pkl_file=False, region="overall"):
     with open(region_stats_file, "r") as file:
@@ -46,14 +47,13 @@ def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
     # stats = [["blocks", "turns"]]
     dataframe = pd.DataFrame(players).transpose()
     dataframe = dataframe[dataframe.loc[:, "division"] == region] if region != "overall" else dataframe
+    values_req = {"games": 3, "turns": 30, "blocks": 10}
     for stat in stats:
+
         temp = dataframe.copy(deep=True)
-        if len(stat) > 1 and stat[1] == "games":
-            temp = temp[temp.loc[:, "games"] >= 3]
-        elif len(stat) > 1 and stat[1] == "turns":
-            temp = temp[temp.loc[:, "turns"] >= 30 * (1 + team * 9)]
-        elif len(stat) > 1 and stat[1] == "blocks":
-            temp = temp[temp.loc[:, "blocks"] >= 10 * (1 + team * 9)]
+        if len(stat) > 1 and stat[1] in ["games", "turns", "blocks"]:
+            temp = temp[temp.loc[:, stat[1]] >= values_req[stat[1]] * (1 + team * 9 * (stat[1] != "games"))]
+
         if not team and len(stat) > 1:
             cols = ["name", "team", "position", "skills", stat[0] + "/" + stat[1],
                     stat[0], stat[1], "division", "team id"]
