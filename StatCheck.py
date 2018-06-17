@@ -49,7 +49,6 @@ def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
     dataframe = dataframe[dataframe.loc[:, "division"] == region] if region != "overall" else dataframe
     values_req = {"games": 3, "turns": 30, "blocks": 10}
     for stat in stats:
-
         temp = dataframe.copy(deep=True)
         if len(stat) > 1 and stat[1] in ["games", "turns", "blocks"]:
             temp = temp[temp.loc[:, stat[1]] >= values_req[stat[1]] * (1 + team * 9 * (stat[1] != "games"))]
