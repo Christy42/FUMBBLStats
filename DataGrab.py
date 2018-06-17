@@ -157,7 +157,6 @@ def kill_list_grab(kill_list_sheet, team_folder):
         team_xml = requests.get("https://fumbbl.com/xml:team?id={}&past=1".format(team))
         root = Et.fromstring(team_xml.text)
 
-        players = root.find("player")
         print(team)
         for player in root:
             if player.attrib.get("status", "") == "Dead":
@@ -169,7 +168,22 @@ def kill_list_grab(kill_list_sheet, team_folder):
     # Maybe some sort of list of players used in each round? But need the opposition teams as well
 
 
-kill_list_grab("player_list//kills.yaml", "player_list//Team.yaml")
+def set_player_numbers(region_file, player_file):
+    with open(player_file, "r") as players:
+        player_list = yaml.safe_load(players)
+    with open(region_file, "r") as region_list:
+        regions = yaml.safe_load(region_list)
+    for region in regions:
+        regions[region]["players"] = 0
+    for player in player_list:
+        if player_list[player]["division"] != "":
+            regions[player_list[player]["division"]]["players"] += 1
+    with open(region_file, "w") as region_list:
+        yaml.safe_dump(regions, region_list)
+
+
+# kill_list_grab("player_list//kills.yaml", "player_list//Team.yaml")
+set_player_numbers("player_list//Totals.yaml", "player_list//Player.yaml")
 
 # reset_file("player_list/Player.yaml")
 # reset_file("player_list/Team.yaml")
