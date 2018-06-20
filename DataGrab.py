@@ -145,27 +145,77 @@ def race_check(team_folder):
         yaml.safe_dump(teams, file)
 
 
-def kill_list_grab(kill_list_sheet, team_folder):
+def kill_list_grab(division_folder, kill_list_sheet, team_folder, player_file):
+    with open(player_file, "r") as players_file:
+        players = yaml.safe_load(players_file)
+    played = get_games_played(division_folder)
     with open(kill_list_sheet, "r") as file:
         kills = yaml.safe_load(file)
     if kills == {}:
         with open(team_folder, "r") as file:
             teams = yaml.safe_load(file)
         kills = {team: [] for team in teams}
+    total_kill_list = []
+    for team in kills:
+        total_kill_list += kills[team]
     dead_players = {}
+    killed_list = []
     for team in kills:
         team_xml = requests.get("https://fumbbl.com/xml:team?id={}&past=1".format(team))
         root = Et.fromstring(team_xml.text)
 
-        print(team)
         for player in root:
-            if player.attrib.get("status", "") == "Dead":
-                dead_players.update({team: player.attrib["id"]})
-            # print(players.find["injuryList"])
-    # TODO: Grab data for each tournie.
-    # Just grab all of the text
-    # TODO: Find out where each player drops.
-    # Maybe some sort of list of players used in each round? But need the opposition teams as well
+            if player.attrib.get("status", "") == "Dead" and player.attrib["id"] not in total_kill_list:
+                if team not in dead_players:
+                    dead_players.update({team: [player.attrib["id"]]})
+                else:
+                    dead_players[team].append(player.attrib["id"])
+                killed_list.append(player.attrib["id"])
+    kill_sub_list = {}
+    print(dead_players)
+    print(played["4"])
+    for player in killed_list:
+        # TODO: Need to include player portrait
+        # I guess need to do a big dict for them and then look it up as I go???
+        for round_no in range(1, len(played) + 1):
+            for team in played[str(round_no)]:
+                if str(player) in played[str(round_no)][team]:
+                    kill_sub_list.update({player: [team, players[player]["icon"]]})
+    for player in kill_sub_list:
+        kills[kill_sub_list[player]].append([player[0], player[1]])
+    print(kills)
+    with open(kill_list_sheet, "w") as file:
+        yaml.safe_dump(kills, file)
+
+
+def get_games_played(division_folder):
+    with open(division_folder, "r") as file:
+        divisions = yaml.safe_load(file)
+    total = {}
+    for element in divisions:
+        value = requests.get("https://fumbbl.com/xml:group?id={}&op=matches&t={}".
+                             format(divisions[element]["group"], element))
+        root = Et.fromstring(value.text)
+        matches = root.find("matches")
+
+        for match in matches:
+            round_no = match.attrib["round"]
+            if round_no not in total:
+                total[match.attrib["round"]] = {}
+            home, away = 0, 0
+            for element in match:
+                match_players = {"home": [], "away": []}
+                if element.tag in ["home", "away"]:
+                    for player in element.find("performances"):
+                        if element.tag == "home":
+                            home = element.attrib["id"]
+                            match_players["home"].append(player.attrib["player"])
+                        else:
+                            away = element.attrib["id"]
+                            match_players["away"].append(player.attrib["player"])
+            total[match.attrib["round"]][home] = match_players["away"]
+            total[match.attrib["round"]][away] = match_players["home"]
+    return total
 
 
 def set_player_numbers(region_file, player_file):
@@ -182,12 +232,32 @@ def set_player_numbers(region_file, player_file):
         yaml.safe_dump(regions, region_list)
 
 
-# kill_list_grab("player_list//kills.yaml", "player_list//Team.yaml")
-set_player_numbers("player_list//Totals.yaml", "player_list//Player.yaml")
+def set_player_icons(player_file, icon_file):
+    with open(player_file, "r") as players:
+        player_list = yaml.safe_load(players)
+    with open(icon_file, "r") as icons:
+        icon_list = yaml.safe_load(icons)
+    for player in player_list:
+        print(player)
+        try:
+            player_root = requests.get("https://fumbbl.com/api/player/get/" + str(player) + "/xml").text
+            root = Et.fromstring(player_root)
+            pos = root.find("position")
 
+            player_list[player]["position"] = pos.attrib["id"]
+            player_list[player]["icon"] = icon_list[int(pos.attrib["id"])]
+        except (AttributeError, Et.ParseError):
+            pass
+    with open(player_file, "w") as players:
+        yaml.safe_dump(player_list, players)
+
+# kill_list_grab("match_list/divisions.yaml", "player_list//kills.yaml",
+#                "player_list//Team.yaml", "player_list//Player.yaml")
 # reset_file("player_list/Player.yaml")
 # reset_file("player_list/Team.yaml")
 # get_name(11103735)
 # cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml",
 #                 rerun_folder="match_list/run_file.yaml")
 # race_check("player_list/Team.yaml")
+# set_player_numbers("player_list//Totals.yaml", "player_list//Player.yaml")
+set_player_icons("player_list//Player.yaml", "utility//icons.yaml")
