@@ -182,7 +182,7 @@ def kill_list_grab(division_folder, kill_list_sheet, team_folder, player_file):
                 if str(player) in played[str(round_no)][team]:
                     kill_sub_list.update({player: [team, players[player]["icon"]]})
     for player in kill_sub_list:
-        kills[kill_sub_list[player]].append([player[0], player[1]])
+        kills[kill_sub_list[player][0]].append([player, kill_sub_list[player][1]])
     print(kills)
     with open(kill_list_sheet, "w") as file:
         yaml.safe_dump(kills, file)
@@ -251,8 +251,8 @@ def set_player_icons(player_file, icon_file):
     with open(player_file, "w") as players:
         yaml.safe_dump(player_list, players)
 
-# kill_list_grab("match_list/divisions.yaml", "player_list//kills.yaml",
-#                "player_list//Team.yaml", "player_list//Player.yaml")
+kill_list_grab("match_list/divisions.yaml", "player_list//kills.yaml",
+               "player_list//Team.yaml", "player_list//Player.yaml")
 # reset_file("player_list/Player.yaml")
 # reset_file("player_list/Team.yaml")
 # get_name(11103735)
@@ -260,4 +260,4 @@ def set_player_icons(player_file, icon_file):
 #                 rerun_folder="match_list/run_file.yaml")
 # race_check("player_list/Team.yaml")
 # set_player_numbers("player_list//Totals.yaml", "player_list//Player.yaml")
-set_player_icons("player_list//Player.yaml", "utility//icons.yaml")
+# set_player_icons("player_list//Player.yaml", "utility//icons.yaml")
