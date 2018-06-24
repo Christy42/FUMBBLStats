@@ -23,11 +23,12 @@ class GenerateStats:
         self._match_folder = file_loc["match_folder"]
         self._division_file = self._match_folder + "/" + file_loc["division_file"]
         self._run_file = self._match_folder + "/" + file_loc["run_file"]
-        self._played_games = self._match_folder + "/" + file_loc["played_file"]
         self._tables_folder = file_loc["tables_folder"]
 
     def base_stats(self):
-        cycle_divisions(self._division_file, self._player_file, self._team_file, self._run_file)
+        season = input("Enter in season number")
+        round_no = input("Enter in round number")
+        cycle_divisions(self._division_file, self._player_file, self._team_file, round_no, self._run_file)
         race_check(self._team_file)
         set_player_numbers(self._league_file, self._player_file)
         set_player_icons(self._player_file, self._icon_file)
@@ -36,8 +37,6 @@ class GenerateStats:
         generate_stats(self._player_file, self._total_stat_file, team=True)
         sort_regions(self._total_stat_file, self._player_file, self._league_file, self._team_file,
                      self._tables_folder, self._division_file)
-        season = input("Enter in season number")
-        round_no = input("Enter in round number")
         generate_full_tables(season, round_no)
 
     def reset_files(self):

@@ -2,8 +2,6 @@ import requests
 import yaml
 import xml.etree.ElementTree as Et
 
-from utility_func import reset_file
-
 
 # TODO: Use the dang group page instead of match pages to cut down on api requests
 # &paging= gives second page.  Number from next page field on the first page
@@ -12,7 +10,7 @@ from utility_func import reset_file
 # Just get a list of all players in each page.  Go through them and assign appropriately - get new ones first
 # TODO: Use this for historical stats.  Use Team.yaml for all team ids
 # TODO: Test the already run section.  Just don't clear all data first dumbass
-def matches_in_division(group_number, division_number, rerun_folder=None):
+def matches_in_division(group_number, division_number, round_no, rerun_folder=None):
     division = requests.get("https://fumbbl.com/xml:group?id={}&op=matches&t={}".format(group_number, division_number))
     root = Et.fromstring(division.text)
     matches = root.find("matches")
@@ -23,7 +21,7 @@ def matches_in_division(group_number, division_number, rerun_folder=None):
         with open(rerun_folder, "r") as rerun:
             already_run = yaml.safe_load(rerun)
     for match in matches:
-        if match.attrib["id"] in already_run:
+        if match.attrib["id"] in already_run or match.attrib["round"] > round_no:
             print(match.attrib["id"])
             continue
         already_run.append(match.attrib["id"])
@@ -121,12 +119,12 @@ def get_name(player_id):
     return root.find("name").text, star, base_skills, position
 
 
-def cycle_divisions(division_folder, player_folder, team_folder, rerun_folder=None):
+def cycle_divisions(division_folder, player_folder, team_folder, round_no, rerun_folder=None):
     with open(division_folder, "r") as file:
         divisions = yaml.safe_load(file)
     for element in divisions:
         print(divisions[element], element)
-        performances, team_games = matches_in_division(divisions[element]["group"], element, rerun_folder)
+        performances, team_games = matches_in_division(divisions[element]["group"], element, round_no, rerun_folder)
         add_player_attribs(performances, player_folder, divisions[element]["name"])
         add_team_performances(performances, team_folder, divisions[element]["name"], team_games)
 
@@ -205,16 +203,16 @@ def get_games_played(division_folder):
                 total[match.attrib["round"]] = {}
             home, away = 0, 0
             match_players = {"home": [], "away": []}
-            for element in match:
+            for element_m in match:
 
-                if element.tag in ["home", "away"]:
-                    for player in element.find("performances"):
+                if element_m.tag in ["home", "away"]:
+                    for player in element_m.find("performances"):
 
-                        if element.tag == "home":
-                            home = element.attrib["id"]
+                        if element_m.tag == "home":
+                            home = element_m.attrib["id"]
                             match_players["home"].append(player.attrib["player"])
                         else:
-                            away = element.attrib["id"]
+                            away = element_m.attrib["id"]
                             match_players["away"].append(player.attrib["player"])
             total[match.attrib["round"]][home] = match_players["away"]
             total[match.attrib["round"]][away] = match_players["home"]
