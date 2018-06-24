@@ -147,8 +147,8 @@ def initial_block(style, round_no, season):
         .format(style, round_no, season)
 
 
-def generate_full_tables():
-    main_string = initial_block("Season stats", "7", "48") + initial_toggles()
+def generate_full_tables(round_no, season):
+    main_string = initial_block("Season stats", round_no, season) + initial_toggles()
     for element in [["overall", "overall"], ["premier", "Premier Division"], ["lion", "Lion Conference"],
                     ["unicorn", "Unicorn Conference"], ["albany", "Albany Regional"],
                     ["greatalbion", "Great Albion Regional"], ["morien", "Morien Regional"], ["Leagues", "Leagues"]]:
@@ -159,8 +159,8 @@ def generate_full_tables():
     return main_string
 
 
-def generate_kill_list(kill_list_file, team_file, player_files, colour_file):
-    total_string = initial_block("Kill List", "7", "48") + initial_toggles()
+def generate_kill_list(kill_list_file, team_file, player_files, colour_file, round_no, season):
+    total_string = initial_block("Kill List", round_no, season) + initial_toggles()
     with open(player_files, "r") as player_file:
         players = yaml.safe_load(player_file)
     with open(kill_list_file, "r") as kill_file:

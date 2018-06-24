@@ -36,7 +36,9 @@ class GenerateStats:
         generate_stats(self._player_file, self._total_stat_file, team=True)
         sort_regions(self._total_stat_file, self._player_file, self._league_file, self._team_file,
                      self._tables_folder, self._division_file)
-        generate_full_tables()
+        season = input("Enter in season number")
+        round_no = input("Enter in round number")
+        generate_full_tables(season, round_no)
 
     def reset_files(self):
         reset_file(self._player_file)
@@ -46,7 +48,10 @@ class GenerateStats:
 
     def kill_lists(self):
         kill_list_grab(self._division_file, self._kill_file,  self._team_file, self._player_file)
-        generate_kill_list(self._kill_file, self._team_file, self._player_file, self._region_colour_file)
+        season = input("Enter in season number")
+        round_no = input("Enter in round number")
+        generate_kill_list(self._kill_file, self._team_file, self._player_file,
+                           self._region_colour_file, season, round_no)
 
     def master_func(self):
         action = input("Choose to reset (r), get info for the stat page (b) or generate the kill list (k)")
