@@ -180,9 +180,10 @@ def kill_list_grab(division_folder, kill_list_sheet, team_folder, player_file):
         for round_no in range(1, len(played) + 1):
             for team in played[str(round_no)]:
                 if str(player) in played[str(round_no)][team]:
-                    kill_sub_list.update({player: [team, players[player]["icon"]]})
+                    print(player)
+                    kill_sub_list.update({player: [team, players[player]["icon"], players[player]["division"]]})
     for player in kill_sub_list:
-        kills[kill_sub_list[player][0]].append([player, kill_sub_list[player][1]])
+        kills[kill_sub_list[player][0]].append([player, kill_sub_list[player][1], kill_sub_list[player][2]])
     print(kills)
     with open(kill_list_sheet, "w") as file:
         yaml.safe_dump(kills, file)
@@ -203,10 +204,12 @@ def get_games_played(division_folder):
             if round_no not in total:
                 total[match.attrib["round"]] = {}
             home, away = 0, 0
+            match_players = {"home": [], "away": []}
             for element in match:
-                match_players = {"home": [], "away": []}
+
                 if element.tag in ["home", "away"]:
                     for player in element.find("performances"):
+
                         if element.tag == "home":
                             home = element.attrib["id"]
                             match_players["home"].append(player.attrib["player"])
@@ -251,8 +254,8 @@ def set_player_icons(player_file, icon_file):
     with open(player_file, "w") as players:
         yaml.safe_dump(player_list, players)
 
-kill_list_grab("match_list/divisions.yaml", "player_list//kills.yaml",
-               "player_list//Team.yaml", "player_list//Player.yaml")
+
+# print(get_games_played("match_list//divisions.yaml")["7"])
 # reset_file("player_list/Player.yaml")
 # reset_file("player_list/Team.yaml")
 # get_name(11103735)
@@ -261,3 +264,5 @@ kill_list_grab("match_list/divisions.yaml", "player_list//kills.yaml",
 # race_check("player_list/Team.yaml")
 # set_player_numbers("player_list//Totals.yaml", "player_list//Player.yaml")
 # set_player_icons("player_list//Player.yaml", "utility//icons.yaml")
+kill_list_grab("match_list/divisions.yaml", "player_list//kills.yaml",
+               "player_list//Team.yaml", "player_list//Player.yaml")
