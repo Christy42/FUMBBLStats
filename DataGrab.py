@@ -253,16 +253,3 @@ def set_player_icons(player_file, icon_file):
             pass
     with open(player_file, "w") as players:
         yaml.safe_dump(player_list, players)
-
-
-# print(get_games_played("match_list//divisions.yaml")["7"])
-# reset_file("player_list/Player.yaml")
-# reset_file("player_list/Team.yaml")
-# get_name(11103735)
-# cycle_divisions("match_list/divisions.yaml", "player_list/Player.yaml", "player_list/Team.yaml",
-#                 rerun_folder="match_list/run_file.yaml")
-# race_check("player_list/Team.yaml")
-# set_player_numbers("player_list//Totals.yaml", "player_list//Player.yaml")
-# set_player_icons("player_list//Player.yaml", "utility//icons.yaml")
-kill_list_grab("match_list/divisions.yaml", "player_list//kills.yaml",
-               "player_list//Team.yaml", "player_list//Player.yaml")

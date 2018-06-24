@@ -155,6 +155,7 @@ def generate_full_tables():
         main_string += generate_division(element[0], element[1], yaml_file="tables/fluff.yaml")
         # main_string += "[/block]"
     main_string.replace("[block=floatcontainer][/block]", "")
+    print(main_string)
     return main_string
 
 
@@ -179,7 +180,3 @@ def generate_kill_list(kill_list_file, team_file, player_files, colour_file):
                         kills[team][i][1])
         total_string += "[/block]"
     print(total_string)
-
-print(generate_full_tables())
-# generate_kill_list("player_list//kills.yaml", "player_list//Team.yaml",
-#                    "player_list//Player.yaml", "utility//region_colours.yaml")
