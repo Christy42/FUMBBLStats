@@ -25,9 +25,10 @@ def generate_stats(player_file, stats_file, team=False, region=False):
                     players[player][element[0] + "/" + element[1]] /= (16 * (1 + 10 * team))
                     players[player][element[0] + "/" + element[1]] = \
                         round(players[player][element[0] + "/" + element[1]], 2)
-                if region:
+                if region and element[0] in ["turns"] and False:
                     players[player][element[0] + "/" + element[1]] /= players[player]["teams"]
-
+                    players[player][element[0] + "/" + element[1]] = \
+                        round(players[player][element[0] + "/" + element[1]], 2)
     with open(player_file, "w") as p_file:
         yaml.safe_dump(players, p_file)
 
@@ -38,7 +39,7 @@ def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
                  n=3, team=False, pkl_file=False, region="overall"):
     with open(region_stats_file, "r") as file:
         region_line = yaml.safe_load(file)[region]
-    region_line.update({"name": "League", "position": "", "skills": "", "team": ""})
+    region_line.update({"name": "League", "position name": "", "skills": "", "team": ""})
 
     with open(stat_file, "r") as file:
         stats = yaml.safe_load(file)
@@ -47,17 +48,19 @@ def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
     # stats = [["blocks", "turns"]]
     dataframe = pd.DataFrame(players).transpose()
     dataframe = dataframe[dataframe.loc[:, "division"] == region] if region != "overall" else dataframe
+
     values_req = {"games": 3, "turns": 30, "blocks": 10}
     for stat in stats:
         temp = dataframe.copy(deep=True)
         if len(stat) > 1 and stat[1] in ["games", "turns", "blocks"]:
-            temp = temp[temp.loc[:, stat[1]] >= values_req[stat[1]] * (1 + team * 9 * (stat[1] != "games"))]
-
+            temp_2 = temp[temp.loc[:, stat[1]] >= values_req[stat[1]] * (1 + team * 9 * (stat[1] != "games"))]
+        if len(temp_2) != 0:
+            temp = temp_2
         if not team and len(stat) > 1:
-            cols = ["name", "team", "position", "skills", stat[0] + "/" + stat[1],
+            cols = ["name", "team", "position name", "skills", stat[0] + "/" + stat[1],
                     stat[0], stat[1], "division", "team id"]
         elif not team:
-            cols = ["name", "team", "position", "skills", stat[0], "division", "team id"]
+            cols = ["name", "team", "position name", "skills", stat[0], "division", "team id"]
         elif len(stat) > 1:
             cols = ["name",  stat[0] + "/" + stat[1], stat[0], stat[1], "division"]
         else:
@@ -69,9 +72,10 @@ def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
         sort_stat = stat[0] if len(stat) == 1 else stat[0] + "/" + stat[1]
         sec_stat = stat[-1]
         temp_split = dict()
+
         temp_split["Good"] = temp.sort_values(by=[sort_stat, sec_stat], ascending=[False, False]).head(n)
 
-        if not team:
+        if not team and len(temp) > 0:
             if stat[0] == "turns":
                 temp["Secret Weapon"] = temp.apply(lambda row: "Secret Weapon" in row.skills, axis=1)
                 temp = temp[temp.loc[:, "Secret Weapon"] == 0]
@@ -116,7 +120,7 @@ def total(team_file, totals_file, stats_file):
         regions["overall"]["teams"] = regions["overall"].get("teams", 0) + 1
     with open(totals_file, "w") as file:
         yaml.safe_dump(regions, file)
-    generate_stats(totals_file, stats_file, team=True)
+    generate_stats(totals_file, stats_file, team=True, region=True)
 
 
 def sort_regions(stat_file, player_file, league_file, team_file, table, division_file):
@@ -146,3 +150,7 @@ def create_league_tables(region_stats_file, stat_list, pkl_folder):
         if len(stat) > 1:
             del temp[stat[1]]
         temp.to_pickle(pkl_folder + "/Leagues/" + sort_stat.replace("/", "-") + ".pkl")
+
+
+# sort_regions("utility/stats.yaml", "player_list/Season49/Player.yaml", "player_list/Season49/Totals.yaml",
+#              "player_list/Season49/Team.yaml", "tables", "match_list/Season49/divisions.yaml")

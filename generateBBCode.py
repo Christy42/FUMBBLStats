@@ -134,12 +134,20 @@ def generate_section(division, section, formal_division, yaml_file=None):
 def initial_block(style, round_no, season):
     return """
 
-    [block=center][url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/123844.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=8098][img]http://fumbbl.com/teams/123851.jpg[/img][/url][url=FUMBBL.php?page=group&op=view&group=3699][img]http://fumbbl.com/teams/123846.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761][img]http://fumbbl.com/teams/123850.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=9482][img]http://fumbbl.com/teams/123848.jpg[/img][/url]
+    [block=center][url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/123844.jpg[/img][/url][url=index.php?name=PNphpBB2&file=viewtopic&t=8098][img]http://fumbbl.com/teams/123851.jpg[/img][/url][url=FUMBBL.
+    php?page=group&op=view&group=3699][img]http://fumbbl.com/teams/123846.jpg[/img][/url][url=index.php?name=PNphpBB2&
+    file=viewtopic&p=274761#274761][img]http://fumbbl.com/teams/123850.jpg[/img][/url][url=index.php?name=PNphpBB2&fil
+    e=viewtopic&t=9482][img]http://fumbbl.com/teams/123848.jpg[/img][/url]
 
 [url=FUMBBL.php?page=group&op=view&group=3449][img]http://fumbbl.com/teams/98322.jpg[/img][/url]
 
-[table automargin][tr][td colspan=2 bg=lightblue][block=center][b]{}: [i]Current as of round {} of Season {}[/i][/b][/block][/td][/tr]\
-[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4683]Kill List[/url][/td][td rowspan=6 valign=middle]Current top and all-time legendary players in the [url=FUMBBL.php?page=group&op=view&group=3449]White Isle League[/url].  British or based in Britain?  Want to compete in your own nation's league?  Go to our [url=index.php?name=PNphpBB2&file=viewtopic&p=274761#274761]recruitment thread[/url] or the [url=FUMBBL.php?page=group&op=view&group=6340]WIL Fringe[/url], and get involved in [i]your[/i] local, friendly league.[/td][/tr]\
+[table automargin][tr][td colspan=2 bg=lightblue][block=center][b]{}: [i]Current as of round {} of Season {}[/i][/b]
+[/block][/td][/tr]\
+[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4683]Kill List[/url][/td][td rowspan=6 valign=middle]
+Current top and all-time legendary players in the [url=FUMBBL.php?page=group&op=view&group=3449]White Isle League[/url].
+ British or based in Britain?  Want to compete in your own nation's league?  Go to our [url=index.php?name=PNphpBB2&file
+ =viewtopic&p=274761#274761]recruitment thread[/url] or the [url=FUMBBL.php?page=group&op=view&group=6340]WIL Fringe
+ [/url], and get involved in [i]your[/i] local, friendly league.[/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=3699]Season's Stats[/url][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4360]League Champions[/url][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=5573]Ref's Report[/url][/td][/tr]\
@@ -174,9 +182,9 @@ def generate_kill_list(kill_list_file, team_file, player_files, colour_file, rou
                         "[url=https://fumbbl.com/p/team?team_id={}]{}[/url]"\
                             .format(team, teams[team]["name"]) + "[/block]"
         for i in range(len(kills[team])):
-            total_string += "[block=floatleft pad5 bg=#{}][url=https://fumbbl.com/p/player?player_id={}][img title={}]"\
-                            "https://fumbbl.com/FUMBBL/Images/PlayerIcons/{}[/img][/URL][/block] "\
-                .format(colours[kills[team][i][2]], kills[team][i][0], players[kills[team][i][0]]["name"],
-                        kills[team][i][1])
+            total_string += "[block=floatleft pad5 bg=#{}][url=https://fumbbl.com/p/player?player_id={}]" \
+                            "[picon={} x=1 y=1 title={}][/img][/url][/block] "\
+                .format(colours[kills[team][i][2]], kills[team][i][0], kills[team][i][1],
+                        players[kills[team][i][0]]["name"])
         total_string += "[/block]"
     print(total_string)
