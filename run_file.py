@@ -2,7 +2,7 @@ import yaml
 
 from DataGrab import kill_list_grab, race_check, cycle_divisions, set_player_icons, set_player_numbers
 from utility_func import reset_file
-from StatCheck import generate_stats, sort_regions
+from StatCheck import generate_stats, sort_regions, total
 from generateBBCode import generate_kill_list, generate_full_tables
 
 
@@ -34,16 +34,18 @@ class GenerateStats:
         set_player_icons(self._player_file, self._icon_file)
 
         generate_stats(self._player_file, self._total_stat_file)
-        generate_stats(self._player_file, self._total_stat_file, team=True)
+        generate_stats(self._team_file, self._total_stat_file, team=True)
+        total(self._team_file, self._league_file, self._total_stat_file)
         sort_regions(self._total_stat_file, self._player_file, self._league_file, self._team_file,
                      self._tables_folder, self._division_file)
-        generate_full_tables(season, round_no)
+        generate_full_tables(round_no, season)
 
     def reset_files(self):
         reset_file(self._player_file)
         reset_file(self._team_file)
         reset_file(self._kill_file)
         reset_file(self._league_file)
+        reset_file(self._run_file)
 
     def kill_lists(self):
         kill_list_grab(self._division_file, self._kill_file,  self._team_file, self._player_file)
@@ -61,6 +63,6 @@ class GenerateStats:
         elif action == "k":
             self.kill_lists()
 
-
+# TODO:  Need to limit to whatever round I enter in
 master_cont = GenerateStats("utility/master_loc.yaml")
 master_cont.master_func()
