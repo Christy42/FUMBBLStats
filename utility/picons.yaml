@@ -1,0 +1,131 @@
+{2809: 436249, # amlineman
+2810: 440147, # amthrower
+2811: 436251, # amcatcher
+2812: 440148, # amblitzer
+
+2816: 436253, # beastman
+2817: 436254, # warrior
+2818: 436255, # minotaur
+
+2857: 436256, # hobgoblin
+2858: 436257, # chaos dwarf
+2859: 436258, # bull centaur
+2961: 436259, # minotaur
+2985: 436259, # enslaved Minotaur
+
+2959: 440149, # marauder
+2989: 436379, # de renegade
+2987: 436378, # goblin renegade
+2988: 436380, # skaven renegade
+18498: 568459 # Orc Renegade
+2991: 436344, # ogre
+2990: 436343, # troll
+2992: 436345, # mintaur
+
+2860: 436260, # de lineman
+2861: 436261, # de runner
+2862: 436262, # de assassin
+2863: 436263, # de blitzer
+2864: 436264, # de witch elf
+
+2865: 436265, # dwarf blocker
+2866: 436266, # dwarf runner
+2867: 436267, # dwarf blitzer
+2868: 436268, # dwarf slayer
+2870: 436269, # death roller
+
+2871: 440144, # elf lineman
+2872: 440145, # elf thrower
+2873: 440143, # elf catcher
+2874: 440308, # elf blitzer
+
+2875: 436274, # goblin
+18499: 568462, # Ooligan
+2879: 436278, # fanatic
+2877: 436377, # scrappa
+2878: 436436, # looney
+2876: 436275, # bombardier
+2880: 436280, # troll
+
+2881: 436281, # halfling
+2882: 436282, # treeman
+
+2883: 436283, # high elf lineman
+2884: 436284, # high elf thrower
+2885: 436285, # high elf catcher
+2886: 436286, # high elf blitzer
+
+2887: 436287, # human lineman
+2888: 436288, # human catcher
+2889: 436289, # human thrower
+2890: 436290, # human blitzer
+2891: 436291, # ogre
+
+2892: 436292, # khemri skeleton
+2893: 436293, # khemri thro-ra
+2894: 436294, # blitz-ra
+2895: 436295, # tomb guardian
+
+2896: 436296, # skink
+2897: 436297, # saurus
+2898: 436298, # kroxigor
+
+2899: 440138, # zombie
+2900: 436300, # ghoul
+2901: 436301, # wight
+2902: 436302, # golem
+2903: 436303, # werewolf
+
+2904: 440139, # norse lineman
+2905: 440140, # norse thrower
+2906: 436306, # norse runner
+2907: 440130, # norse beserker
+2908: 436308, # norse ulfwerener
+2909: 436309, # yheti
+
+2910: 436310, # rotter
+2911: 36311, # pestigor
+2912: 436312, # warrior
+2913: 436313, # beast
+
+2914: 436314, # snotling
+2915: 436315, # ogre
+
+2916: 436316,  # orc lineman
+2917: 436320, # orc blitzer
+2918: 436319, # orc black orc
+2919: 436318, # orc thrower
+2920: 436317, # goblin
+2921: 436321, # troll
+
+2922: 436322, # skaven lineman
+2923: 436325, # skaven blitzer
+2924: 436324, # gutter runner
+2925: 436323, # skaven thrower
+2926: 436326, # rat ogre
+
+2993: 436346, # slann lineman
+2994: 557851, # slann cathcer
+2995: 436348, # slann blitzer
+2996: 436349, # kroxigor
+
+2927: 436327, # undead skeleton
+2928: 440137, # zombie
+2929: 436329, # ghoul
+2930: 436330, # wight
+2931: 436331, # mummy
+
+3000: 436353, # underworld blitzer
+2999: 436352, # underworld thrower
+2998: 436351, # underworld lineman
+2997: 436350, # underworld goblin
+3001: 436354, # troll
+
+2932: 436332, # thrall
+2933: 440133, # vampire
+
+2934: 436334, # wood lineman
+2935: 436335, # wood catcher
+2936: 436336, # wood thrower
+2937: 436337, # wardancer
+2938: 436338} # treeman
