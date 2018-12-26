@@ -61,7 +61,7 @@ def matches_in_division(root_text, rerun_folder=None):
     return performances, teams_found
 
 
-def add_player_attribs(performances, player_file):
+def add_player_attribs(performances):
     players = open_files("LongTerm", "Player")
     for element in performances:
         ident = element["player"]
