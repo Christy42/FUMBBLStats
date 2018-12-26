@@ -131,10 +131,10 @@ def kill_list_grab(division_folder, kill_list_sheet, team_folder, player_file):
         players = yaml.safe_load(players_file)
     played = get_games_played(division_folder)
     print("played")
-    print(played)
+
     with open(kill_list_sheet, "r") as file:
         kills = yaml.safe_load(file)
-    print(kill_list_sheet)
+
     if kills == {}:
         with open(team_folder, "r") as file:
             teams = yaml.safe_load(file)
@@ -167,8 +167,11 @@ def kill_list_grab(division_folder, kill_list_sheet, team_folder, player_file):
                 if str(player) in played[str(round_no)][team]:
                     if player in players:
                         kill_sub_list.update({player: [team, players[player]["icon"], players[player]["division"]]})
-    print(played)
+
     for player in kill_sub_list:
+
+        if kill_sub_list[player][0] not in kills:
+            kills[kill_sub_list[player][0]] = []
         kills[kill_sub_list[player][0]].append([player, kill_sub_list[player][1], kill_sub_list[player][2]])
     print(kills)
     with open(kill_list_sheet, "w") as file:
