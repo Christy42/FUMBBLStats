@@ -117,8 +117,8 @@ team_file = "LongTerm"
 total_stat_file = "utility/stats.yaml"
 pkl_file = "LongTerm/LongTermTables"
 player_fold = "LongTerm"
-# generate_stats(player_fold, total_stat_file)
-# generate_stats(team_file, total_stat_file, team=True)
+generate_stats(player_fold, total_stat_file)
+generate_stats(team_file, total_stat_file, team=True)
 sort_regions(total_stat_file, player_fold, pkl_file, team_file)
 
-print(pd.read_pickle("LongTerm/LongTermTables/blocks-gamesGood.pkl"))
+# print(pd.read_pickle("LongTerm/LongTermTables/blocks-gamesGood.pkl"))

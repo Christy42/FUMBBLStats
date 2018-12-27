@@ -150,7 +150,7 @@ Current top and all-time legendary players in the [url=FUMBBL.php?page=group&op=
  [/url], and get involved in [i]your[/i] local, friendly league.[/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=3699]Season's Stats[/url][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=4360]League Champions[/url][/td][/tr]\
-[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=5573]Ref's Report[/url][/td][/tr]\
+[tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=5573]All Time Stats[/url][/td][/tr]\
 [tr][td bg=lightblue][url=FUMBBL.php?page=group&op=view&group=5574]Trivia[/url][/td][/tr][/table]"""\
         .format(style, round_no, season)
 
