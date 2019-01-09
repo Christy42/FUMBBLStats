@@ -2,7 +2,6 @@ import os
 import requests
 import yaml
 import xml.etree.ElementTree as Et
-import pandas as pd
 
 from DataGrab import team_name
 
@@ -11,7 +10,7 @@ def get_matches(player_folder, team_folder, rerun_folder=None):
     b = requests.get("https://fumbbl.com/xml:group?id=3449&op=matches")
     text = Et.fromstring(b.text)
     performances, team_games = matches_in_division(text, rerun_folder)
-    add_player_attribs(performances, player_folder)
+    add_player_attribs(player_folder, performances)
     add_team_performances(performances, team_folder, team_games)
     next_page = text.find("nextPage").text
     count = 0
@@ -21,7 +20,7 @@ def get_matches(player_folder, team_folder, rerun_folder=None):
         b = requests.get("https://fumbbl.com/xml:group?id=3449&op=matches&paging={}".format(next_page))
         text = Et.fromstring(b.text)
         performances, team_games = matches_in_division(text, rerun_folder)
-        add_player_attribs(performances, player_folder)
+        add_player_attribs(player_folder, performances)
         add_team_performances(performances, team_folder, team_games)
         try:
             next_page = text.find("nextPage").text
@@ -61,8 +60,8 @@ def matches_in_division(root_text, rerun_folder=None):
     return performances, teams_found
 
 
-def add_player_attribs(performances):
-    players = open_files("LongTerm", "Player")
+def add_player_attribs(player_folder, performances):
+    players = open_files(player_folder, "Player")
     for element in performances:
         ident = element["player"]
         if ident not in players:
@@ -80,7 +79,7 @@ def add_player_attribs(performances):
                     players[ident][stat] = int(players[ident].get(stat, 0))
         players[ident]["games"] = int(players[ident].get("games", 0)) + 1
     print("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY")
-    write_file(players, "LongTerm", "Player")
+    write_file(players, player_folder, "Player")
 
 
 def open_files(folder, base):
@@ -148,4 +147,4 @@ def get_name(player_id):
     return root.find("name").text, star, base_skills, position
 
 
-# get_matches("LongTerm//Player.yaml", "LongTerm//Team.yaml", "LongTerm//run_file.yaml")
+get_matches("LongTerm//Player.yaml", "LongTerm//Team.yaml", "LongTerm//run_file.yaml")
