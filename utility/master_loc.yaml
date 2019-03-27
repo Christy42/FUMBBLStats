@@ -1,4 +1,4 @@
-{"player_folder": "player_list/Season50",
+{"player_folder": "player_list/Season51",
  "player_file": "Player.yaml",
  "kill_file": "kills.yaml",
  "team_file": "Team.yaml",
@@ -8,7 +8,7 @@
  "icon_file": "picons.yaml",
  "stat_name_file": "stat_names.yaml",
  "total_stat_file": "stats.yaml",
- "match_folder": "match_list/Season50",
+ "match_folder": "match_list/Season51",
  "division_file": "divisions.yaml",
  "run_file": "run_file.yaml",
  "tables_folder": "tables"}

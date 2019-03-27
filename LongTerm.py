@@ -147,4 +147,4 @@ def get_name(player_id):
     return root.find("name").text, star, base_skills, position
 
 
-get_matches("LongTerm//Player.yaml", "LongTerm//Team.yaml", "LongTerm//run_file.yaml")
+get_matches("LongTerm", "LongTerm//Team.yaml", "LongTerm//run_file.yaml")

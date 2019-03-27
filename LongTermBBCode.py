@@ -16,7 +16,7 @@ def make_table(pickle_file, rows, name):
     with open("utility/region_colours.yaml", "r") as file:
         region_colours = yaml.safe_load(file)
     base_string = \
-        "[block=panel floatleft width=400px][block=panelheader center]{}[/block][table width=100%]".format(name)
+        "[block=panel floatleft width=410px][block=panelheader center]{}[/block][table width=100%]".format(name)
     title_col = "[tr]"
     dataframe = pd.read_pickle(pickle_file)
     title_col += "[th]no[/th]"
@@ -67,8 +67,7 @@ def make_table(pickle_file, rows, name):
 def initial_toggles():
     return """
     [block display=none]Set up the buttons[/block]
-[block=center][toggle group=initial block=overall label=Overall]
-[/block]"""
+"""
 
 
 def section_toggles(section):
@@ -78,7 +77,7 @@ def section_toggles(section):
 
 
 def generate_division(yaml_file=None):
-    initial_section = "[block=hidden group=initial id={}]".format("overall") + section_toggles("overall")
+    initial_section = "[block group=initial id={}]".format("overall") + section_toggles("overall")
     for element in ["Bash", "Score", "Misc"]:
         initial_section += generate_section(element, yaml_file=yaml_file)
     initial_section += "[/block]"
@@ -93,7 +92,7 @@ def generate_section(section, yaml_file=None):
     with open("utility/stat_names.yaml", "r") as stat_file:
         cats = yaml.safe_load(stat_file)
     elements = cats[section]
-    initial_section = "[block=hidden group={} id={}][block=floatcontainer]".format("overall", section+"overall")
+    initial_section = "[block group={} id={}][block=floatcontainer]".format("overall", section+"overall")
     for i in range(len(elements)):
         if "turns" in elements[i]["name"]:
             continue

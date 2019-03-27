@@ -128,4 +128,13 @@
 2935: 436335, # wood catcher
 2936: 436336, # wood thrower
 2937: 436337, # wardancer
-2938: 436338} # treeman
+2938: 436338, # treeman
+
+13952: 375676, # peasent
+13953: 375680, # Yeoman
+13954: 375672, # Blitzer
+
+ 13951: 555698, # Khorne Herald
+ 13950: 555696, # Bloodletter Demon
+ 13948: 555699 # Pitfighter
+}
