@@ -46,6 +46,7 @@
 2878: 436436, # looney
 2876: 436275, # bombardier
 2880: 436280, # troll
+19360: 578021, # doomdiver,
 
 2881: 436281, # halfling
 2882: 436282, # treeman
@@ -136,5 +137,6 @@
 
  13951: 555698, # Khorne Herald
  13950: 555696, # Bloodletter Demon
+ 13949: 555712, # Khorne Bloodthirster
  13948: 555699 # Pitfighter
 }

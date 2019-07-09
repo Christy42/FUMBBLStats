@@ -81,7 +81,7 @@ def make_table(pickle_file, rows, name, divisions):
 def initial_toggles(division_list):
     # TODO: Here need to check the divisions to do.  Need to plan it out better.  Need  checks, Need levels.
     text = "[block display=none]Set up the buttons[/block]" \
-           "[block=center][toggle group=initial block=overall label=Overall]" \
+           "[block=center][toggle group=initial block=overall label=Overall]\n" \
            "" \
            ""
     levels = 0

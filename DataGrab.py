@@ -6,6 +6,7 @@ import xml.etree.ElementTree as Et
 def matches_in_division(group_number, division_number, round_no, rerun_folder=None):
     # Make the call to get the games
     division = requests.get("https://fumbbl.com/xml:group?id={}&op=matches&t={}".format(group_number, division_number))
+    print("https://fumbbl.com/xml:group?id={}&op=matches&t={}".format(group_number, division_number))
     # Data comes in as an xml, deconstruct it using the cml library
     root = Et.fromstring(division.text)
     matches = root.find("matches")
