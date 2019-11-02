@@ -10,4 +10,4 @@ Change the run_file to []
 
 In player_list create a new folder for the new season with the same yaml files all with {}
 
-In Master loc change the references to the relevant season
+In utility/Master loc change the references to the relevant season

@@ -37,8 +37,12 @@ def generate_stats(player_file, stats_file, team=False, region=False):
 # TODO: Make a get segmented dataframe section and a sort section?
 def sort_players(stat_file, player_file, region_stats_file, pkl_folder,
                  n=3, team=False, pkl_file=False, region="overall"):
+    print(region_stats_file)
     with open(region_stats_file, "r") as file:
-        region_line = yaml.safe_load(file)[region]
+        region_line = yaml.safe_load(file)
+    print(region_line.keys())
+    print(region_stats_file)
+    region_line = region_line[region]
     region_line.update({"name": "League", "position name": "", "skills": "", "team": ""})
 
     with open(stat_file, "r") as file:

@@ -49,7 +49,9 @@
 19360: 578021, # doomdiver,
 
 2881: 436281, # halfling
+21131: 588599, # halfling catcher
 2882: 436282, # treeman
+21132: 588601, # halfling hefty
 
 2883: 436283, # high elf lineman
 2884: 436284, # high elf thrower
@@ -68,6 +70,7 @@
 2895: 436295, # tomb guardian
 
 2896: 436296, # skink
+23006: 596628, # chameleon skink
 2897: 436297, # saurus
 2898: 436298, # kroxigor
 

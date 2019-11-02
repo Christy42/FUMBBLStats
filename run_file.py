@@ -44,6 +44,7 @@ class GenerateStats:
         generate_stats(self._player_file, self._total_stat_file)
         generate_stats(self._team_file, self._total_stat_file, team=True)
         total(self._team_file, self._league_file, self._total_stat_file)
+        print(self._division_file)
         sort_regions(self._total_stat_file, self._player_file, self._league_file, self._team_file,
                      self._tables_folder, self._division_file)
         with open(self._division_file, "r") as file:
@@ -55,7 +56,7 @@ class GenerateStats:
         reset_file(self._team_file)
         reset_file(self._kill_file)
         reset_file(self._league_file)
-        reset_file(self._run_file)
+        reset_file(self._run_file, "[]")
 
     def kill_lists(self):
         kill_list_grab(self._division_file, self._kill_file,  self._team_file, self._player_file)
